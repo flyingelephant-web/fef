@@ -9,7 +9,7 @@
 
 <Nav {segment}/>
 
-<main class="lg:container">
+<main>
 	<slot></slot>
 </main>
 <Footer></Footer>

@@ -7,6 +7,8 @@ import { terser } from 'rollup-plugin-terser';
 import config from 'sapper/config/rollup.js';
 import pkg from './package.json';
 import { preprocess } from './svelte.config';
+import css from 'rollup-plugin-css-only'
+
 
 const mode = process.env.NODE_ENV;
 const dev = mode === 'development';
@@ -37,7 +39,7 @@ export default {
 				dedupe: ['svelte']
 			}),
 			commonjs(),
-
+			css({ output: 'public/build/swiper-bundle.css' }),
 			legacy && babel({
 				extensions: ['.js', '.mjs', '.html', '.svelte'],
 				babelHelpers: 'runtime',
@@ -81,7 +83,8 @@ export default {
 			resolve({
 				dedupe: ['svelte']
 			}),
-			commonjs()
+			commonjs(),
+			css({ output: 'static/swiper-bundle.css' })
 		],
 		external: Object.keys(pkg.dependencies).concat(require('module').builtinModules),
 

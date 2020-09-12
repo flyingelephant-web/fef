@@ -1,5 +1,7 @@
 <script>
 	import ClientLogos from '../components/ClientLogos.svelte';
+	import Team from '../components/Team.svelte';
+	import Testimonials from '../components/Testimonials.svelte'
 </script>
 
 <style lang="postcss">
@@ -17,5 +19,8 @@
 <section>
 
 </section>
+
+
+<Team></Team>
 
 <ClientLogos></ClientLogos>
