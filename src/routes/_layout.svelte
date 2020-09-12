@@ -7,9 +7,9 @@
 <style>
 </style>
 
-<Nav {segment}/>
+<!-- <Nav {segment}/> -->
 
 <main>
 	<slot></slot>
 </main>
-<Footer></Footer>
+<!-- <Footer></Footer> -->

@@ -1,5 +1,6 @@
 <script>
 	import ClientLogos from '../components/ClientLogos.svelte';
+	import ComingSoon from '../components/ComingSoon.svelte';
 	import Team from '../components/Team.svelte';
 	import Testimonials from '../components/Testimonials.svelte'
 </script>
@@ -13,7 +14,7 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Flying Elephants Films</title>
 </svelte:head>
 
 <section>
@@ -21,6 +22,7 @@
 </section>
 
 
-<Team></Team>
+<!-- <Team></Team> -->
 
-<ClientLogos></ClientLogos>
+<!-- <ClientLogos></ClientLogos> -->
+<ComingSoon></ComingSoon>

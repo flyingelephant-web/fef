@@ -17,7 +17,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'fef': ['pb-bold'],
-      'body': ['Open Sans']
+      'playfair': ['Playfair Display']
     },
     container: {
       center: true,
