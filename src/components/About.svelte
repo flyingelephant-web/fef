@@ -1,5 +1,5 @@
 <section>
-  <h2 class="text-center font-playfair text-7xl font-bold">About Us</h2>
+  <h2 class="text-center font-playfair text-8xl font-bold uppercase">About Us</h2>
 </section>
 <section class="mt-24">
   <div class="flex max-w-screen-lg ml-auto mr-auto">

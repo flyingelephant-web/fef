@@ -5,6 +5,8 @@
 	import Testimonials from '../components/Testimonials.svelte'
 	import HomeVideo from '../components/HomeVideo.svelte'
 	import About from '../components/About.svelte'
+	import Awards from '../components/Awards.svelte';
+import Services from '../components/Services.svelte';
 
 </script>
 
@@ -14,9 +16,17 @@
 <HomeVideo></HomeVideo>
 
 <About></About>
-
+<Awards></Awards>
+<Services></Services>
 <Team></Team>
 
 <ClientLogos></ClientLogos>
 <Testimonials></Testimonials>
 <!-- <ComingSoon></ComingSoon> -->
+
+<style>
+	body {
+		color: red !important;
+	}
+
+</style>
