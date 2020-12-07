@@ -11,12 +11,12 @@
 <svelte:head>
 	<title>Flying Elephants Films</title>
 </svelte:head>
-<!-- <HomeVideo></HomeVideo>
+<HomeVideo></HomeVideo>
 
 <About></About>
 
 <Team></Team>
 
 <ClientLogos></ClientLogos>
-<Testimonials></Testimonials> -->
-<ComingSoon></ComingSoon>
+<Testimonials></Testimonials>
+<!-- <ComingSoon></ComingSoon> -->
