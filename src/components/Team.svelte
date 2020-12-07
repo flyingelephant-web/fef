@@ -124,6 +124,9 @@
 </script>
 
 <section class="h-screen">
+  <div class="flex justify-center mb-10">
+    <h4 class="font-fef tracking-fef text-gray-500">OUR TEAM</h4>
+  </div>
   <svelte:component this={swiper} bind:swiper={mySwiper} {options} className="h-auto">
     {#each teamMembers as member }
     <svelte:component this={slide}>

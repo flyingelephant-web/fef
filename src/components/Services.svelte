@@ -1,22 +1,22 @@
 <script>
   let services = [
     {
-      heading: 'Creatives',
+      heading: 'Creative solutions',
       para: 'It was popularised in the 1960s with the release of Letraset',
       'icon': 'fef-services-1'
     },
     {
-      heading: 'Productions',
+      heading: 'End to end production',
       para: 'It was popularised in the 1960s with the release of Letraset',
       'icon': 'fef-services-2'
     },
     {
-      heading: 'Creatives',
+      heading: 'Line production',
       para: 'It was popularised in the 1960s with the release of Letraset',
       'icon': 'fef-services-3'
     },
     {
-      heading: 'Creatives',
+      heading: 'Post production',
       para: 'It was popularised in the 1960s with the release of Letraset',
       'icon': 'fef-services-4'
     }

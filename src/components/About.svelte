@@ -4,10 +4,10 @@
 <section class="mt-24">
   <div class="flex max-w-screen-lg ml-auto mr-auto">
     <div class="flex-1">
-      <p class="font-fef text-xl w-11/12">PERFORMING IN THE TAILOR MADE 2,000-SEAT DANCING WATER THEATER, BY A CAST OF NEARLY 100 INTERNATIONAL</p>
+      <p class="font-fef text-xl w-11/12 uppercase">We are an innovative creative hub that caters to all things film.</p>
     </div>
     <div class="flex-1">
-      <p class="font-pb-regular text-base text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque officia, velit ex nobis iusto non sequi corporis, voluptates laboriosam doloribus sunt tempore asperiores, laudantium assumenda eveniet esse porro maxime adipisci Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, ad. Vero veniam dicta aliquid blanditiis ullam quibusdam, accusamus, eius quia molestias nihil temporibus nam praesentium accusantium odit repellat. Repellendus, modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+      <p class="font-pb-regular text-base text-gray-500">From providing a complete creative solution that involves conceptualising to final execution. Or providing our expertise at any desired stage of executing the film We bring our years of experience and a keen zeal to bring an original approach to every project we take on.</p>
     </div>
   </div>
 </section>
