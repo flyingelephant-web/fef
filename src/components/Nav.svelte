@@ -79,10 +79,10 @@
 </style>
 
 <div class="relative bg-transparent lg:container">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 absolute w-full z-10">
     <div class="flex justify-between items-center md:justify-start md:space-x-10">
       <div class="w-full flex items-center flex-col lg:w-0 lg:flex-1 xl:flex-row justify-center">
-        <a href="#" class="flex mr-16">
+        <a href="#" class="flex mr-10">
           <img class="h-8 w-auto sm:h-24" src="fef-elephant.png" alt="Workflow">
 				</a>
 				<nav class="w-full justify-start hidden md:flex space-x-10 items-center lg:w-auto overflow-scroll lg:justify-center">

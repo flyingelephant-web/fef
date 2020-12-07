@@ -17,12 +17,13 @@ module.exports = {
   theme: {
     fontFamily: {
       'fef': ['pb-bold'],
+      'pb-regular': ['pb-regular'],
       'playfair': ['Playfair Display']
     },
     container: {
       center: true,
     },
-    extend: {},
+    extend: { padding: { "fluid-video": "56.25%" } },
   },
   variants: {},
   plugins: [require('@tailwindcss/typography')],

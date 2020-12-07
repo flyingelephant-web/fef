@@ -3,18 +3,20 @@
 	import ComingSoon from '../components/ComingSoon.svelte';
 	import Team from '../components/Team.svelte';
 	import Testimonials from '../components/Testimonials.svelte'
+	import HomeVideo from '../components/HomeVideo.svelte'
+	import About from '../components/About.svelte'
+
 </script>
 
 <svelte:head>
 	<title>Flying Elephants Films</title>
 </svelte:head>
+<HomeVideo></HomeVideo>
 
-<section>
+<About></About>
 
-</section>
+<Team></Team>
 
-
-<!-- <Team></Team> -->
-
-<!-- <ClientLogos></ClientLogos> -->
-<ComingSoon></ComingSoon>
+<ClientLogos></ClientLogos>
+<Testimonials></Testimonials>
+<!-- <ComingSoon></ComingSoon> -->
