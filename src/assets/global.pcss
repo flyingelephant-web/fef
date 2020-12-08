@@ -79,5 +79,27 @@ body {
 .fef-services-3:before { content: '\e924'; } /* '' */
 .fef-services-4:before { content: '\e921'; } /* '' */
 
+.testimonial-quote {
+  position: relative;
+  font-family: Playfair Display;
+  line-height: 1.5em;
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.testimonial-quote::before {
+    content: "“";
+    font-family: Playfair Display;
+    position: absolute;
+    font-size: 150px;
+    top: 16px;
+    left: 48%;
+    z-index: 999;
+    color: rgb(0, 0, 0);
+}
+
+
 @tailwind components;
 @tailwind utilities;

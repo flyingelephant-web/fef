@@ -21,14 +21,15 @@ module.exports = {
       'pb-regular': ['pb-regular'],
       'playfair': ['Playfair Display']
     },
-    letterSpacing: {
-      'fef' : '0.55em'
-    },
     container: {
       center: true,
     },
     extend: {
-      padding: { "fluid-video": "56.25%" }
+      padding: { "fluid-video": "56.25%" },
+      letterSpacing: {
+        'fef' : '0.55em',
+        'fef-sm' : '0.25em',
+       }
     },
   },
   variants: {},

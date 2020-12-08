@@ -10,38 +10,33 @@
         swiper = module.Swiper
         slide = module.SwiperSlide
     });
-  const options = {
-    // effect: 'coverflow',
-    // grabCursor: true,
-    // centeredSlides: true,
-    // slidesPerView: 4,
-    // coverflowEffect: {
-    //   rotate: 0,
-    //   stretch: 0,
-    //   depth: 100,
-    //   modifier: 1,
-    //   slideShadows : true,
-    // },
-      loop: true,
-      speed:800,
-      slidesPerView: 4, // or 'auto'
-      spaceBetween: 40,
-      centeredSlides : true,
-      effect: 'coverflow', // 'cube', 'fade', 'coverflow',
-      coverflowEffect: {
-        rotate: 0, // Slide rotate in degrees
-        stretch: 0, // Stretch space between slides (in px)
-        depth: 100, // Depth offset in px (slides translate in Z axis)
-        modifier: 1, // Effect multipler
-        slideShadows : true, // Enables slides shadows
-      },
-      grabCursor: true,
-      autoHeight: true,
-      parallax: true,
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  }
+    const options = {
+        slidesPerView: 'auto', // or 'auto'
+        spaceBetween: 30,
+        grabCursor: true,
+        autoHeight: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        centeredSlides: true,
+    }
+
+    let testimonials = [
+      {
+        'name': 'D.G BROCK',
+        'para': 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters. It is a long established fact that a reader will be',
+        'img': 'testimonial-brock.jpg'
+      }, {
+        'name': 'JOAN.DE VOA',
+        'para': 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters. It is a long established',
+        'img': 'testimonial-joan-devoa.jpg'
+      },{
+        'name': 'JOHN CASTER',
+        'para': 'Unless you live in Metropolis and are still rebuilding your house from last time, this week you’d have been wowed by not one. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+        'img': 'testimonial-john-caster.jpg'
+      }
+    ]
   </script>
 
 
@@ -66,15 +61,31 @@
 }
 </style>
 
-<svelte:component this={swiper} bind:swiper={mySwiper} options={options} className="h-screen">
-  <svelte:component this={slide} style="background-image:url(https://swiperjs.com/demos/images/nature-2.jpg)"></svelte:component>
-  <svelte:component this={slide} style="background-image:url(https://swiperjs.com/demos/images/nature-3.jpg)"></svelte:component>
-  <svelte:component this={slide} style="background-image:url(https://swiperjs.com/demos/images/nature-4.jpg)"></svelte:component>
-  <svelte:component this={slide} style="background-image:url(https://swiperjs.com/demos/images/nature-5.jpg)"></svelte:component>
-  <svelte:component this={slide} style="background-image:url(https://swiperjs.com/demos/images/nature-6.jpg)"></svelte:component>
-  <svelte:component this={slide} style="background-image:url(https://swiperjs.com/demos/images/nature-7.jpg)"></svelte:component>
-  <svelte:component this={slide} style="background-image:url(https://swiperjs.com/demos/images/nature-8.jpg)"></svelte:component>
-  <svelte:component this={slide} style="background-image:url(https://swiperjs.com/demos/images/nature-9.jpg)"></svelte:component>
-  <svelte:component this={slide} style="background-image:url(https://swiperjs.com/demos/images/nature-10.jpg)"></svelte:component>
-</svelte:component>
-
+<section class="mt-40 mb-40">
+  <div class="max-w-screen-md mx-auto">
+    <svelte:component this={swiper} bind:swiper={mySwiper} options={options} className="">
+    {#each testimonials as testimony }
+      <svelte:component this={slide}>
+      <div class="flex justify-center flex-col items-center">
+        <div class="testimonial-quote ">
+          <img src="testimonial/{testimony.img}" alt="{testimony.name}">
+        </div>
+        <div>
+          <p class="font-fef mt-5 mb-10 text-xs tracking-fef-sm text-gray-400">
+            {testimony.name}
+          </p>
+        </div>
+        <div>
+          <p class="font-playfair text-xl text-gray-600 prose-sm text-center">
+            {testimony.para}
+          </p>
+        </div>
+      </div>
+      </svelte:component>
+    {/each}
+    </svelte:component>
+    <div class="flex justify-center mt-8">
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>

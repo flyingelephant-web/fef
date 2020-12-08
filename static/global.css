@@ -689,6 +689,27 @@ body {
 
 /* '' */
 
+.testimonial-quote {
+  position: relative;
+  font-family: Playfair Display;
+  line-height: 1.5em;
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.testimonial-quote::before {
+  content: "“";
+  font-family: Playfair Display;
+  position: absolute;
+  font-size: 150px;
+  top: 16px;
+  left: 48%;
+  z-index: 999;
+  color: rgb(0, 0, 0);
+}
+
 .container{
   width: 100%;
   margin-right: auto;
@@ -20947,8 +20968,36 @@ body {
   --font-variant-numeric-fraction: stacked-fractions;
 }
 
+.tracking-tighter{
+  letter-spacing: -0.05em;
+}
+
+.tracking-tight{
+  letter-spacing: -0.025em;
+}
+
+.tracking-normal{
+  letter-spacing: 0;
+}
+
+.tracking-wide{
+  letter-spacing: 0.025em;
+}
+
+.tracking-wider{
+  letter-spacing: 0.05em;
+}
+
+.tracking-widest{
+  letter-spacing: 0.1em;
+}
+
 .tracking-fef{
   letter-spacing: 0.55em;
+}
+
+.tracking-fef-sm{
+  letter-spacing: 0.25em;
 }
 
 .select-none{
@@ -44121,8 +44170,36 @@ body {
     --font-variant-numeric-fraction: stacked-fractions;
   }
 
+  .sm\:tracking-tighter{
+    letter-spacing: -0.05em;
+  }
+
+  .sm\:tracking-tight{
+    letter-spacing: -0.025em;
+  }
+
+  .sm\:tracking-normal{
+    letter-spacing: 0;
+  }
+
+  .sm\:tracking-wide{
+    letter-spacing: 0.025em;
+  }
+
+  .sm\:tracking-wider{
+    letter-spacing: 0.05em;
+  }
+
+  .sm\:tracking-widest{
+    letter-spacing: 0.1em;
+  }
+
   .sm\:tracking-fef{
     letter-spacing: 0.55em;
+  }
+
+  .sm\:tracking-fef-sm{
+    letter-spacing: 0.25em;
   }
 
   .sm\:select-none{
@@ -67230,8 +67307,36 @@ body {
     --font-variant-numeric-fraction: stacked-fractions;
   }
 
+  .md\:tracking-tighter{
+    letter-spacing: -0.05em;
+  }
+
+  .md\:tracking-tight{
+    letter-spacing: -0.025em;
+  }
+
+  .md\:tracking-normal{
+    letter-spacing: 0;
+  }
+
+  .md\:tracking-wide{
+    letter-spacing: 0.025em;
+  }
+
+  .md\:tracking-wider{
+    letter-spacing: 0.05em;
+  }
+
+  .md\:tracking-widest{
+    letter-spacing: 0.1em;
+  }
+
   .md\:tracking-fef{
     letter-spacing: 0.55em;
+  }
+
+  .md\:tracking-fef-sm{
+    letter-spacing: 0.25em;
   }
 
   .md\:select-none{
@@ -90339,8 +90444,36 @@ body {
     --font-variant-numeric-fraction: stacked-fractions;
   }
 
+  .lg\:tracking-tighter{
+    letter-spacing: -0.05em;
+  }
+
+  .lg\:tracking-tight{
+    letter-spacing: -0.025em;
+  }
+
+  .lg\:tracking-normal{
+    letter-spacing: 0;
+  }
+
+  .lg\:tracking-wide{
+    letter-spacing: 0.025em;
+  }
+
+  .lg\:tracking-wider{
+    letter-spacing: 0.05em;
+  }
+
+  .lg\:tracking-widest{
+    letter-spacing: 0.1em;
+  }
+
   .lg\:tracking-fef{
     letter-spacing: 0.55em;
+  }
+
+  .lg\:tracking-fef-sm{
+    letter-spacing: 0.25em;
   }
 
   .lg\:select-none{
@@ -113448,8 +113581,36 @@ body {
     --font-variant-numeric-fraction: stacked-fractions;
   }
 
+  .xl\:tracking-tighter{
+    letter-spacing: -0.05em;
+  }
+
+  .xl\:tracking-tight{
+    letter-spacing: -0.025em;
+  }
+
+  .xl\:tracking-normal{
+    letter-spacing: 0;
+  }
+
+  .xl\:tracking-wide{
+    letter-spacing: 0.025em;
+  }
+
+  .xl\:tracking-wider{
+    letter-spacing: 0.05em;
+  }
+
+  .xl\:tracking-widest{
+    letter-spacing: 0.1em;
+  }
+
   .xl\:tracking-fef{
     letter-spacing: 0.55em;
+  }
+
+  .xl\:tracking-fef-sm{
+    letter-spacing: 0.25em;
   }
 
   .xl\:select-none{
