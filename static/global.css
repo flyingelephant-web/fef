@@ -720,16 +720,16 @@ body {
   overflow-y: visible;
 }
 
-.testimonial .swiper-pagination-bullet-active {
-  opacity: 1;
-  background: var(--swiper-theme-color);
-  background: var(--swiper-pagination-color, var(--swiper-theme-color));
-}
-
 .testimonial .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
   margin: 5px 7px;
+}
+
+.testimonial .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: var(--swiper-theme-color);
+  background: var(--swiper-pagination-color, var(--swiper-theme-color));
 }
 
 .container{

@@ -11,6 +11,7 @@
         slide = module.SwiperSlide
     });
     const options = {
+        loop: true,
         slidesPerView: 'auto', // or 'auto'
         spaceBetween: 30,
         grabCursor: true,
