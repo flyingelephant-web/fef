@@ -19,6 +19,11 @@
         pagination: {
           el: '.swiper-pagination',
           clickable: true,
+          type: 'bullets',
+          dynamicBullets: false,
+          renderBullet: (index, className) => {
+            return '<span class="' + className + ' testimony-pagination"></span>';
+          }
         },
         centeredSlides: true,
     }
@@ -85,7 +90,7 @@
       </svelte:component>
     {/each}
     </svelte:component>
-    <div class="flex justify-center mt-8 testimony-pagination">
+    <div class="flex justify-center mt-8">
       <div class="swiper-pagination"></div>
     </div>
   </div>
