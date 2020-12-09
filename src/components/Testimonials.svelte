@@ -62,7 +62,7 @@
 </style>
 
 <section class="mt-40 mb-40">
-  <div class="max-w-screen-md mx-auto">
+  <div class="max-w-screen-md mx-auto testimonial">
     <svelte:component this={swiper} bind:swiper={mySwiper} options={options} className="">
     {#each testimonials as testimony }
       <svelte:component this={slide}>

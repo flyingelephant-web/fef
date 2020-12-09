@@ -34,6 +34,10 @@
   font-style: normal;
 }
 
+:root {
+  --swiper-theme-color: #869791;
+}
+
 body {
   @apply bg-indigo-100;
 }
@@ -98,6 +102,23 @@ body {
     left: 48%;
     z-index: 999;
     color: rgb(0, 0, 0);
+}
+
+.testimonial .swiper-container {
+  padding-top: 20px !important;
+  overflow-x:hidden;
+  overflow-y: visible;
+}
+
+.testimonial .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: var(--swiper-pagination-color, var(--swiper-theme-color));
+}
+
+.testimonial .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
 }
 
 
