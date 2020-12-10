@@ -93,6 +93,14 @@ body {
   text-align: center;
 }
 
+.translate-negative-50 {
+  -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
 .testimonial-quote::before {
     content: "“";
     font-family: Playfair Display;
@@ -119,6 +127,33 @@ body {
 .testimony-pagination.swiper-pagination-bullet-active {
   opacity: 1;
   background: var(--swiper-pagination-color, var(--swiper-theme-color));
+}
+
+.our-films-viewmore {
+   -webkit-transform: translateX(-50%) translateY(-10%);
+    -moz-transform: translateX(-50%) translateY(-10%);
+    -ms-transform: translateX(-50%) translateY(-10%);
+    -o-transform: translateX(-50%) translateY(-10%);
+    transform: translateX(-50%) translateY(-10%);
+    opacity:0;
+}
+
+.our-films-gallery:hover .our-films-description {
+  opacity: 0;
+}
+
+.our-films-gallery:hover .our-films-viewmore {
+  opacity:1;
+   -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.our-films-gallery:hover img {
+    background: rgba(0,0,0,0.5);
+    opacity: 1;
 }
 
 

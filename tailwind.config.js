@@ -29,7 +29,10 @@ module.exports = {
       letterSpacing: {
         'fef' : '0.55em',
         'fef-sm' : '0.25em',
-       }
+      },
+      inset: {
+        '1/2': '50%'
+      }
     },
   },
   variants: {},

@@ -7,6 +7,7 @@
 	import About from '../components/About.svelte'
 	import Awards from '../components/Awards.svelte';
 import Services from '../components/Services.svelte';
+import OurFilms from '../components/OurFilms.svelte';
 
 </script>
 
@@ -19,6 +20,8 @@ import Services from '../components/Services.svelte';
 <Awards></Awards>
 <Services></Services>
 <Team></Team>
+
+<OurFilms></OurFilms>
 
 <ClientLogos></ClientLogos>
 <Testimonials></Testimonials>
