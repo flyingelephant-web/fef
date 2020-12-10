@@ -61,7 +61,7 @@ import RightArrow from "./UI/RightArrow.svelte";
         {#if film.featured}
           <div class="col-span-3 row-span-3 relative bg-black our-films-gallery">
             <img class="opacity-50 duration-300" src="our-films/{film.image}" alt="{film.name}">
-            <div class="absolute top-1/2 left-1/2 right-0 translate-negative-50">
+            <div class="absolute top-1/2 left-1/2 right-0 translate-negative-50 w-full">
               <div class="font-fef uppercase text-gray-400 text-xs tracking-fef text-center">
                 <p>
                   {film.category}
@@ -70,7 +70,7 @@ import RightArrow from "./UI/RightArrow.svelte";
               <div class="text-center">
                 <a href="{film.category[0]}/{film.slug}"><h1 class="font-playfair text-white font-bold text-5xl leading-10">{film.name}</h1></a>
               </div>
-              <div class="text-center our-films-description duration-300">
+              <div class="text-center our-films-description duration-300 px-48">
                 <p class="font-pb-regular text-sm text-gray-400 mt-5">{film.description}</p>
               </div>
               <div class="our-films-viewmore absolute bottom-auto right-auto top-1/2 left-1/2 opacity-1 duration-300 mt-5">
@@ -86,8 +86,15 @@ import RightArrow from "./UI/RightArrow.svelte";
         {:else}
           <div class="relative pb-fluid-video bg-black overflow-hidden h-0 our-films-gallery">
             <img class="opacity-50 duration-300" src="our-films/{film.image}" alt="{film.name}">
-            <div class="absolute inset-0 m-auto w-3/4 md:w-2/5">
-              {film.description}
+            <div class="absolute top-1/2 left-1/2 right-0 translate-negative-50 w-full">
+              <div class="font-fef uppercase text-gray-400 text-xs tracking-fef text-center">
+                <p>
+                  {film.category}
+                </p>
+              </div>
+              <div class="text-center">
+                <a href="{film.category[0]}/{film.slug}"><h1 class="font-playfair text-white font-bold text-xl leading-10">{film.name}</h1></a>
+              </div>
             </div>
           </div>
         {/if}
