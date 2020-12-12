@@ -55,7 +55,7 @@ import RightArrow from "./UI/RightArrow.svelte";
 </script>
 <section class="mt-40">
   <h2 class="text-center font-playfair text-8xl font-bold">Our films</h2>
-  <div class="max-w-screen-xl mx-auto">
+  <div class="max-w-screen-xl mx-auto mt-5">
     <div class="grid grid-cols-4">
       {#each ourFilms as film }
         {#if film.featured}
