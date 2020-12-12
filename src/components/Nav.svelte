@@ -1,5 +1,10 @@
 <script>
+	import { stores } from '@sapper/app';
+	import { includes } from 'lodash';
+  const { page } = stores();
+  $: console.log($page.path);
 	export let segment;
+	let isAbsolute;
 	let showMobileMenu = false;
 	const menuItems = [{
 			id: 1,
@@ -49,6 +54,16 @@
 			hasSubMenu: false
 		}
 	]
+
+
+		$:  isAbsolute = ($page.path === '/' || includes($page.path, ['contact'])) ?  true : false;
+
+	const setNavPosition = () => {
+		if($page.path === '/' || includes($page.path, ['contact'])) {
+			return true;
+		}
+		return false;
+	};
 </script>
 
 <style>
@@ -79,7 +94,7 @@
 </style>
 
 <div class="relative bg-transparent lg:container">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 absolute w-full z-10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6  w-full z-10 {isAbsolute ? 'absolute' : ''}">
     <div class="flex justify-between items-center md:justify-start md:space-x-10">
       <div class="w-full flex items-center flex-col lg:w-0 lg:flex-1 xl:flex-row justify-center">
         <a href="#" class="flex mr-10">

@@ -30,9 +30,3 @@ import Gallery from '../components/Gallery.svelte';
 <Testimonials></Testimonials>
 <!-- <ComingSoon></ComingSoon> -->
 
-<style>
-	body {
-		color: red !important;
-	}
-
-</style>

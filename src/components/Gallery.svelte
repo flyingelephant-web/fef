@@ -3,7 +3,7 @@ import Carousel from "./UI/Carousel.svelte";
 import Content from './UI/Content.svelte';
 import Modal from 'svelte-simple-modal';
 import { showGalleryModal }  from '../store/store';
-import { dropRight, cloneDeep  } from 'lodash-es';
+import { dropRight, cloneDeep  } from 'lodash';
 // { images:
 //       [
 //         {path: 'http://demo.megadrupal.com/d8/md-filmmaker/sites/default/files/awebuilder/timbuktu.jpg', id: 'image1'},
