@@ -34,7 +34,7 @@
 	]
 </script>
 
-<section class="lg:container">
+<section class="lg:container m-40">
   <div class="flex justify-center flex-wrap">
     {#each clientLogos as client }
       <img class="md:max-w-full" src="clients/{client.logo}" alt="{client.name}" />
