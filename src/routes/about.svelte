@@ -14,4 +14,3 @@ $:  isOpen = ($page.path === '/about' ) ?  true : false;
 
 <p>This is the 'about' page. There's not much here.</p>
 
-<Testimonials></Testimonials>

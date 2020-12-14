@@ -101,7 +101,7 @@
   <!-- </div> -->
 
 
-  <div class="max-w-screen-md mx-auto testimonial">
+<div class="max-w-screen-md mx-auto testimonial">
   <div class="swiper-container-testimony">
     <div class="swiper-wrapper">
           {#each testimonials as testimony (testimony.id) }
@@ -124,6 +124,9 @@
             </div>
           {/each}
         </div>
+    </div>
+     <div class="flex justify-center mt-8">
+      <div class="swiper-pagination"></div>
     </div>
   </div>
 </section>

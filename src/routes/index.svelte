@@ -30,7 +30,7 @@ let isOpen = true;
 <ClientLogos></ClientLogos>
 {#if isOpen}
 
-<!-- <Testimonials></Testimonials> -->
+<Testimonials></Testimonials>
 {/if}
 <!-- <ComingSoon></ComingSoon> -->
 
