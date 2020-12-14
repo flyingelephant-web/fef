@@ -55,7 +55,7 @@
 	]
 
 
-		$:  isAbsolute = ($page.path === '/' || includes($page.path, ['contact'])) ?  true : false;
+		$:  isAbsolute = ($page.path === '/') ?  true : false;
 
 	const setNavPosition = () => {
 		if($page.path === '/' || includes($page.path, ['contact'])) {

@@ -43,7 +43,7 @@
 </script>
 
 <footer>
-  <div class="flex lg:container">
+  <div class="flex lg:container py-10">
     <div class="flex">
       {#each socialConnect as social}
         <a class="text-xs mr-2 leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-300 sm:mr-4" href="{social.link}">
