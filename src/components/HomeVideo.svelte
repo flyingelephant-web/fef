@@ -2,7 +2,7 @@
   <div id="responsiveVideoWrapper" class="relative h-0 pb-fluid-video">
     <iframe class="absolute top-0 left-0 w-full h-full"
       src="https://player.vimeo.com/video/345425681?autoplay=1&title=0&byline=0&portrait=0" frameborder="0"
-      allow="autoplay; fullscreen" allowfullscreen>
+      allow="autoplay; fullscreen" allowfullscreen title="Flying Elephants Films Video">
     </iframe>
   </div>
 </section>

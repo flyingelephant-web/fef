@@ -9,6 +9,7 @@
 import Services from '../components/Services.svelte';
 import OurFilms from '../components/OurFilms.svelte';
 import Gallery from '../components/Gallery.svelte';
+let isOpen = true;
 
 </script>
 
@@ -27,6 +28,9 @@ import Gallery from '../components/Gallery.svelte';
 <Gallery></Gallery>
 
 <ClientLogos></ClientLogos>
-<Testimonials></Testimonials>
+{#if isOpen}
+
+<!-- <Testimonials></Testimonials> -->
+{/if}
 <!-- <ComingSoon></ComingSoon> -->
 

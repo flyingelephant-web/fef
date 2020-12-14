@@ -3,7 +3,6 @@
 	import { includes } from 'lodash';
   const { page } = stores();
   $: console.log($page.path);
-	export let segment;
 	let isAbsolute;
 	let showMobileMenu = false;
 	const menuItems = [{
@@ -15,7 +14,7 @@
 		{
 			id: 2,
 			label: 'Commercials',
-			slug: 'commercials',
+			slug: 'about',
 			hasSubMenu: false
 		},
 		{
@@ -70,7 +69,7 @@
 	nav {
 		font-weight: 300;
 	}
-
+/*
 	[aria-current] {
 		position: relative;
 		display: inline-block;
@@ -84,7 +83,7 @@
 		background-color: rgb(255,62,0);
 		display: block;
 		bottom: -1px;
-	}
+	} */
 
 	a {
 		text-decoration: none;
@@ -97,7 +96,7 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6  w-full z-10 {isAbsolute ? 'absolute' : ''}">
     <div class="flex justify-between items-center md:justify-start md:space-x-10">
       <div class="w-full flex items-center flex-col lg:w-0 lg:flex-1 xl:flex-row justify-center">
-        <a href="#" class="flex mr-10">
+        <a href="/" class="flex mr-10">
           <img class="h-8 w-auto sm:h-24" src="fef-elephant.png" alt="Workflow">
 				</a>
 				<nav class="w-full justify-start hidden md:flex space-x-10 items-center lg:w-auto overflow-scroll lg:justify-center">

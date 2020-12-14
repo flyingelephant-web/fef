@@ -1,14 +1,54 @@
 <script>
   import { onMount } from 'svelte';
+  import Swiper, { EffectCoverflow } from "swiper";
 
+  Swiper.use([EffectCoverflow]);
   let mySwiper;
   let swiper;
   let slide;
 
-  onMount(async () => {
-    const module = await import('svelte-swiper');
-    swiper = module.Swiper
-    slide = module.SwiperSlide
+  onMount(() => {
+    const swiper = new Swiper(".swiper-container", {
+      loop: true,
+      speed: 800,
+      slidesPerView: 3, // or 'auto'
+      spaceBetween: 80,
+      centeredSlides: true,
+      effect: 'coverflow', // 'cube', 'fade', 'coverflow',
+      coverflowEffect: {
+        rotate: 0, // Slide rotate in degrees
+        stretch: 0, // Stretch space between slides (in px)
+        depth: 20, // Depth offset in px (slides translate in Z axis)
+        modifier: 10, // Effect multipler
+        slideShadows: true, // Enables slides shadows
+      },
+      grabCursor: true,
+      autoHeight: true,
+      parallax: true,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+        },
+        480: {
+          slidesPerView: 1,
+        },
+        748: {
+          slidesPerView: 2,
+        },
+        1280: {
+          slidesPerView: 3,
+        },
+        2560: {
+          slidesPerView: 5,
+        }
+      }
+    });
+    // const module = await import('swiper/svelte');
+    // swiper = module.Swiper
+    // slide = module.SwiperSlide
   });
   const options = {
     loop: true,
@@ -127,11 +167,23 @@
   <div class="flex justify-center mb-10">
     <h4 class="font-fef tracking-fef text-gray-500">OUR TEAM</h4>
   </div>
-  <svelte:component this={swiper} bind:swiper={mySwiper} {options} className="h-auto">
+  <!-- <svelte:component this={swiper} bind:swiper={mySwiper} {...options} className="h-auto">
     {#each teamMembers as member }
     <svelte:component this={slide}>
       <img src="team/{member.photo}" alt="member.name">
     </svelte:component>
     {/each}
-  </svelte:component>
+  </svelte:component> -->
+
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      {#each teamMembers as member }
+        <div class="swiper-slide">
+            <img src="team/{member.photo}" alt="member.name">
+        </div>
+      {/each}
+    </div>
+    <!-- Add Arrows -->
+  </div>
 </section>

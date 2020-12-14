@@ -34,7 +34,7 @@ let galleryImages = filterImages(images, 3);
 let carouselImages = [];
 
 const showCarousel = (imageId) => {
-  console.log(`Opeening ${$showGalleryModal}`)
+  console.log(`Opening ${$showGalleryModal}`)
   const toBeSwapped = cloneDeep(images);
   swapPositions(toBeSwapped, 4, imageId);
   carouselImages = cloneDeep(toBeSwapped)

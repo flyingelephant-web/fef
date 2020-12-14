@@ -1,9 +1,9 @@
 <script>
-import Contact from "../components/Contact.svelte";
+import ContactForm from "../components/ContactForm.svelte";
 </script>
 
 <svelte:head>
 	<title>Flying Elephants Films - Contact Us</title>
 </svelte:head>
 
-<Contact></Contact>
+<ContactForm></ContactForm>
