@@ -73,7 +73,7 @@ const getCarouselImages = () => {
   </div>
 </section>
 
-
+<div class="bg opacity-0 window window-wrap hidden"></div>
 <section>
   <!-- {#if $showGalleryModal} -->
   <Modal>
