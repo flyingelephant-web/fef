@@ -3,7 +3,7 @@ import Carousel from "./UI/Carousel.svelte";
 import Content from './UI/Content.svelte';
 import Modal from 'svelte-simple-modal';
 import { showGalleryModal }  from '../store/store';
-import { dropRight, cloneDeep  } from 'lodash';
+import { dropRight, cloneDeep, isEmpty  } from 'lodash';
 // { images:
 //       [
 //         {path: 'http://demo.megadrupal.com/d8/md-filmmaker/sites/default/files/awebuilder/timbuktu.jpg', id: 'image1'},
@@ -34,7 +34,6 @@ let galleryImages = filterImages(images, 3);
 let carouselImages = [];
 
 const showCarousel = (imageId) => {
-  console.log(`Opening ${$showGalleryModal}`)
   const toBeSwapped = cloneDeep(images);
   swapPositions(toBeSwapped, 4, imageId);
   carouselImages = cloneDeep(toBeSwapped)
@@ -48,7 +47,7 @@ const sendImagesToCarousel = (n) => {
 }
 
 const getCarouselImages = () => {
-  return carouselImages;
+  return !isEmpty(carouselImages)  ? carouselImages : images;
 }
 </script>
 <section class="mt-40 mb-5">
@@ -76,12 +75,12 @@ const getCarouselImages = () => {
 
 
 <section>
-  {#if $showGalleryModal}
-    <Modal>
+  <!-- {#if $showGalleryModal} -->
+  <Modal>
       <Content Component={Carousel} props={
-        { 'images': getCarouselImages() }
+        { 'images': carouselImages }
       }>
       </Content>
     </Modal>
-  {/if}
+    <!-- {/if} -->
 </section>
