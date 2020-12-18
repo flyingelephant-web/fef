@@ -8,7 +8,7 @@
 	const menuItems = [{
 			id: 1,
 			label: 'Home',
-			slug: 'home',
+			slug: '/',
 			hasSubMenu: false
 		},
 		{
@@ -25,8 +25,8 @@
 		},
 		{
 			id: 4,
-			label: 'Digital Films',
-			slug: 'digital-films',
+			label: 'Influencer Films',
+			slug: 'influencer-films',
 			hasSubMenu: false
 		},
 		{
@@ -44,7 +44,7 @@
 		{
 			id: 7,
 			label: 'Team',
-			slug: 'team',
+			slug: 'blog',
 			hasSubMenu: false
 		}, {
 			id: 8,
