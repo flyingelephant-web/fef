@@ -14,7 +14,7 @@
 		{
 			id: 2,
 			label: 'Commercials',
-			slug: 'about',
+			slug: 'commercials',
 			hasSubMenu: false
 		},
 		{
@@ -39,6 +39,12 @@
 			id: 6,
 			label: 'Animations',
 			slug: 'animations',
+			hasSubMenu: false
+		},
+		{
+			id: 9,
+			label: 'Digital Campaigns',
+			slug: 'digital-campaigns',
 			hasSubMenu: false
 		},
 		{

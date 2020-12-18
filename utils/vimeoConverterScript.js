@@ -10,6 +10,14 @@ const tvShows = require('../src/data/tv-shows');
 
 const currentData = tvShows;
 
+function convertToSlug(Text)
+{
+    return Text
+        .toLowerCase()
+        .replace(/[^\w ]+/g,'')
+        .replace(/ +/g,'-')
+        ;
+}
 
 const filterFields = _.map(currentData, v => _.pick(v, ['description', 'duration', 'name','pictures', 'type', 'uri', 'user.name']))
 

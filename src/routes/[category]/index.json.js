@@ -18,12 +18,7 @@ lookup.set('tv-shows', tvShows)
 export async function get(req, res) {
 	const { category } = req.params;
 	if(lookup.has(category)) {
-		const contents = JSON.stringify(lookup.get(category).map(post => {
-			return {
-				title: post.name,
-				slug: post.slug
-			};
-		}));
+		const contents = JSON.stringify(lookup.get(category));
 		res.writeHead(200, {
 			'Content-Type': 'application/json'
 		});

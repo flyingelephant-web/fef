@@ -19,7 +19,6 @@
   ]
 </script>
 <section class="mt-40 mb-40">
-
   <div class="flex max-w-screen-lg ml-auto mr-auto justify-between items-center ">
     {#each awards as award }
     <img src="awards/{award.img}" alt="award.name">
