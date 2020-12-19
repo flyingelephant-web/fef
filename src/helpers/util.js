@@ -15,6 +15,9 @@ class Helper {
     string = string.replace('-', ' ')
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
+
+  camelToSnakeCase = str => str.replace(/[A-Z]/g, letter => `-${letter.toLowerCase()}`);
+
 }
 
 export default Helper;
