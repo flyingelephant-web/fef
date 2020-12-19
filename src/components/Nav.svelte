@@ -50,7 +50,7 @@
 		{
 			id: 7,
 			label: 'Team',
-			slug: 'blog',
+			slug: 'team',
 			hasSubMenu: false
 		}, {
 			id: 8,

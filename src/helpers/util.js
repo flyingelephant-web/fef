@@ -10,6 +10,11 @@ class Helper {
     const image = find(postImages.sizes, {'width': size}) || find(postImages.sizes, {'width': fallbackSize})
     return image.link
   }
+
+  capitalizeFirstLetter(string) {
+    string = string.replace('-', ' ')
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  }
 }
 
 export default Helper;
