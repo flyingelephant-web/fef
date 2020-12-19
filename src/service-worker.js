@@ -69,7 +69,9 @@ self.addEventListener('fetch', event => {
 			.then(async cache => {
 				try {
 					const response = await fetch(event.request);
-					cache.put(event.request, response.clone());
+					if(event.request && event.request.url && !event.request.url.includes('vimeocdn')) {
+						cache.put(event.request, response.clone());
+					}
 					return response;
 				} catch(err) {
 					const response = await cache.match(event.request);
