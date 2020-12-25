@@ -309,7 +309,7 @@ const helper = new Helper();
                 </p>
               </div>
               <div class="text-center">
-                <a href="{_.kebabCase(film.category[0])}/{film.slug}"><h1 class="font-playfair text-white font-bold xs:text-3xl md:text-4xl lg:text-5xl leading-10">{film.name}</h1></a>
+                <a href="{_.kebabCase(film.category[0])}/{film.slug}"><h1 class="font-playfair text-white font-bold xs:text-2xl md:text-4xl lg:text-5xl leading-10">{film.name}</h1></a>
               </div>
               <div class="text-center our-films-description duration-300 px-48">
                 <p class="font-pb-regular text-sm text-gray-400 mt-5">{film.description || ''}</p>

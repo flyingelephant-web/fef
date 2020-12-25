@@ -29,8 +29,8 @@
 
 
 
-<section>
-  <h2 class="text-center font-playfair text-6xl font-bold capitalize">{helper.capitalizeFirstLetter(params.category)}</h2>
+<section class="mt-16 sm:mt-24 xs:mt-20 md:mt-32 lg:mt-40">
+  <h2 class="text-center font-playfair text-3xl lg:text-6xl font-bold capitalize">{helper.capitalizeFirstLetter(params.category)}</h2>
 
 <div class="flex flex-col max-w-screen-lg mx-auto mt-10">
   {#each posts as post}
@@ -45,7 +45,7 @@
           <img src="{getImage(post.pictures)}" alt="{post.name}">
         </a>
       </div>
-      <h2 class="font-playfair text-black font-bold text-3xl mt-5">
+      <h2 class="px-5 sm:px-0 font-playfair text-black font-bold text-xl lg:text-3xl mt-5 lg:w-full text-center">
         <a rel='prefetch' href='{params.category}/{post.slug}'>{post.name}</a>
       </h2>
     </div>

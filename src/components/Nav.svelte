@@ -125,13 +125,13 @@ import LogoSvg from './UI/LogoSVG.svelte';
     </div>
 	</div>
 	{#if showMobileMenu}
-		<div class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden z-50">
-			<div class="rounded-lg shadow-lg">
-				<div class="rounded-lg shadow-xs bg-white divide-y-2 divide-gray-50">
+		<div class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden z-50 h-screen">
+			<div class="rounded-lg shadow-lg h-full">
+				<div class="rounded-lg shadow-xs bg-white divide-y-2 divide-gray-50 h-full">
 					<div class="pt-5 pb-6 px-5 space-y-6">
 						<div class="flex items-center justify-between">
 							<div>
-								<img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-on-white.svg" alt="Workflow">
+								<LogoSvg className="lg:hidden my-4 w-40"  color="#000"></LogoSvg>
 							</div>
 							<div class="-mr-2">
 								<button type="button" on:click="{() => {showMobileMenu = false}}" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
@@ -144,7 +144,7 @@ import LogoSvg from './UI/LogoSVG.svelte';
 						<div>
 							<nav class="grid row-gap-8">
 								{#each menuItems as menu }
-									<a href="{menu.slug}" class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
+									<a href="{menu.slug}" on:click="{() => {showMobileMenu = false}}" class="m-1 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
 										<div class="text-base leading-6 font-medium text-gray-900">
 											{menu.label}
 										</div>

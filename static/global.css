@@ -12957,6 +12957,10 @@ body {
   height: 100vh;
 }
 
+.h-1\/2{
+  height: 50%;
+}
+
 .text-xs{
   font-size: 0.75rem;
 }
@@ -36622,6 +36626,10 @@ body {
     height: 100vh;
   }
 
+  .sm\:h-1\/2{
+    height: 50%;
+  }
+
   .sm\:text-xs{
     font-size: 0.75rem;
   }
@@ -60220,6 +60228,10 @@ body {
 
   .md\:h-screen{
     height: 100vh;
+  }
+
+  .md\:h-1\/2{
+    height: 50%;
   }
 
   .md\:text-xs{
@@ -83822,6 +83834,10 @@ body {
     height: 100vh;
   }
 
+  .lg\:h-1\/2{
+    height: 50%;
+  }
+
   .lg\:text-xs{
     font-size: 0.75rem;
   }
@@ -107422,6 +107438,10 @@ body {
     height: 100vh;
   }
 
+  .xl\:h-1\/2{
+    height: 50%;
+  }
+
   .xl\:text-xs{
     font-size: 0.75rem;
   }
@@ -131020,6 +131040,10 @@ body {
 
   .xs\:h-screen{
     height: 100vh;
+  }
+
+  .xs\:h-1\/2{
+    height: 50%;
   }
 
   .xs\:text-xs{
