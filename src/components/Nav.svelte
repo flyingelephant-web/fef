@@ -103,7 +103,7 @@ import LogoSvg from './UI/LogoSVG.svelte';
   <div class="max-w-7xl mx-auto px-4 sm:px-6  w-full z-10 {isAbsolute ? 'lg:absolute' : ''}">
     <div class="flex justify-between items-center lg:justify-start lg:space-x-10">
       <div class="w-full flex items-center flex-row lg:w-0 lg:flex-1 justify-center">
-				<a href="/" class="flex lg:mr-5 xl:mr-10">
+				<a alt="Flying Elephant Films Logo" href="/" class="flex lg:mr-5 xl:mr-10">
 					<LogoSvg className="lg:hidden my-4 w-40"  color="#000"></LogoSvg>
           <img class="h-8 w-auto lg:h-22 xl:h-24 hidden lg:block" src="fef-elephant.png" alt="Workflow">
 				</a>
@@ -116,7 +116,7 @@ import LogoSvg from './UI/LogoSVG.svelte';
 				</nav>
       </div>
       <div class="-mr-2 -my-2 lg:hidden">
-        <button type="button" on:click="{() => {showMobileMenu = true}}" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
+        <button aria-label="Menu" type="button" on:click="{() => {showMobileMenu = true}}" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
           <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
@@ -134,7 +134,7 @@ import LogoSvg from './UI/LogoSVG.svelte';
 								<LogoSvg className="lg:hidden my-4 w-40"  color="#000"></LogoSvg>
 							</div>
 							<div class="-mr-2">
-								<button type="button" on:click="{() => {showMobileMenu = false}}" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
+								<button aria-label="Close Menu" type="button" on:click="{() => {showMobileMenu = false}}" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
 									<svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
 									</svg>

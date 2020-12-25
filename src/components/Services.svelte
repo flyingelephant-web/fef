@@ -26,7 +26,7 @@
 
 <section class="mt-40 mb-40">
   <div class="flex justify-center">
-    <h4 class="font-fef tracking-fef text-gray-500">SERVICES</h4>
+    <h1 class="font-fef tracking-fef text-gray-500">SERVICES</h1>
   </div>
   <div class="flex flex-col lg:flex-row max-w-screen-lg ml-auto mr-auto justify-between items-center">
     {#each services as service}

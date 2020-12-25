@@ -1,8 +1,8 @@
 <script>
   import { onMount } from 'svelte';
-  import Swiper, { EffectCoverflow } from "swiper";
+  import Swiper, { EffectCoverflow, Autoplay } from "swiper";
 
-  Swiper.use([EffectCoverflow]);
+  Swiper.use([EffectCoverflow, Autoplay]);
   let mySwiper;
   let swiper;
   let slide;
@@ -10,6 +10,7 @@
   onMount(() => {
     const swiper = new Swiper(".swiper-container", {
       loop: true,
+      autoplay: true,
       speed: 800,
       slidesPerView: 3, // or 'auto'
       spaceBetween: 80,

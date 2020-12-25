@@ -292,7 +292,7 @@ const helper = new Helper();
    return picture && picture.link
  }
 </script>
-<section class="mt-40">
+<section class="mt-20">
   <h2 class="text-center font-playfair text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-bold">Our films</h2>
   <div class="max-w-screen-xl mx-auto mt-5">
     <div class="grid grid-cols-1 lg:grid-cols-4">
@@ -303,7 +303,7 @@ const helper = new Helper();
             <div class="absolute top-1/2 left-1/2 right-0 translate-negative-50 w-full">
               <div class="font-fef uppercase text-gray-400 text-xs tracking-fef text-center">
                 <p>
-                  <a href="{_.kebabCase(film.category[0])}">
+                  <a class="items-center justify-center flex h-12" href="{_.kebabCase(film.category[0])}">
                     {film.category}
                   </a>
                 </p>
@@ -328,7 +328,7 @@ const helper = new Helper();
           <div class="relative pb-fluid-video bg-black overflow-hidden h-0 our-films-gallery">
             <img class="opacity-50 duration-300 w-full lg:w-auto" src="{getImage(film.pictures, 640)}" alt="{film.name}">
             <div class="absolute top-1/2 left-1/2 right-0 translate-negative-50 w-full">
-              <div class="font-fef uppercase text-gray-400 text-xs tracking-fef text-center">
+              <div class="font-fef uppercase text-gray-400 text-xs tracking-fef text-center py-2">
                 <p>
                   {film.category}
                 </p>

@@ -111,7 +111,7 @@
                     <img src="testimonial/{testimony.img}" alt="{testimony.name}">
                   </div>
                   <div>
-                    <p class="font-fef mt-5 mb-10 text-xs tracking-fef-sm text-gray-400">
+                    <p class="font-fef mt-5 mb-10 text-xs tracking-fef-sm text-gray-500">
                       {testimony.name}
                     </p>
                   </div>
