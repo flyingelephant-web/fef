@@ -101,7 +101,7 @@
   <!-- </div> -->
 
 
-<div class="max-w-screen-md mx-auto testimonial">
+<div class="max-w-screen-md mx-auto testimonial md:px-0 px-10">
   <div class="swiper-container-testimony">
     <div class="swiper-wrapper">
           {#each testimonials as testimony (testimony.id) }
