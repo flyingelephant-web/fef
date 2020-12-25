@@ -176,7 +176,7 @@
   </svelte:component> -->
 
 
-  <div class="swiper-container">
+  <div class="swiper-container max-w-screen-xl">
     <div class="swiper-wrapper">
       {#each teamMembers as member }
         <div class="swiper-slide">

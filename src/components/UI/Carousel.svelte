@@ -38,10 +38,11 @@
   onDestroy(()=>{stopAutoPlay()})
 </script>
 
-<div id="carousel-container" class="carousel-container">
-  <div id="carousel-images" class="w-1/2 mx-auto">
+<div id="carousel-container" class="carousel-container w-full relative flex flex-col overflow-x-hidden">
+  <div id="carousel-images" class="w-full md:w-1/2 mx-auto flex justify-center flex-no-wrap max-h-screen">
     {#each images as image (image.id)}
       <img
+        class="object-contain md:object-scale-down"
         src={image.path}
         alt={image.id}
         id={image.id}
@@ -52,9 +53,9 @@
     {/each}
   </div>
   {#if displayControls}
-  <button id="left" on:click={rotateLeft}>
+  <button id="left" on:click={rotateLeft} class="">
     <slot name="left-control">
-      <svg width="39px" height="110px" id="svg8" transform={`scale(${controlScale})`}>
+      <svg width="39px" height="110px" id="svg8" class="transform scale-50" transform={`scale(${controlScale})`}>
         <g id="layer1" transform="translate(-65.605611,-95.36949)">
           <path
           style={`fill:none;stroke:${controlColor};stroke-width:9.865;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1`}
@@ -64,9 +65,9 @@
       </svg>
     </slot>
   </button>
-  <button id="right" on:click={rotateRight}>
+  <button id="right" on:click={rotateRight} class="absolute top-1/2 -translate-y-1/2 flex items-center justify-center bg-transparent border-0">
     <slot name="right-control">
-      <svg width="39px" height="110px" id="svg8" transform={`rotate(180) scale(${controlScale})`}>
+      <svg width="39px" height="110px" id="svg8" class="transform rotate-180 scale-50" transform={`rotate(180) scale(${controlScale})`}>
         <g id="layer1" transform="translate(-65.605611,-95.36949)">
           <path
           style={`fill:none;stroke:${controlColor};stroke-width:9.865;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1`}

@@ -11,7 +11,7 @@ const presetEnv = require('postcss-preset-env')({
 
 const plugins =
   process.env.NODE_ENV === 'production'
-    ? [postcssImport, tailwind, presetEnv, cssnano]
-    : [postcssImport, tailwind, presetEnv, cssnano];
+    ? [postcssImport, tailwind, presetEnv, cssnano, autoprefixer]
+    : [postcssImport, tailwind, presetEnv, autoprefixer];
 
 module.exports = { plugins };

@@ -32,6 +32,17 @@ module.exports = {
       },
       inset: {
         '1/2': '50%'
+      },
+      height: {
+        '18': '4.5rem',
+        '22': '5.5rem'
+      },
+      maxWidth: {
+        'screen-4xl': '1920px',
+        'screen-3xl': '1536px'
+      },
+      screens: {
+        'xs': '480px'
       }
     },
   },
