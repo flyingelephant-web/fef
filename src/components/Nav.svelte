@@ -144,10 +144,8 @@ import LogoSvg from './UI/LogoSVG.svelte';
 						<div>
 							<nav class="grid row-gap-8">
 								{#each menuItems as menu }
-									<a href="{menu.slug}" on:click="{() => {showMobileMenu = false}}" class="m-1 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
-										<div class="text-base leading-6 font-medium text-gray-900">
-											{menu.label}
-										</div>
+									<a href="{menu.slug}" on:click="{() => {showMobileMenu = false}}" class="text-xs leading-6 font-medium text-gray-500 font-fef m-1 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 hover:text-gray-900  focus:text-gray-900  focus:outline-none transition ease-in-out duration-150">
+											{menu.label.toUpperCase()}
 									</a>
 								{/each}
 							</nav>
