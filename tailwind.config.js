@@ -39,11 +39,17 @@ module.exports = {
         '1/2': '50%'
       },
       maxWidth: {
+        '6-1/2': '6.5rem',
+        '8': '8rem',
+        '10': '10rem',
         'screen-4xl': '1920px',
         'screen-3xl': '1536px'
       },
       screens: {
         'xs': '480px'
+      },
+      gridTemplateColumns: {
+        'clients': 'repeat(auto-fill, minmax(200px, 1fr))',
       }
     },
   },
