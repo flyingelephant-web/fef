@@ -5,6 +5,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 42,
+      "index": 1,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -106,6 +107,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 45,
+      "index": 2,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -207,6 +209,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 60,
+      "index": 3,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -308,6 +311,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 135,
+      "index": 4,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -405,6 +409,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 87,
+      "index": 5,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -506,6 +511,7 @@ module.exports = [
       "description": "Not a demo-demo film",
       "type": "video",
       "duration": 65,
+      "index": 6,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -607,6 +613,7 @@ module.exports = [
       "description": "In the interest of tiny noses - Nasivion",
       "type": "video",
       "duration": 92,
+      "index": 7,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -708,6 +715,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 62,
+      "index": 8,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -809,6 +817,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 68,
+      "index": 9,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -910,6 +919,7 @@ module.exports = [
       "description": "A film for Wunderman and Microsoft",
       "type": "video",
       "duration": 102,
+      "index": 10,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -1011,6 +1021,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 173,
+      "index": 11,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -1112,6 +1123,7 @@ module.exports = [
       "description": "A film for an agency Humor Me in Delhi. This film is part of the Leadership series for Red Mi",
       "type": "video",
       "duration": 59,
+      "index": 12,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -1213,6 +1225,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 113,
+      "index": 13,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -1314,6 +1327,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 116,
+      "index": 14,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -1415,6 +1429,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 45,
+      "index": 15,
       "privacy": {
           "view": "anybody",
           "download": true
