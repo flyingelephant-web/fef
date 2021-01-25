@@ -5,6 +5,7 @@ module.exports = [
       "description": "13 influencers, 4 cities, 4 films each ...",
       "type": "video",
       "duration": 106,
+      "index": 1,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -106,6 +107,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 117,
+      "index": 2,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -207,6 +209,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 111,
+      "index": 3,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -308,6 +311,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 119,
+      "index": 4,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -409,6 +413,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 176,
+      "index": 5,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -510,6 +515,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 250,
+      "index": 6,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -611,6 +617,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 48,
+      "index": 7,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -712,6 +719,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 189,
+      "index": 8,
       "privacy": {
           "view": "anybody",
           "download": true
