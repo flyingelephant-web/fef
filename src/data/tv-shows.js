@@ -5,6 +5,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 60,
+      "index": 1,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -106,6 +107,7 @@ module.exports = [
       "description": "A three episode series for the History Channel",
       "type": "video",
       "duration": 30,
+      "index": 2,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -207,6 +209,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 20,
+      "index": 3,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -308,6 +311,7 @@ module.exports = [
       "description": "A digital series for History Channel",
       "type": "video",
       "duration": 34,
+      "index": 4,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -409,6 +413,7 @@ module.exports = [
       "description": "A 12 episode series for History Channel that takes us on a journey with Tim who explores India like no Indian can",
       "type": "video",
       "duration": 298,
+      "index": 5,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -510,6 +515,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 32,
+      "index": 6,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -607,6 +613,7 @@ module.exports = [
       "description": "A two part series for History Channel that explores the science behind spirituality.",
       "type": "video",
       "duration": 43,
+      "index": 7,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -704,6 +711,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 123,
+      "index": 8,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -805,6 +813,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 95,
+      "index": 9,
       "privacy": {
           "view": "anybody",
           "download": true
