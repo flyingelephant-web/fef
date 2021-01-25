@@ -2,8 +2,7 @@
 	import ClientLogos from '../components/ClientLogos.svelte';
 	import ComingSoon from '../components/ComingSoon.svelte';
 	import Team from '../components/Team.svelte';
-	import Testimonials from '../components/Testimonials.svelte'
-	import HomeVideo from '../components/HomeVideo.svelte'
+		import HomeVideo from '../components/HomeVideo.svelte'
 	import About from '../components/About.svelte'
 	import Awards from '../components/Awards.svelte';
 import Services from '../components/Services.svelte';
@@ -21,7 +20,6 @@ let isOpen = true;
 <About></About>
 <Awards></Awards>
 <Services></Services>
-<Team></Team>
 
 <OurFilms></OurFilms>
 
@@ -30,7 +28,6 @@ let isOpen = true;
 <ClientLogos></ClientLogos>
 {#if isOpen}
 
-<Testimonials></Testimonials>
 {/if}
 <!-- <ComingSoon></ComingSoon> -->
 

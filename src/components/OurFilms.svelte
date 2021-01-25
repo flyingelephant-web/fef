@@ -330,11 +330,13 @@ const helper = new Helper();
             <div class="absolute top-1/2 left-1/2 right-0 translate-negative-50 w-full">
               <div class="font-fef uppercase text-gray-400 text-xs tracking-fef text-center py-2">
                 <p>
-                  {film.category}
+                  <a class="items-center justify-center flex" href="{_.kebabCase(film.category[0])}">
+                    {film.category}
+                  </a>
                 </p>
               </div>
               <div class="text-center">
-                <a href="{_.kebabCase(film.category[0])}/{film.slug}"><h1 class="font-playfair text-white font-bold lg:text-xl leading-10">{film.name}</h1></a>
+                <a href="{_.kebabCase(film.category[0])}"><h1 class="font-playfair text-white font-bold lg:text-xl leading-10">{film.name}</h1></a>
               </div>
             </div>
           </div>

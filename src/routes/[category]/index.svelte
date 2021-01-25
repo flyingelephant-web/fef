@@ -33,7 +33,7 @@
   <h2 class="text-center font-playfair text-3xl lg:text-6xl font-bold capitalize">{helper.capitalizeFirstLetter(params.category)}</h2>
 
 <div class="flex flex-col max-w-screen-lg mx-auto mt-10">
-  {#each posts as post}
+  {#each  _.sortBy(posts, 'index') as post}
     <div class="flex flex-col items-center my-5">
 
     <!-- we're using the non-standard `rel=prefetch` attribute to

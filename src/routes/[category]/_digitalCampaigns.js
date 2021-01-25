@@ -33,6 +33,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 1,
     "slug": "chakr-digital-film-goddess-kali-fights-pollution",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -109,6 +110,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 2,
     "slug": "commercial-for-oyo-must-go-on-india",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -185,6 +187,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 3,
     "slug": "series-promo-spirit-of-scotland",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -261,6 +264,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 4,
     "slug": "directors-cut-samsung-good-vibes",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -337,6 +341,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 5,
     "slug": "samsung-bixby-directors-cut",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -413,6 +418,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 6,
     "slug": "buddhist-trail-ministry-of-tourism-directors-cut",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -489,6 +495,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 7,
     "slug": "rural-tourism-ministry-of-tourism-directors-cut",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -565,6 +572,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 8,
     "slug": "directors-cut-touk-royal-enfield",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -641,6 +649,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 9,
     "slug": "taras-story-digital-film-gautam-gambhir-foundation",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -717,6 +726,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 10,
     "slug": "taras-story-commercial-gautam-gambhir-foundation",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -793,6 +803,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 11,
     "slug": "dirs-cut-the-jungle-whisperers",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -869,6 +880,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 12,
     "slug": "directors-cut-pench-and-tadoba-national-park",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -945,6 +957,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 13,
     "slug": "raw-stop-motion-coffee-flavor",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1021,6 +1034,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 14,
     "slug": "raw-chocolate-stop-motion",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1097,6 +1111,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 15,
     "slug": "raw-turmeric-stop-motion",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1173,6 +1188,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 16,
     "slug": "sensodyne-food-walk-kolkata-chapter",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1249,6 +1265,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 17,
     "slug": "grilled-promo-for-fox-life",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1325,6 +1342,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 18,
     "slug": "wateraid-directors-cut",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1401,6 +1419,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 19,
     "slug": "niche-film",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1477,6 +1496,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 20,
     "slug": "digital-film-for-farzi-cafe",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1553,6 +1573,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 21,
     "slug": "tlc-promo",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1629,6 +1650,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 22,
     "slug": "tanddav-film",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1705,6 +1727,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 23,
     "slug": "fox-grilled-promo",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1781,6 +1804,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 24,
     "slug": "the-story-of-khadi",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1823,82 +1847,83 @@ const digitalCampaigns = [
       }
     ]
   },
-  {
-    "description": null,
-    "duration": 167,
-    "name": "Revv | Digital Films",
-    "pictures": {
-      "uri": "/videos/352439147/pictures/804326675",
-      "sizes": [
-        {
-          "width": 200,
-          "link": "https://i.vimeocdn.com/video/804326675_200x150.jpg?r=pad"
-        },
-        {
-          "width": 640,
-          "link": "https://i.vimeocdn.com/video/804326675_640x360.jpg?r=pad"
-        },
-        {
-          "width": 1280,
-          "link": "https://i.vimeocdn.com/video/804326675_1280x720.jpg?r=pad"
-        },
-        {
-          "width": 1920,
-          "link": "https://i.vimeocdn.com/video/804326675_1920x1080.jpg?r=pad"
-        }
-      ]
-    },
-    "type": "",
-    "uri": "/videos/352439147",
-    "user": {
-      "name": "Flying Elephant Films"
-    },
-    "id": "",
-    "title": "",
-    "blurb": "",
-    "content": "",
-    "slug": "revv-digital-films",
-    "category": ['digitalCampaigns'],
-    "tags": [],
-    "articleImage": "",
-    "thumbnailImage": "",
-    "author": [],
-    "media": [
-      {
-        "id": "",
-        "mediaType": "",
-        "src": "",
-        "caption": ""
-      }
-    ],
-    "crew": [
-      {
-        "id": "",
-        "name": "",
-        "photo": "",
-        "bio": "",
-        "role": ""
-      }
-    ],
-    "awards": [
-      {
-        "id": "",
-        "title": "",
-        "year": "",
-        "blurb": "",
-        "reference": "",
-        "image": ""
-      }
-    ],
-    "partners": [
-      {
-        "id": "",
-        "name": "",
-        "website": "",
-        "image": ""
-      }
-    ]
-  },
+  // {
+  //   "description": null,
+  //   "duration": 167,
+  //   "name": "Revv | Digital Films",
+  //   "pictures": {
+  //     "uri": "/videos/352439147/pictures/804326675",
+  //     "sizes": [
+  //       {
+  //         "width": 200,
+  //         "link": "https://i.vimeocdn.com/video/804326675_200x150.jpg?r=pad"
+  //       },
+  //       {
+  //         "width": 640,
+  //         "link": "https://i.vimeocdn.com/video/804326675_640x360.jpg?r=pad"
+  //       },
+  //       {
+  //         "width": 1280,
+  //         "link": "https://i.vimeocdn.com/video/804326675_1280x720.jpg?r=pad"
+  //       },
+  //       {
+  //         "width": 1920,
+  //         "link": "https://i.vimeocdn.com/video/804326675_1920x1080.jpg?r=pad"
+  //       }
+  //     ]
+  //   },
+  //   "type": "",
+  //   "uri": "/videos/352439147",
+  //   "user": {
+  //     "name": "Flying Elephant Films"
+  //   },
+  //   "id": "",
+  //   "title": "",
+  //   "blurb": "",
+  //   "content": "",
+//  "index": 25,
+  //   "slug": "revv-digital-films",
+  //   "category": ['digitalCampaigns'],
+  //   "tags": [],
+  //   "articleImage": "",
+  //   "thumbnailImage": "",
+  //   "author": [],
+  //   "media": [
+  //     {
+  //       "id": "",
+  //       "mediaType": "",
+  //       "src": "",
+  //       "caption": ""
+  //     }
+  //   ],
+  //   "crew": [
+  //     {
+  //       "id": "",
+  //       "name": "",
+  //       "photo": "",
+  //       "bio": "",
+  //       "role": ""
+  //     }
+  //   ],
+  //   "awards": [
+  //     {
+  //       "id": "",
+  //       "title": "",
+  //       "year": "",
+  //       "blurb": "",
+  //       "reference": "",
+  //       "image": ""
+  //     }
+  //   ],
+  //   "partners": [
+  //     {
+  //       "id": "",
+  //       "name": "",
+  //       "website": "",
+  //       "image": ""
+  //     }
+  //   ]
+  // },
   {
     "description": null,
     "duration": 46,
@@ -1933,6 +1958,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 26,
     "slug": "oyo-south-east-asia-film",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -2009,6 +2035,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 27,
     "slug": "max-heart-campaign-film-for-dentsu",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -2085,6 +2112,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
+    "index": 28,
     "slug": "100-pipers-8yo-brand-film_-client-cut",
     "category": ['digitalCampaigns'],
     "tags": [],

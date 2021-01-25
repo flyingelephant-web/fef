@@ -49,7 +49,8 @@ module.exports = {
         'xs': '480px'
       },
       gridTemplateColumns: {
-        'clients': 'repeat(auto-fill, minmax(200px, 1fr))',
+        'awards': 'repeat(auto-fill, minmax(250px, 1fr))',
+        'clients': 'repeat(auto-fill, minmax(250px, 1fr))',
       }
     },
   },
