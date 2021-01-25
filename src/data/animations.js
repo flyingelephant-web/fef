@@ -4,6 +4,7 @@ module.exports = [
     "name": "Horlicks Geography Film",
     "description": null,
     "duration": 140,
+    "index": 1, 
     "pictures": {
       "uri": "/videos/339508734/pictures/787557633",
       "sizes": [
@@ -57,6 +58,7 @@ module.exports = [
     "name": "AMEX service film",
     "description": "Time is a funny thing. \nThe first brand films for AMEX in India.",
     "duration": 30,
+    "index": 2, 
     "pictures": {
       "uri": "/videos/248954397/pictures/674627413",
       "sizes": [
@@ -106,6 +108,7 @@ module.exports = [
     "name": "Amex 6 seconders 2",
     "description": null,
     "duration": 6,
+    "index": 3,
     "pictures": {
       "uri": "/videos/255361316/pictures/682747938",
       "sizes": [
@@ -159,6 +162,7 @@ module.exports = [
     "name": "Amex - 6 seconders",
     "description": null,
     "duration": 6,
+    "index": 4,
     "pictures": {
       "uri": "/videos/255361291/pictures/682747966",
       "sizes": [
@@ -212,6 +216,7 @@ module.exports = [
     "name": "Horlicks Fearless Songs- Akhbarnama",
     "description": null,
     "duration": 148,
+    "index": 5,
     "pictures": {
       "uri": "/videos/310045329/pictures/750555924",
       "sizes": [
@@ -265,6 +270,7 @@ module.exports = [
     "name": "RAW TURMERIC - Stop Motion",
     "description": null,
     "duration": 17,
+    "index": 6,
     "pictures": {
       "uri": "/videos/285255513/pictures/719893248",
       "sizes": [
@@ -318,6 +324,7 @@ module.exports = [
     "name": "Raw Stop Motion - Coffee flavor",
     "description": null,
     "duration": 16,
+    "index": 7,
     "pictures": {
       "uri": "/videos/285255497/pictures/719893507",
       "sizes": [
@@ -371,6 +378,7 @@ module.exports = [
     "name": "RAW CHOCOLATE - Stop Motion",
     "description": null,
     "duration": 14,
+    "index": 8,
     "pictures": {
       "uri": "/videos/285255485/pictures/719893767",
       "sizes": [
@@ -424,6 +432,7 @@ module.exports = [
     "name": "Amex - Rewards",
     "description": "One of the films from a series of 8 films for AMEX and Ogilvy",
     "duration": 30,
+    "index": 9,
     "pictures": {
       "uri": "/videos/255355976/pictures/688153149",
       "sizes": [
@@ -477,6 +486,7 @@ module.exports = [
     "name": "Bodhisattva Film Festival Logo",
     "description": null,
     "duration": 18,
+    "index": 10,
     "pictures": {
       "uri": "/videos/255356126/pictures/682741542",
       "sizes": [
@@ -530,6 +540,7 @@ module.exports = [
     "name": "AMEX Travel Film",
     "description": "A 2D animation we loved working on.",
     "duration": 50,
+    "index": 11,
     "pictures": {
       "uri": "/videos/255356150/pictures/682741548",
       "sizes": [
@@ -583,6 +594,7 @@ module.exports = [
     "name": "AMEX Bunty Aur Bubli - Movie tickets promo film",
     "description": null,
     "duration": 37,
+    "index": 12,
     "pictures": {
       "uri": "/videos/255355888/pictures/682741412",
       "sizes": [
@@ -636,6 +648,7 @@ module.exports = [
     "name": "AMEX Lost Card Liability",
     "description": "3D animation for American express and Ogilvy",
     "duration": 30,
+    "index": 13,
     "pictures": {
       "uri": "/videos/248954451/pictures/674627447",
       "sizes": [
@@ -689,6 +702,7 @@ module.exports = [
     "name": "Quitter - TATA Docomo",
     "description": null,
     "duration": 20,
+    "index": 14,
     "pictures": {
       "uri": "/videos/175525150/pictures/582616688",
       "sizes": [
@@ -742,6 +756,7 @@ module.exports = [
     "name": "Animation Film for Tata Docomo",
     "description": "A 2D animation film for Contract",
     "duration": 15,
+    "index": 15,
     "pictures": {
       "uri": "/videos/155796620/pictures/556646341",
       "sizes": [
@@ -791,6 +806,7 @@ module.exports = [
     "name": "Commercial for Zo Rooms",
     "description": "3D animation film for GREY",
     "duration": 20,
+    "index": 16,
     "pictures": {
       "uri": "/videos/155795040/pictures/556643738",
       "sizes": [
@@ -840,6 +856,7 @@ module.exports = [
     "name": "Hindi Diwas for Microsoft",
     "description": null,
     "duration": 49,
+    "index": 17,
     "pictures": {
       "uri": "/videos/291659409/pictures/727855631",
       "sizes": [
@@ -893,6 +910,7 @@ module.exports = [
     "name": "Vodaphone Preroll 3D animation",
     "description": null,
     "duration": 12,
+    "index": 18,
     "pictures": {
       "uri": "/videos/303470072/pictures/742482685",
       "sizes": [
@@ -946,6 +964,7 @@ module.exports = [
     "name": "Vodafone Pre- roll animation 3D",
     "description": null,
     "duration": 13,
+    "index": 19,
     "pictures": {
       "uri": "/videos/303470028/pictures/742482636",
       "sizes": [
@@ -999,6 +1018,7 @@ module.exports = [
     "name": "100 pipers product animation",
     "description": null,
     "duration": 43,
+    "index": 20,
     "pictures": {
       "uri": "/videos/454372823/pictures/951307438",
       "sizes": [
@@ -1052,6 +1072,7 @@ module.exports = [
     "name": "BPRC Product Film",
     "description": null,
     "duration": 30,
+    "index": 21,
     "pictures": {
       "uri": "/videos/458456912/pictures/958329973",
       "sizes": [
@@ -1105,6 +1126,7 @@ module.exports = [
     "name": "Samsung - Full On",
     "description": null,
     "duration": 48,
+    "index": 22,
     "pictures": {
       "uri": "/videos/467283946/pictures/973609587",
       "sizes": [
