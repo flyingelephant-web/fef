@@ -46,17 +46,17 @@
 </article>
 
 <!-- {#if post.description} -->
-  <section class="lg:mt-64 mt-20">
+  <section class="lg:mt-64 mt-20 mb-40">
     <div class="max-w-screen-lg flex mx-auto py-10 flex-col">
       <h4 class="font-fef tracking-fef text-gray-500 text-center mb-6">STORY</h4>
 
-      <div class="flex justify-center lg:flex-row flex-col">
-        <div class="lg:mr-5">
+      <div class="flex justify-center items-center lg:flex-row flex-col">
+        <div class="lg:mr-5 flex-1">
           <img src="{helper.getImageBySize(post.pictures, 640, 1280)}}" alt="">
         </div>
         {#if post.description}
-          <div class="lg:ml-5 lg:mt-0 mt-4 lg:px-0 px-4">
-            <p class="font-fef lg:text-xl text-base w-11/12 uppercase">{@html post.description || ''}</p>
+          <div class="lg:ml-5 lg:mt-0 mt-4 lg:px-0 px-4 flex-1">
+            <p class="font-fef lg:text-xl text-base lg:w-11/12 uppercase">{@html post.description || ''}</p>
           </div>
         {/if}
       </div>
@@ -64,7 +64,7 @@
   </section>
 <!-- {/if} -->
 
-
+<!--
 {#if !isEmpty(post.partners)}
   <section class="lg:container lg:mt-40 mt-20">
     <h4 class="font-fef tracking-fef text-gray-500 text-center mb-6">PARTNERS</h4>
@@ -75,9 +75,9 @@
       {/each}
     </div>
   </section>
-{/if}
+{/if} -->
 
-
+<!--
 {#if !isEmpty(post.awards)}
   <section class="lg:mt-40 mt-20">
     <h4 class="font-fef tracking-fef text-gray-500 text-center mb-6">WINNING AWARDS</h4>
@@ -88,9 +88,9 @@
       {/each}
     </div>
   </section>
-{/if}
+{/if} -->
 
-
+<!--
 
 {#if !isEmpty(post.crew)}
   <section class="lg:mt-40 mt-20">
@@ -108,4 +108,4 @@
 
     </div>
   </section>
-{/if}
+{/if} -->

@@ -1,6 +1,6 @@
 const animations = [
   {
-    "description": null,
+    "description": `Part of a multi collaborative campaign done for Junior Horlicks. These animated films were created on original compositions of renowned artist Rupam Islam.`,
     "duration": 140,
     "name": "Horlicks Geography Film",
     "pictures": {
@@ -740,7 +740,7 @@ const animations = [
     ]
   },
   {
-    "description": "A 2D animation we loved working on.",
+    "description": `An animation film using seamless transitions from one destination to another.`,
     "duration": 50,
     "name": "AMEX Travel Film",
     "pictures": {
@@ -814,7 +814,7 @@ const animations = [
     ]
   },
   {
-    "description": null,
+    "description": `A quirky animation film using iconic hindi film reference.`,
     "duration": 37,
     "name": "AMEX Bunty Aur Bubli - Movie tickets promo film",
     "pictures": {

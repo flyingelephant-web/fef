@@ -1,6 +1,6 @@
 const documentaries = [
   {
-    "description": null,
+    "description": `A film that was close to our heart. Won two silver and a bronze at the NYF Advertising Award 2020. Nominated for OneShow. A film that captured the journey of 3 deaf-blind achievers whose lives took a whole new meaning with the use of Samsung's revolutionary Goodvibes technology.`,
     "duration": 282,
     "name": "Director's Cut- Samsung Good Vibes",
     "pictures": {
@@ -77,7 +77,7 @@ const documentaries = [
     ]
   },
   {
-    "description": null,
+    "description": `Winner of silver award at ABBYs, one silver and one bronze at Goa Fest and a finalist at the NYF Festival 2019. This film captured the true story of the voice behind Samsung Bixby Voice Forever.`,
     "duration": 236,
     "name": "SAMSUNG BIXBY | DIRECTORS CUT",
     "pictures": {
@@ -385,7 +385,7 @@ const documentaries = [
     ]
   },
   {
-    "description": null,
+    "description": `A digital film featuring actor Raveena Tondon, this was conceptulized, scripted and executed entirely by us.`,
     "duration": 80,
     "name": "Seven Seas- Mothers Day",
     "pictures": {

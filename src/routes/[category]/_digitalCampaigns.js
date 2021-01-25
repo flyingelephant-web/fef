@@ -1,6 +1,6 @@
 const digitalCampaigns = [
   {
-    "description": null,
+    "description": `A film done pro-bono executed completely in-house just because we care for the environment and support all initiatives that believe in the cause.`,
     "duration": 99,
     "name": "Chakr Digital Film - Goddess Kali fights pollution",
     "pictures": {
@@ -77,7 +77,7 @@ const digitalCampaigns = [
     ]
   },
   {
-    "description": null,
+    "description": `We must go on Inda: A film executed during lockdown using stock shots and shoot from home footage to create an impactful film with a dramatic origial composition.`,
     "duration": 60,
     "name": "Commercial for OYO 'Must Go On India'",
     "pictures": {
@@ -154,7 +154,7 @@ const digitalCampaigns = [
     ]
   },
   {
-    "description": null,
+    "description": `A first for Pernod Richard India's premium malt brands- The Glenlivet, Aberlour, Ballentine's, Chivas Regal and Royal Salute. A travel series shot with actor Kunal Kapoor across Scotland in the peak of winter! Each episode was carefully crafterd to integrate individual malt brand philosophy into content beyond just the distilleries.`,
     "duration": 60,
     "name": "Series Promo - Spirit of Scotland",
     "pictures": {
@@ -231,7 +231,7 @@ const digitalCampaigns = [
     ]
   },
   {
-    "description": null,
+    "description": `A film that was close to our heart. Won two silver and a bronze at the NYF Advertising Award 2020. Nominated for OneShow. A film that captured the journey of 3 deaf-blind achievers whose lives took a whole new meaning with the use of Samsung's revolutionary Goodvibes technology.`,
     "duration": 282,
     "name": "Director's Cut- Samsung Good Vibes",
     "pictures": {
@@ -308,7 +308,7 @@ const digitalCampaigns = [
     ]
   },
   {
-    "description": null,
+    "description": `Winner of silver award at ABBYs, one silver and one bronze at Goa Fest and a finalist at the NYF Festival 2019. This film captured the true story of the voice behind Samsung Bixby Voice Forever.`,
     "duration": 236,
     "name": "SAMSUNG BIXBY | DIRECTORS CUT",
     "pictures": {
@@ -385,7 +385,7 @@ const digitalCampaigns = [
     ]
   },
   {
-    "description": null,
+    "description": `A series of 5 films shot across India in just 20 days showcasing iconic travel destinations.`,
     "duration": 95,
     "name": "Buddhist Trail - Ministry of Tourism- Director's Cut",
     "pictures": {
@@ -462,7 +462,7 @@ const digitalCampaigns = [
     ]
   },
   {
-    "description": null,
+    "description": `A series of 5 films shot across India in just 20 days showcasing iconic travel destinations.`,
     "duration": 123,
     "name": "Rural Tourism - Ministry of Tourism - Director's Cut",
     "pictures": {

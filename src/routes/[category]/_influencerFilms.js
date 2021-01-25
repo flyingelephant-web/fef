@@ -77,7 +77,7 @@ const influencerFilms = [
     ]
   },
   {
-    "description": null,
+    "description": `A series that gave testimonials a whole new look. Shot with personalities that were game changers in their field like Archy Jay, Randeep Singh and Shiv Prasad.`,
     "duration": 117,
     "name": "Samsung Note Series | Randeep Singh",
     "pictures": {
@@ -308,7 +308,7 @@ const influencerFilms = [
     ]
   },
   {
-    "description": null,
+    "description": `A fun script with an even funnier actor Diljit Doshanjh shot in under 2 hours this was part of the digital launch campaign of Samsung's latest A80 device.`,
     "duration": 176,
     "name": "Samsung A80 Unboxing | Diljit Dosanjh",
     "pictures": {
@@ -385,7 +385,7 @@ const influencerFilms = [
     ]
   },
   {
-    "description": null,
+    "description": `A marathon shoot with actors like Raj Kumar Rao, influencers like Shirley Setia, Valmakry and other celebrities like Shakti Mohan in just 2 days for the launch campaign of Samsung's new Smart TV.`,
     "duration": 250,
     "name": "Samsung Smart TV Series",
     "pictures": {
@@ -462,7 +462,7 @@ const influencerFilms = [
     ]
   },
   {
-    "description": null,
+    "description": `Shot with cricketer Shikar Dhawan as a launch film of Swiggy Premiere League.`,
     "duration": 48,
     "name": "SWIGGY PREMIERE LEAGUE",
     "pictures": {
@@ -539,7 +539,7 @@ const influencerFilms = [
     ]
   },
   {
-    "description": null,
+    "description": `5 celebrities across 3 cities as part of the pre and post launch campaign of Samsung Galaxy M20 phone. Shot with Tiger Shroff, Disha Patani, Zakir Khan among others the films were shot and made live within a crazy timeline.`,
     "duration": 189,
     "name": "Samsung M series Launch - Tiger Shroff, Disha Patani, Zakir Khanti",
     "pictures": {

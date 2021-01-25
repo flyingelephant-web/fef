@@ -77,7 +77,7 @@ const commercials = [
     ]
   },
   {
-    "description": null,
+    "description": `We must go on Inda: A film executed during lockdown using stock shots and shoot from home footage to create an impactful film with a dramatic origial composition.`,
     "duration": 45,
     "name": "OYO Road Trippin",
     "pictures": {
@@ -231,7 +231,7 @@ const commercials = [
     ]
   },
   {
-    "description": null,
+    "description": `A digital film shot in just one day for the brand's Holi campaign. The art installations were especially designed to ensure that they stay part of the school's classrooms and corridors even after the shoot.`,
     "duration": 135,
     "name": "Commercial for HP Printers",
     "pictures": {
@@ -308,7 +308,7 @@ const commercials = [
     ]
   },
   {
-    "description": null,
+    "description": `A digital film featuring actor Raveena Tondon, this was conceptulized, scripted and executed entirely by us.`,
     "duration": 87,
     "name": "Seven Seas TVC",
     "pictures": {
@@ -385,7 +385,7 @@ const commercials = [
     ]
   },
   {
-    "description": "Not a demo-demo film",
+    "description": `A creative take on a usual demo film`,
     "duration": 65,
     "name": "AMEX App",
     "pictures": {
@@ -462,7 +462,7 @@ const commercials = [
     ]
   },
   {
-    "description": "In the interest of tiny noses - Nasivion",
+    "description": `A TV commercial  conceptualised, scripted and executed entirely by us.`,
     "duration": 92,
     "name": "Naak Khush to Ma Khush",
     "pictures": {
@@ -539,7 +539,7 @@ const commercials = [
     ]
   },
   {
-    "description": null,
+    "description": `A campaign shot for Junior Horlicks.`,
     "duration": 62,
     "name": "HORLICKS KBKT _TV film FILM 02",
     "pictures": {
@@ -616,7 +616,7 @@ const commercials = [
     ]
   },
   {
-    "description": null,
+    "description": `A campaign shot for Junior Horlicks.`,
     "duration": 68,
     "name": "HORLICKS KBKT _TV Safaai Abhiyan",
     "pictures": {
@@ -847,7 +847,7 @@ const commercials = [
     ]
   },
   {
-    "description": "A film for an agency Humor Me in Delhi. This film is part of the Leadership series for Red Mi",
+    "description": `Shot with the iconic cricketer Sehwag, this promo film was conceptualized as well as executed by us.`,
     "duration": 59,
     "name": "REDMI - Sehwag",
     "pictures": {
