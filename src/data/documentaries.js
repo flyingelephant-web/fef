@@ -5,6 +5,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 282,
+      "index": 1,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -106,6 +107,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 236,
+      "index": 2,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -207,6 +209,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 268,
+      "index": 3,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -308,6 +311,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 138,
+      "index": 4,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -409,6 +413,7 @@ module.exports = [
       "description": "A film from the series done for Red Label and Better India that talk about people and places that have broken the barriers of caste, beauty, shame etc.",
       "type": "video",
       "duration": 231,
+      "index": 5,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -510,6 +515,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 80,
+      "index": 6,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -611,6 +617,7 @@ module.exports = [
       "description": "Pani pe kabaddi for an NGO wateraid",
       "type": "video",
       "duration": 43,
+      "index": 7,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -712,6 +719,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 150,
+      "index": 8,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -813,6 +821,7 @@ module.exports = [
       "description": null,
       "type": "video",
       "duration": 58,
+      "index": 9,
       "privacy": {
           "view": "anybody",
           "download": true
@@ -914,6 +923,7 @@ module.exports = [
       "description": "A series of digital films for Cox and Kings",
       "type": "video",
       "duration": 143,
+      "index": 10,
       "privacy": {
           "view": "anybody",
           "download": true
