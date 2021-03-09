@@ -2,7 +2,7 @@ const documentaries = [
   {
     "description": `A film that was close to our heart. Won two silver and a bronze at the NYF Advertising Award 2020. Nominated for OneShow. A film that captured the journey of 3 deaf-blind achievers whose lives took a whole new meaning with the use of Samsung's revolutionary Goodvibes technology.`,
     "duration": 282,
-    "name": "Director's Cut- Samsung Good Vibes",
+    "name": "SAMSUNG GOODVIBES | DIRECTOR'S CUT",
     "pictures": {
       "uri": "/videos/428447524/pictures/908036581",
       "sizes": [
@@ -79,7 +79,7 @@ const documentaries = [
   {
     "description": `Winner of silver award at ABBYs, one silver and one bronze at Goa Fest and a finalist at the NYF Festival 2019. This film captured the true story of the voice behind Samsung Bixby Voice Forever.`,
     "duration": 236,
-    "name": "SAMSUNG BIXBY | DIRECTORS CUT",
+    "name": "SAMSUNG BIXBY | DIRECTOR'S CUT",
     "pictures": {
       "uri": "/videos/344516473/pictures/794019950",
       "sizes": [
@@ -156,7 +156,7 @@ const documentaries = [
   {
     "description": null,
     "duration": 268,
-    "name": "Dr. Reddy - Jayshree's story",
+    "name": "DR. REDDY'S | JAISHREE'S STORY",
     "pictures": {
       "uri": "/videos/255361098/pictures/688154317",
       "sizes": [
@@ -187,7 +187,7 @@ const documentaries = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 3,
+    "index": 4,
     "slug": "dr-reddy-jayshrees-story",
     "category": ['documentaries'],
     "tags": [],
@@ -233,7 +233,7 @@ const documentaries = [
   {
     "description": null,
     "duration": 138,
-    "name": "The story of a fighter | mother | change-maker",
+    "name": "THE BETTER INDIA | DAMYANTI'S STORY",
     "pictures": {
       "uri": "/videos/255361168/pictures/688154207",
       "sizes": [
@@ -264,7 +264,7 @@ const documentaries = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 4,
+    "index": 5,
     "slug": "the-story-of-a-fighter-mother-changemaker",
     "category": ['documentaries'],
     "tags": [],
@@ -310,7 +310,7 @@ const documentaries = [
   {
     "description": "A film from the series done for Red Label and Better India that talk about people and places that have broken the barriers of caste, beauty, shame etc.",
     "duration": 231,
-    "name": "Red Label - The story of Mallah",
+    "name": "RED LABEL x THE BETTER INDIA | BREAKING BARRIERS - MALLAH",
     "pictures": {
       "uri": "/videos/259653838/pictures/688160919",
       "sizes": [
@@ -341,7 +341,7 @@ const documentaries = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 5,
+    "index": 3,
     "slug": "red-label-the-story-of-mallah",
     "category": ['documentaries'],
     "tags": [],
@@ -387,7 +387,7 @@ const documentaries = [
   {
     "description": `A digital film featuring actor Raveena Tondon, this was conceptulized, scripted and executed entirely by us.`,
     "duration": 80,
-    "name": "Seven Seas- Mothers Day",
+    "name": "SEVEN SEAS x THE BETTER INDIA | MOTHER'S DAY",
     "pictures": {
       "uri": "/videos/283438973/pictures/719894128",
       "sizes": [
@@ -418,7 +418,7 @@ const documentaries = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 6,
+    "index": 9,
     "slug": "seven-seas-mothers-day",
     "category": ['documentaries'],
     "tags": [],
@@ -464,7 +464,7 @@ const documentaries = [
   {
     "description": "Pani pe kabaddi for an NGO wateraid",
     "duration": 43,
-    "name": "Wateraid - Director's cut",
+    "name": "WATERAID | PAANI PE KABBADDI",
     "pictures": {
       "uri": "/videos/255361085/pictures/688153757",
       "sizes": [
@@ -495,7 +495,7 @@ const documentaries = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 7,
+    "index": 6,
     "slug": "wateraid-directors-cut",
     "category": ['documentaries'],
     "tags": [],
@@ -541,7 +541,7 @@ const documentaries = [
   {
     "description": null,
     "duration": 150,
-    "name": "A story of eternal beauty - Mohini's Love story",
+    "name": "RED LABEL x THE BETTER INDIA | BREAKING BARRIERS - MOHINI",
     "pictures": {
       "uri": "/videos/255361244/pictures/688153939",
       "sizes": [
@@ -572,7 +572,7 @@ const documentaries = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 8,
+    "index": 10,
     "slug": "a-story-of-eternal-beauty-mohinis-love-story",
     "category": ['documentaries'],
     "tags": [],
@@ -618,7 +618,7 @@ const documentaries = [
   {
     "description": null,
     "duration": 58,
-    "name": "Tara's Story Commercial- Gautam Gambhir Foundation",
+    "name": "GAUTAM GAMBHIR FOUNDATION | TARA'S STORY",
     "pictures": {
       "uri": "/videos/262968003/pictures/692378122",
       "sizes": [
@@ -649,7 +649,7 @@ const documentaries = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 9,
+    "index": 7,
     "slug": "taras-story-commercial-gautam-gambhir-foundation",
     "category": ['documentaries'],
     "tags": [],
@@ -695,7 +695,7 @@ const documentaries = [
   {
     "description": "A series of digital films for Cox and Kings",
     "duration": 143,
-    "name": "Dir's Cut - The jungle Whisperers",
+    "name": "COX N KINGS | JUNGLE WHISPERERS",
     "pictures": {
       "uri": "/videos/259321862/pictures/688153413",
       "sizes": [
@@ -726,7 +726,7 @@ const documentaries = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 10,
+    "index": 8,
     "slug": "dirs-cut-the-jungle-whisperers",
     "category": ['documentaries'],
     "tags": [],
