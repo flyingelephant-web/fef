@@ -2,7 +2,7 @@ const tvShows = [
   {
     "description": `A first for Pernod Richard India's premium malt brands- The Glenlivet, Aberlour, Ballentine's, Chivas Regal and Royal Salute. A travel series shot with actor Kunal Kapoor across Scotland in the peak of winter! Each episode was carefully crafterd to integrate individual malt brand philosophy into content beyond just the distilleries.`,
     "duration": 60,
-    "name": "Series Promo - Spirit of Scotland",
+    "name": "SPIRIT OF SCOTLAND",
     "pictures": {
       "uri": "/videos/404927617/pictures/874937441",
       "sizes": [
@@ -79,7 +79,7 @@ const tvShows = [
   {
     "description": "A three episode series for the History Channel",
     "duration": 30,
-    "name": "OMG Chhattisgarh Season 2 - Promo",
+    "name": "OMG CHHATTISGARH S2",
     "pictures": {
       "uri": "/videos/260910282/pictures/689767839",
       "sizes": [
@@ -156,7 +156,7 @@ const tvShows = [
   {
     "description": null,
     "duration": 20,
-    "name": "Ameo cup opening",
+    "name": "VOLKSWAGEN AMEO CUP S2",
     "pictures": {
       "uri": "/videos/284095429/pictures/718479603",
       "sizes": [
@@ -233,7 +233,7 @@ const tvShows = [
   {
     "description": "A digital series for History Channel",
     "duration": 34,
-    "name": "Promo - Tim's Firangi Tadka",
+    "name": "TIM'S FIRANGI TADKA",
     "pictures": {
       "uri": "/videos/259320937/pictures/688163818",
       "sizes": [
@@ -310,7 +310,7 @@ const tvShows = [
   {
     "description": "A 12 episode series for History Channel that takes us on a journey with Tim who explores India like no Indian can",
     "duration": 298,
-    "name": "TIM Firangi Tadka - Episode 1",
+    "name": "TIM'S FIRANGI TADKA | Ep 1",
     "pictures": {
       "uri": "/videos/259653717/pictures/688163310",
       "sizes": [
@@ -464,7 +464,7 @@ const tvShows = [
   {
     "description": "A two part series for History Channel that explores the science behind spirituality.",
     "duration": 43,
-    "name": "Beyond Science - History Channel",
+    "name": "BEYOND SCIENCE | HISTORY TV18",
     "pictures": {
       "uri": "/videos/156059738/pictures/556975190",
       "sizes": [
@@ -541,7 +541,7 @@ const tvShows = [
   {
     "description": `A series of 5 films shot across India in just 20 days showcasing iconic travel destinations.`,
     "duration": 123,
-    "name": "Rural Tourism - Ministry of Tourism - Director's Cut",
+    "name": "RURAL TOURISM | FOX LIFE",
     "pictures": {
       "uri": "/videos/327946514/pictures/772358169",
       "sizes": [
@@ -572,7 +572,7 @@ const tvShows = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 8,
+    "index": 6,
     "slug": "rural-tourism-ministry-of-tourism-directors-cut",
     "category": ['tvShows'],
     "tags": [],
@@ -618,7 +618,7 @@ const tvShows = [
   {
     "description": `A series of 5 films shot across India in just 20 days showcasing iconic travel destinations.`,
     "duration": 95,
-    "name": "Buddhist Trail - Ministry of Tourism- Director's Cut",
+    "name": "BUDDHIST TRAIL | FOX LIFE ",
     "pictures": {
       "uri": "/videos/327946334/pictures/772357756",
       "sizes": [
