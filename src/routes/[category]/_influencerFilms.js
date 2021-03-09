@@ -2,7 +2,7 @@ const influencerFilms = [
   {
     "description": "13 influencers, 4 cities, 4 films each ...",
     "duration": 106,
-    "name": "Royal Stag Influencer films",
+    "name": "ROYAL STAG CAMPAIGN | MASHUP",
     "pictures": {
       "uri": "/videos/465295092/pictures/970122921",
       "sizes": [
@@ -33,7 +33,7 @@ const influencerFilms = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 1,
+    "index": 4,
     "slug": "royal-stag-influencer-films",
     "category": ['influencerFilms'],
     "tags": [],
@@ -79,7 +79,7 @@ const influencerFilms = [
   {
     "description": `A series that gave testimonials a whole new look. Shot with personalities that were game changers in their field like Archy Jay, Randeep Singh and Shiv Prasad.`,
     "duration": 117,
-    "name": "Samsung Note Series | Randeep Singh",
+    "name": "SAMSUNG NOTE SERIES | RANDEEP SINGH",
     "pictures": {
       "uri": "/videos/352443168/pictures/804330253",
       "sizes": [
@@ -110,7 +110,7 @@ const influencerFilms = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 2,
+    "index": 5,
     "slug": "samsung-note-series-randeep-singh",
     "category": ['influencerFilms'],
     "tags": [],
@@ -156,7 +156,7 @@ const influencerFilms = [
   {
     "description": null,
     "duration": 111,
-    "name": "Samsung Note Series | Shiva Prasad",
+    "name": "SAMSUNG NOTE SERIES | SHIVA PRASAD",
     "pictures": {
       "uri": "/videos/352441455/pictures/804330525",
       "sizes": [
@@ -187,7 +187,7 @@ const influencerFilms = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 3,
+    "index": 7,
     "slug": "samsung-note-series-shiva-prasad",
     "category": ['influencerFilms'],
     "tags": [],
@@ -233,7 +233,7 @@ const influencerFilms = [
   {
     "description": null,
     "duration": 119,
-    "name": "Samsung Note Series | Archy Jay",
+    "name": "SAMSUNG NOTE SERIES | ARCHY JAY",
     "pictures": {
       "uri": "/videos/352439440/pictures/804325758",
       "sizes": [
@@ -264,7 +264,7 @@ const influencerFilms = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 4,
+    "index": 6,
     "slug": "samsung-note-series-archy-jay",
     "category": ['influencerFilms'],
     "tags": [],
@@ -310,7 +310,7 @@ const influencerFilms = [
   {
     "description": `A fun script with an even funnier actor Diljit Doshanjh shot in under 2 hours this was part of the digital launch campaign of Samsung's latest A80 device.`,
     "duration": 176,
-    "name": "Samsung A80 Unboxing | Diljit Dosanjh",
+    "name": "SAMSUNG A80 UNBOXING | DILJIT DOSANJH",
     "pictures": {
       "uri": "/videos/352436183/pictures/804323489",
       "sizes": [
@@ -341,7 +341,7 @@ const influencerFilms = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 5,
+    "index": 3,
     "slug": "samsung-a80-unboxing-diljit-dosanjh",
     "category": ['influencerFilms'],
     "tags": [],
@@ -387,7 +387,7 @@ const influencerFilms = [
   {
     "description": `A marathon shoot with actors like Raj Kumar Rao, influencers like Shirley Setia, Valmakry and other celebrities like Shakti Mohan in just 2 days for the launch campaign of Samsung's new Smart TV.`,
     "duration": 250,
-    "name": "Samsung Smart TV Series",
+    "name": "SAMSUNG SMART TV SERIES",
     "pictures": {
       "uri": "/videos/334846754/pictures/781265724",
       "sizes": [
@@ -418,7 +418,7 @@ const influencerFilms = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 6,
+    "index": 1,
     "slug": "samsung-smart-tv-series",
     "category": ['influencerFilms'],
     "tags": [],
@@ -464,7 +464,7 @@ const influencerFilms = [
   {
     "description": `Shot with cricketer Shikar Dhawan as a launch film of Swiggy Premiere League.`,
     "duration": 48,
-    "name": "SWIGGY PREMIERE LEAGUE",
+    "name": "SWIGGY PREMIERE LEAGUE | SHIKHAR DHAWAN",
     "pictures": {
       "uri": "/videos/327934843/pictures/772342148",
       "sizes": [
@@ -495,7 +495,7 @@ const influencerFilms = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 7,
+    "index": 8,
     "slug": "swiggy-premiere-league",
     "category": ['influencerFilms'],
     "tags": [],
@@ -541,7 +541,7 @@ const influencerFilms = [
   {
     "description": `5 celebrities across 3 cities as part of the pre and post launch campaign of Samsung Galaxy M20 phone. Shot with Tiger Shroff, Disha Patani, Zakir Khan among others the films were shot and made live within a crazy timeline.`,
     "duration": 189,
-    "name": "Samsung M series Launch - Tiger Shroff, Disha Patani, Zakir Khanti",
+    "name": "SAMSUNG M SERIES | Tiger Shroff, Disha Patani, Zakir Khanti",
     "pictures": {
       "uri": "/videos/327933061/pictures/772341038",
       "sizes": [
@@ -572,7 +572,7 @@ const influencerFilms = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 8,
+    "index": 2,
     "slug": "samsung-m-series-launch-tiger-shroff-disha-patani-zakir-khanti",
     "category": ['influencerFilms'],
     "tags": [],
