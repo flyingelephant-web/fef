@@ -2,7 +2,7 @@ const animations = [
   {
     "description": `Part of a multi collaborative campaign done for Junior Horlicks. These animated films were created on original compositions of renowned artist Rupam Islam.`,
     "duration": 140,
-    "name": "Horlicks Geography Film",
+    "name": "HORLICKS | Geography Film",
     "pictures": {
       "uri": "/videos/339508734/pictures/787557633",
       "sizes": [
@@ -30,7 +30,7 @@ const animations = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 1,
+    "index": 7,
     "slug": "horlicks-geography-film",
     "category": ['animations'],
     "tags": [],
@@ -76,7 +76,7 @@ const animations = [
   {
     "description": "Time is a funny thing. \nThe first brand films for AMEX in India.",
     "duration": 30,
-    "name": "AMEX service film",
+    "name": "AMEX | Service Film",
     "pictures": {
       "uri": "/videos/248954397/pictures/674627413",
       "sizes": [
@@ -104,7 +104,7 @@ const animations = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 2,
+    "index": 1,
     "slug": "amex-service-film",
     "category": ['animations'],
     "tags": [],
@@ -150,7 +150,7 @@ const animations = [
   {
     "description": null,
     "duration": 6,
-    "name": "Amex 6 seconders 2",
+    "name": "AMEX | 6 seconders",
     "pictures": {
       "uri": "/videos/255361316/pictures/682747938",
       "sizes": [
@@ -178,7 +178,7 @@ const animations = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 3,
+    "index": 14,
     "slug": "amex-6-seconders-2",
     "category": ['animations'],
     "tags": [],
@@ -224,7 +224,7 @@ const animations = [
   {
     "description": null,
     "duration": 6,
-    "name": "Amex - 6 seconders",
+    "name": "AMEX | 6 seconders",
     "pictures": {
       "uri": "/videos/255361291/pictures/682747966",
       "sizes": [
@@ -252,7 +252,7 @@ const animations = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 4,
+    "index": 15,
     "slug": "amex-6-seconders",
     "category": ['animations'],
     "tags": [],
@@ -298,7 +298,7 @@ const animations = [
   {
     "description": null,
     "duration": 148,
-    "name": "Horlicks Fearless Songs- Akhbarnama",
+    "name": "HORLICKS | History Film",
     "pictures": {
       "uri": "/videos/310045329/pictures/750555924",
       "sizes": [
@@ -326,7 +326,7 @@ const animations = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 5,
+    "index": 8,
     "slug": "horlicks-fearless-songs-akhbarnama",
     "category": ['animations'],
     "tags": [],
@@ -372,7 +372,7 @@ const animations = [
   {
     "description": null,
     "duration": 17,
-    "name": "RAW TURMERIC - Stop Motion",
+    "name": "RAW PRESSERY - TURMERIC| STOP MOTION",
     "pictures": {
       "uri": "/videos/285255513/pictures/719893248",
       "sizes": [
@@ -400,7 +400,7 @@ const animations = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 6,
+    "index": 16,
     "slug": "raw-turmeric-stop-motion",
     "category": ['animations'],
     "tags": [],
@@ -446,7 +446,7 @@ const animations = [
   {
     "description": null,
     "duration": 16,
-    "name": "Raw Stop Motion - Coffee flavor",
+    "name": "RAW PRESSERY - COFFEE| STOP MOTION",
     "pictures": {
       "uri": "/videos/285255497/pictures/719893507",
       "sizes": [
@@ -474,7 +474,7 @@ const animations = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 7,
+    "index": 17,
     "slug": "raw-stop-motion-coffee-flavor",
     "category": ['animations'],
     "tags": [],
@@ -520,7 +520,7 @@ const animations = [
   {
     "description": null,
     "duration": 14,
-    "name": "RAW CHOCOLATE - Stop Motion",
+    "name": "RAW PRESSERY - CHOCOLATE| STOP MOTION",
     "pictures": {
       "uri": "/videos/285255485/pictures/719893767",
       "sizes": [
@@ -548,7 +548,7 @@ const animations = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 8,
+    "index": 18,
     "slug": "raw-chocolate-stop-motion",
     "category": ['animations'],
     "tags": [],
@@ -594,7 +594,7 @@ const animations = [
   {
     "description": "One of the films from a series of 8 films for AMEX and Ogilvy",
     "duration": 30,
-    "name": "Amex - Rewards",
+    "name": "AMEX | Rewards Film",
     "pictures": {
       "uri": "/videos/255355976/pictures/688153149",
       "sizes": [
@@ -622,7 +622,7 @@ const animations = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 9,
+    "index": 2,
     "slug": "amex-rewards",
     "category": ['animations'],
     "tags": [],
@@ -668,7 +668,7 @@ const animations = [
   {
     "description": null,
     "duration": 18,
-    "name": "Bodhisattva Film Festival Logo",
+    "name": "Bodhisattva International Film Festival | Logo Animation",
     "pictures": {
       "uri": "/videos/255356126/pictures/682741542",
       "sizes": [
@@ -696,7 +696,7 @@ const animations = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 10,
+    "index": 12,
     "slug": "bodhisattva-film-festival-logo",
     "category": ['animations'],
     "tags": [],
@@ -742,7 +742,7 @@ const animations = [
   {
     "description": `An animation film using seamless transitions from one destination to another.`,
     "duration": 50,
-    "name": "AMEX Travel Film",
+    "name": "AMEX | Travel Film",
     "pictures": {
       "uri": "/videos/255356150/pictures/682741548",
       "sizes": [
@@ -816,7 +816,7 @@ const animations = [
   {
     "description": `A quirky animation film using iconic hindi film reference.`,
     "duration": 37,
-    "name": "AMEX Bunty Aur Bubli - Movie tickets promo film",
+    "name": "AMEX | Bunty Aur Bubli ",
     "pictures": {
       "uri": "/videos/255355888/pictures/682741412",
       "sizes": [
@@ -844,7 +844,7 @@ const animations = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 12,
+    "index": 13,
     "slug": "amex-bunty-aur-bubli-movie-tickets-promo-film",
     "category": ['animations'],
     "tags": [],
@@ -890,7 +890,7 @@ const animations = [
   {
     "description": "3D animation for American express and Ogilvy",
     "duration": 30,
-    "name": "AMEX Lost Card Liability",
+    "name": "AMEX | Lost Card Liability Film",
     "pictures": {
       "uri": "/videos/248954451/pictures/674627447",
       "sizes": [
@@ -918,7 +918,7 @@ const animations = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 13,
+    "index": 3,
     "slug": "amex-lost-card-liability",
     "category": ['animations'],
     "tags": [],
@@ -964,7 +964,7 @@ const animations = [
   {
     "description": null,
     "duration": 20,
-    "name": "Quitter - TATA Docomo",
+    "name": "TATA DOCOMO | QUITTER",
     "pictures": {
       "uri": "/videos/175525150/pictures/582616688",
       "sizes": [
@@ -992,7 +992,7 @@ const animations = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 14,
+    "index": 19,
     "slug": "quitter-tata-docomo",
     "category": ['animations'],
     "tags": [],
@@ -1038,7 +1038,7 @@ const animations = [
   {
     "description": "A 2D animation film for Contract",
     "duration": 15,
-    "name": "Animation Film for Tata Docomo",
+    "name": "TATA DOCOMO | LOVE BYTES",
     "pictures": {
       "uri": "/videos/155796620/pictures/556646341",
       "sizes": [
@@ -1066,7 +1066,7 @@ const animations = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 15,
+    "index": 20,
     "slug": "animation-film-for-tata-docomo",
     "category": ['animations'],
     "tags": [],
@@ -1112,7 +1112,7 @@ const animations = [
   {
     "description": "3D animation film for GREY",
     "duration": 20,
-    "name": "Commercial for Zo Rooms",
+    "name": "ZO ROOMS | COMMERICAL",
     "pictures": {
       "uri": "/videos/155795040/pictures/556643738",
       "sizes": [
@@ -1140,7 +1140,7 @@ const animations = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 16,
+    "index": 21,
     "slug": "commercial-for-zo-rooms",
     "category": ['animations'],
     "tags": [],
@@ -1186,7 +1186,7 @@ const animations = [
   {
     "description": null,
     "duration": 49,
-    "name": "Hindi Diwas for Microsoft",
+    "name": "Hindi Diwas | Microsoft",
     "pictures": {
       "uri": "/videos/291659409/pictures/727855631",
       "sizes": [
@@ -1214,7 +1214,7 @@ const animations = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 17,
+    "index": 6,
     "slug": "hindi-diwas-for-microsoft",
     "category": ['animations'],
     "tags": [],
@@ -1260,7 +1260,7 @@ const animations = [
   {
     "description": null,
     "duration": 12,
-    "name": "Vodaphone Preroll 3D animation",
+    "name": "VODAFONE | PRE-ROLL ANIMATION 2",
     "pictures": {
       "uri": "/videos/303470072/pictures/742482685",
       "sizes": [
@@ -1288,7 +1288,7 @@ const animations = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 18,
+    "index": 10,
     "slug": "vodaphone-preroll-3d-animation",
     "category": ['animations'],
     "tags": [],
@@ -1334,7 +1334,7 @@ const animations = [
   {
     "description": null,
     "duration": 13,
-    "name": "Vodafone Pre- roll animation 3D",
+    "name": "VODAFONE | PRE-ROLL ANIMATION 1",
     "pictures": {
       "uri": "/videos/303470028/pictures/742482636",
       "sizes": [
@@ -1362,7 +1362,7 @@ const animations = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 19,
+    "index": 9,
     "slug": "vodafone-pre-roll-animation-3d",
     "category": ['animations'],
     "tags": [],
@@ -1408,7 +1408,7 @@ const animations = [
   {
     "description": null,
     "duration": 43,
-    "name": "100 pipers product animation",
+    "name": "100 PIPERS | Product Film",
     "pictures": {
       "uri": "/videos/454372823/pictures/951307438",
       "sizes": [
@@ -1436,7 +1436,7 @@ const animations = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 20,
+    "index": 4,
     "slug": "100-pipers-product-animation",
     "category": ['animations'],
     "tags": [],
@@ -1482,7 +1482,7 @@ const animations = [
   {
     "description": null,
     "duration": 30,
-    "name": "BPRC Product Film",
+    "name": "BLENDERS PRIDE RESERVE COLLECTION | Product Film",
     "pictures": {
       "uri": "/videos/458456912/pictures/958329973",
       "sizes": [
@@ -1510,7 +1510,7 @@ const animations = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 21,
+    "index": 5,
     "slug": "bprc-product-film",
     "category": ['animations'],
     "tags": [],
