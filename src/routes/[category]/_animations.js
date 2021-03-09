@@ -2,7 +2,7 @@ const animations = [
   {
     "description": `Part of a multi collaborative campaign done for Junior Horlicks. These animated films were created on original compositions of renowned artist Rupam Islam.`,
     "duration": 140,
-    "name": "HORLICKS | Geography Film",
+    "name": "HORLICKS | GEOGRAPHY",
     "pictures": {
       "uri": "/videos/339508734/pictures/787557633",
       "sizes": [
@@ -76,7 +76,7 @@ const animations = [
   {
     "description": "Time is a funny thing. \nThe first brand films for AMEX in India.",
     "duration": 30,
-    "name": "AMEX | Service Film",
+    "name": "AMEX | SERVICE FILM",
     "pictures": {
       "uri": "/videos/248954397/pictures/674627413",
       "sizes": [
@@ -298,7 +298,7 @@ const animations = [
   {
     "description": null,
     "duration": 148,
-    "name": "HORLICKS | History Film",
+    "name": "HORLICKS | HISTORY",
     "pictures": {
       "uri": "/videos/310045329/pictures/750555924",
       "sizes": [
@@ -594,7 +594,7 @@ const animations = [
   {
     "description": "One of the films from a series of 8 films for AMEX and Ogilvy",
     "duration": 30,
-    "name": "AMEX | Rewards Film",
+    "name": "AMEX | REWARDS FILM",
     "pictures": {
       "uri": "/videos/255355976/pictures/688153149",
       "sizes": [
@@ -668,7 +668,7 @@ const animations = [
   {
     "description": null,
     "duration": 18,
-    "name": "Bodhisattva International Film Festival | Logo Animation",
+    "name": "BODHISATTVA INTERNATIONAL FILM FESTIVAL | LOGO ANIMATION",
     "pictures": {
       "uri": "/videos/255356126/pictures/682741542",
       "sizes": [
@@ -742,7 +742,7 @@ const animations = [
   {
     "description": `An animation film using seamless transitions from one destination to another.`,
     "duration": 50,
-    "name": "AMEX | Travel Film",
+    "name": "AMEX | TRAVEL FILM",
     "pictures": {
       "uri": "/videos/255356150/pictures/682741548",
       "sizes": [
@@ -816,7 +816,7 @@ const animations = [
   {
     "description": `A quirky animation film using iconic hindi film reference.`,
     "duration": 37,
-    "name": "AMEX | Bunty Aur Bubli ",
+    "name": "AMEX | BUNTY AUR BUBLI",
     "pictures": {
       "uri": "/videos/255355888/pictures/682741412",
       "sizes": [
@@ -890,7 +890,7 @@ const animations = [
   {
     "description": "3D animation for American express and Ogilvy",
     "duration": 30,
-    "name": "AMEX | Lost Card Liability Film",
+    "name": "AMEX | LOST CARD LIABILITY FILM",
     "pictures": {
       "uri": "/videos/248954451/pictures/674627447",
       "sizes": [
@@ -1186,7 +1186,7 @@ const animations = [
   {
     "description": null,
     "duration": 49,
-    "name": "Hindi Diwas | Microsoft",
+    "name": "MICROSOFT | HINDI DIWAS",
     "pictures": {
       "uri": "/videos/291659409/pictures/727855631",
       "sizes": [
@@ -1408,7 +1408,7 @@ const animations = [
   {
     "description": null,
     "duration": 43,
-    "name": "100 PIPERS | Product Film",
+    "name": "100 PIPERS | PRODUCT FILM",
     "pictures": {
       "uri": "/videos/454372823/pictures/951307438",
       "sizes": [
@@ -1482,7 +1482,7 @@ const animations = [
   {
     "description": null,
     "duration": 30,
-    "name": "BLENDERS PRIDE RESERVE COLLECTION | Product Film",
+    "name": "BLENDERS PRIDE RESERVE COLLECTION | PRODUCT FILM",
     "pictures": {
       "uri": "/videos/458456912/pictures/958329973",
       "sizes": [
