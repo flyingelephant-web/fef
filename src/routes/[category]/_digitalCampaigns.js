@@ -2,7 +2,7 @@ const digitalCampaigns = [
   {
     "description": `A film done pro-bono executed completely in-house just because we care for the environment and support all initiatives that believe in the cause.`,
     "duration": 99,
-    "name": "Chakr Digital Film - Goddess Kali fights pollution",
+    "name": "CHAKR INNOVATION | GODDESS KAALI FIGHTS POLLUTION",
     "pictures": {
       "uri": "/videos/404934901/pictures/874945063",
       "sizes": [
@@ -33,7 +33,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 1,
+    "index": 10,
     "slug": "chakr-digital-film-goddess-kali-fights-pollution",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -79,7 +79,7 @@ const digitalCampaigns = [
   {
     "description": `We must go on Inda: A film executed during lockdown using stock shots and shoot from home footage to create an impactful film with a dramatic origial composition.`,
     "duration": 60,
-    "name": "Commercial for OYO 'Must Go On India'",
+    "name": "OYO | INDIA MUST GO ON'",
     "pictures": {
       "uri": "/videos/404926602/pictures/874936278",
       "sizes": [
@@ -110,7 +110,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 2,
+    "index": 11,
     "slug": "commercial-for-oyo-must-go-on-india",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -156,7 +156,7 @@ const digitalCampaigns = [
   {
     "description": `A first for Pernod Richard India's premium malt brands- The Glenlivet, Aberlour, Ballentine's, Chivas Regal and Royal Salute. A travel series shot with actor Kunal Kapoor across Scotland in the peak of winter! Each episode was carefully crafterd to integrate individual malt brand philosophy into content beyond just the distilleries.`,
     "duration": 60,
-    "name": "Series Promo - Spirit of Scotland",
+    "name": "SPIRIT OF SCOTLAND",
     "pictures": {
       "uri": "/videos/404927617/pictures/874937441",
       "sizes": [
@@ -187,7 +187,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 3,
+    "index": 1,
     "slug": "series-promo-spirit-of-scotland",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -233,7 +233,7 @@ const digitalCampaigns = [
   {
     "description": `A film that was close to our heart. Won two silver and a bronze at the NYF Advertising Award 2020. Nominated for OneShow. A film that captured the journey of 3 deaf-blind achievers whose lives took a whole new meaning with the use of Samsung's revolutionary Goodvibes technology.`,
     "duration": 282,
-    "name": "Director's Cut- Samsung Good Vibes",
+    "name": "SAMSUNG GOODVIBES | DIRECTOR'S CUT",
     "pictures": {
       "uri": "/videos/428447524/pictures/908036581",
       "sizes": [
@@ -264,7 +264,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 4,
+    "index": 5,
     "slug": "directors-cut-samsung-good-vibes",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -310,7 +310,7 @@ const digitalCampaigns = [
   {
     "description": `Winner of silver award at ABBYs, one silver and one bronze at Goa Fest and a finalist at the NYF Festival 2019. This film captured the true story of the voice behind Samsung Bixby Voice Forever.`,
     "duration": 236,
-    "name": "SAMSUNG BIXBY | DIRECTORS CUT",
+    "name": "SAMSUNG BIXBY | DIRECTOR'S CUT",
     "pictures": {
       "uri": "/videos/344516473/pictures/794019950",
       "sizes": [
@@ -341,7 +341,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 5,
+    "index": 6,
     "slug": "samsung-bixby-directors-cut",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -387,7 +387,7 @@ const digitalCampaigns = [
   {
     "description": `A series of 5 films shot across India in just 20 days showcasing iconic travel destinations.`,
     "duration": 95,
-    "name": "Buddhist Trail - Ministry of Tourism- Director's Cut",
+    "name": "MINISTRY OF TOURISM x FOX LIFE | BUDDHIST TRAILS",
     "pictures": {
       "uri": "/videos/327946334/pictures/772357756",
       "sizes": [
@@ -418,7 +418,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 6,
+    "index": 2,
     "slug": "buddhist-trail-ministry-of-tourism-directors-cut",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -464,7 +464,7 @@ const digitalCampaigns = [
   {
     "description": `A series of 5 films shot across India in just 20 days showcasing iconic travel destinations.`,
     "duration": 123,
-    "name": "Rural Tourism - Ministry of Tourism - Director's Cut",
+    "name": "MINISTRY OF TOURISM x FOX LIFE | RURAL TOURISM",
     "pictures": {
       "uri": "/videos/327946514/pictures/772358169",
       "sizes": [
@@ -495,7 +495,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 7,
+    "index": 3,
     "slug": "rural-tourism-ministry-of-tourism-directors-cut",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -541,7 +541,7 @@ const digitalCampaigns = [
   {
     "description": null,
     "duration": 152,
-    "name": "Directors Cut - TOUK Royal Enfield",
+    "name": "ROYAL ENFIELD | TOUR OF UTTARAKHAND",
     "pictures": {
       "uri": "/videos/250756936/pictures/676937283",
       "sizes": [
@@ -572,7 +572,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 8,
+    "index": 16,
     "slug": "directors-cut-touk-royal-enfield",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -618,7 +618,7 @@ const digitalCampaigns = [
   {
     "description": null,
     "duration": 116,
-    "name": "Tara's Story Digital Film - Gautam Gambhir Foundation",
+    "name": "GAUTAM GAMBHIR FOUNDATION | TARA'S STORY",
     "pictures": {
       "uri": "/videos/262968235/pictures/692378284",
       "sizes": [
@@ -649,7 +649,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 9,
+    "index": 20,
     "slug": "taras-story-digital-film-gautam-gambhir-foundation",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -695,7 +695,7 @@ const digitalCampaigns = [
   {
     "description": null,
     "duration": 58,
-    "name": "Tara's Story Commercial- Gautam Gambhir Foundation",
+    "name": "GAUTAM GAMBHIR FOUNDATION | TARA'S STORY",
     "pictures": {
       "uri": "/videos/262968003/pictures/692378122",
       "sizes": [
@@ -726,7 +726,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 10,
+    "index": 21,
     "slug": "taras-story-commercial-gautam-gambhir-foundation",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -772,7 +772,7 @@ const digitalCampaigns = [
   {
     "description": "A series of digital films for Cox and Kings",
     "duration": 143,
-    "name": "Dir's Cut - The jungle Whisperers",
+    "name": "COX N KINGS | JUNGLE WHISPERERS",
     "pictures": {
       "uri": "/videos/259321862/pictures/688153413",
       "sizes": [
@@ -803,7 +803,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 11,
+    "index": 14,
     "slug": "dirs-cut-the-jungle-whisperers",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -849,7 +849,7 @@ const digitalCampaigns = [
   {
     "description": null,
     "duration": 76,
-    "name": "Directors Cut - Pench and Tadoba National Park",
+    "name": "COX N KINGS | PENCH & TADOBA NATIONAL PARK",
     "pictures": {
       "uri": "/videos/177997888/pictures/585510719",
       "sizes": [
@@ -880,7 +880,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 12,
+    "index": 15,
     "slug": "directors-cut-pench-and-tadoba-national-park",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -926,7 +926,7 @@ const digitalCampaigns = [
   {
     "description": null,
     "duration": 16,
-    "name": "Raw Stop Motion - Coffee flavor",
+    "name": "RAW PRESSERY | COFFEE STOP MOTION",
     "pictures": {
       "uri": "/videos/285255497/pictures/719893507",
       "sizes": [
@@ -957,7 +957,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 13,
+    "index": 8,
     "slug": "raw-stop-motion-coffee-flavor",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1003,7 +1003,7 @@ const digitalCampaigns = [
   {
     "description": null,
     "duration": 14,
-    "name": "RAW CHOCOLATE - Stop Motion",
+    "name": "RAW PRESSERY | CHOCOLATE STOP MOTION",
     "pictures": {
       "uri": "/videos/285255485/pictures/719893767",
       "sizes": [
@@ -1034,7 +1034,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 14,
+    "index": 9,
     "slug": "raw-chocolate-stop-motion",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1080,7 +1080,7 @@ const digitalCampaigns = [
   {
     "description": null,
     "duration": 17,
-    "name": "RAW TURMERIC - Stop Motion",
+    "name": "RAW PRESSERY | TURMERIC STOP MOTION",
     "pictures": {
       "uri": "/videos/285255513/pictures/719893248",
       "sizes": [
@@ -1111,7 +1111,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 15,
+    "index": 12,
     "slug": "raw-turmeric-stop-motion",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1157,7 +1157,7 @@ const digitalCampaigns = [
   {
     "description": "A series of Films for Sensodyne shot across 6 cities across India",
     "duration": 84,
-    "name": "Sensodyne Food Walk - Kolkata Chapter",
+    "name": "SENSODYNE FOOD WALK | KOLKATA",
     "pictures": {
       "uri": "/videos/255360712/pictures/688154628",
       "sizes": [
@@ -1188,7 +1188,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 16,
+    "index": 13,
     "slug": "sensodyne-food-walk-kolkata-chapter",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1234,7 +1234,7 @@ const digitalCampaigns = [
   {
     "description": null,
     "duration": 57,
-    "name": "Grilled promo for Fox Life",
+    "name": "FOX LIFE | GRILLED PROMO",
     "pictures": {
       "uri": "/videos/259320870/pictures/688155059",
       "sizes": [
@@ -1265,7 +1265,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 17,
+    "index": 24,
     "slug": "grilled-promo-for-fox-life",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1311,7 +1311,7 @@ const digitalCampaigns = [
   {
     "description": "Pani pe kabaddi for an NGO wateraid",
     "duration": 43,
-    "name": "Wateraid - Director's cut",
+    "name": "WATERAID | PAANI PE KABBADDI",
     "pictures": {
       "uri": "/videos/255361085/pictures/688153757",
       "sizes": [
@@ -1342,7 +1342,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 18,
+    "index": 22,
     "slug": "wateraid-directors-cut",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1388,7 +1388,7 @@ const digitalCampaigns = [
   {
     "description": "A series of films for the restaurant Niche for Tv and web promotions",
     "duration": 100,
-    "name": "Niche Film",
+    "name": "NICHE | RESTAURANT FILM",
     "pictures": {
       "uri": "/videos/255360769/pictures/682747682",
       "sizes": [
@@ -1419,7 +1419,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 19,
+    "index": 17,
     "slug": "niche-film",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1465,7 +1465,7 @@ const digitalCampaigns = [
   {
     "description": "Food in all its Glory! Farzi Cafe gurgaon.",
     "duration": 54,
-    "name": "Digital Film for Farzi Cafe",
+    "name": "FARZI CAFE | RESTAURANT FILM",
     "pictures": {
       "uri": "/videos/155795189/pictures/556645319",
       "sizes": [
@@ -1496,7 +1496,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 20,
+    "index": 18,
     "slug": "digital-film-for-farzi-cafe",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1619,7 +1619,7 @@ const digitalCampaigns = [
   {
     "description": null,
     "duration": 80,
-    "name": "Tanddav Film",
+    "name": "TANDDAV | RESTAURANT FILM",
     "pictures": {
       "uri": "/videos/255361063/pictures/682747648",
       "sizes": [
@@ -1650,7 +1650,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 22,
+    "index": 19,
     "slug": "tanddav-film",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1696,7 +1696,7 @@ const digitalCampaigns = [
   {
     "description": null,
     "duration": 43,
-    "name": "FOX Grilled Promo",
+    "name": "FOX LIFE | GRILLED PROMO",
     "pictures": {
       "uri": "/videos/248954479/pictures/688154757",
       "sizes": [
@@ -1727,7 +1727,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 23,
+    "index": 24,
     "slug": "fox-grilled-promo",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1773,7 +1773,7 @@ const digitalCampaigns = [
   {
     "description": null,
     "duration": 138,
-    "name": "The story of Khadi",
+    "name": "THE STORY OF KHADI",
     "pictures": {
       "uri": "/videos/155798213/pictures/688154852",
       "sizes": [
@@ -1804,7 +1804,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 24,
+    "index": 7,
     "slug": "the-story-of-khadi",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1927,7 +1927,7 @@ const digitalCampaigns = [
   {
     "description": null,
     "duration": 46,
-    "name": "OYO South East Asia Film",
+    "name": "OYO | SOUTH EAST ASIA CAMPAIGN",
     "pictures": {
       "uri": "/videos/458457142/pictures/958330106",
       "sizes": [
@@ -1958,7 +1958,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 26,
+    "index": 23,
     "slug": "oyo-south-east-asia-film",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -2081,7 +2081,7 @@ const digitalCampaigns = [
   {
     "description": null,
     "duration": 45,
-    "name": "100 PIPERS 8YO Brand Film_ Client Cut",
+    "name": "100 PIPERS | PRODUCT FILM",
     "pictures": {
       "uri": "/videos/472144425/pictures/982250832",
       "sizes": [
@@ -2112,7 +2112,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 28,
+    "index": 3,
     "slug": "100-pipers-8yo-brand-film_-client-cut",
     "category": ['digitalCampaigns'],
     "tags": [],
