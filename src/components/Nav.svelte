@@ -48,12 +48,13 @@ import LogoSvg from './UI/LogoSVG.svelte';
 			slug: 'digital-campaigns',
 			hasSubMenu: false
 		},
+		// {
+		// 	id: 7,
+		// 	label: 'Team',
+		// 	slug: 'team',
+		// 	hasSubMenu: false
+		// },
 		{
-			id: 7,
-			label: 'Team',
-			slug: 'team',
-			hasSubMenu: false
-		}, {
 			id: 8,
 			label: 'Contact',
 			slug: 'contact',

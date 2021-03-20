@@ -52,7 +52,7 @@
       <p class="font-fef py-4"><span class="text-gray-500">Add:</span>  DD-12, 2nd Floor, Kalkaji<br>
       New Delhi - 110019
       </p>
-      <p class="font-fef"><span class="text-gray-500">Call:</span> +00-000-0000</p>
+      <p class="font-fef"><span class="text-gray-500">Call:</span> ‎+91 82876 21372</p>
       <p class="font-fef"><span class="text-gray-500">Email</span> info@flyingelephantfilms.com</p>
       <div class="flex py-4">
         {#each socialConnect as social}
