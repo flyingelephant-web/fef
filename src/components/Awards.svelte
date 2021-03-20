@@ -36,12 +36,12 @@ svg: ``,
 name: '',
 logo: 'london_international_awards.png'
 },
-{
-id: 7,
-svg: ``,
-name: '',
-logo: 'new_york_festivals.jpg'
-},
+// {
+// id: 7,
+// svg: ``,
+// name: '',
+// logo: 'new_york_festivals.jpg'
+// },
 {
 id: 8,
 svg: ``,
