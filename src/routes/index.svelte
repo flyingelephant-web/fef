@@ -1,26 +1,33 @@
 <script>
 	import ClientLogos from '../components/ClientLogos.svelte';
+	import ComingSoon from '../components/ComingSoon.svelte';
 	import Team from '../components/Team.svelte';
-	import Testimonials from '../components/Testimonials.svelte'
+		import HomeVideo from '../components/HomeVideo.svelte'
+	import About from '../components/About.svelte'
+	import Awards from '../components/Awards.svelte';
+import Services from '../components/Services.svelte';
+import OurFilms from '../components/OurFilms.svelte';
+import Gallery from '../components/Gallery.svelte';
+let isOpen = true;
+
 </script>
 
-<style lang="postcss">
-
-.btn {
-    @apply bg-red-500 text-red-100 uppercase tracking-wide font-semibold
-      text-4xl px-4 py-3 shadow-lg rounded;
-  }
-</style>
-
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Flying Elephants Films</title>
 </svelte:head>
+<HomeVideo></HomeVideo>
 
-<section>
+<About></About>
+<Awards></Awards>
+<Services></Services>
 
-</section>
+<OurFilms></OurFilms>
 
-
-<Team></Team>
+<Gallery></Gallery>
 
 <ClientLogos></ClientLogos>
+{#if isOpen}
+
+{/if}
+<!-- <ComingSoon></ComingSoon> -->
+

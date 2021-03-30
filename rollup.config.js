@@ -26,7 +26,8 @@ export default {
 		plugins: [
 			replace({
 				'process.browser': true,
-				'process.env.NODE_ENV': JSON.stringify(mode)
+				'process.env.NODE_ENV': JSON.stringify(mode),
+				'outros.c.push': 'if (outros === undefined) { block.o(local); return }\noutros.c.push'
 			}),
 			svelte({
 				dev,
@@ -36,9 +37,13 @@ export default {
 			}),
 			resolve({
 				browser: true,
-				dedupe: ['svelte']
+				dedupe: ['svelte', 'svelte/transition', 'svelte/internal']
 			}),
-			commonjs(),
+			commonjs({
+				namedExports: {
+					'svelte-swiper': ['Swiper', 'SwiperSlide']
+				}
+			}),
 			css({ output: 'public/build/swiper-bundle.css' }),
 			legacy && babel({
 				extensions: ['.js', '.mjs', '.html', '.svelte'],
@@ -72,7 +77,8 @@ export default {
 		plugins: [
 			replace({
 				'process.browser': false,
-				'process.env.NODE_ENV': JSON.stringify(mode)
+				'process.env.NODE_ENV': JSON.stringify(mode),
+				'outros.c.push': 'if (outros === undefined) { block.o(local); return }\noutros.c.push'
 			}),
 			svelte({
 				generate: 'ssr',
@@ -81,9 +87,13 @@ export default {
 				preprocess
 			}),
 			resolve({
-				dedupe: ['svelte']
+				dedupe: ['svelte', 'svelte/transition', 'svelte/internal']
 			}),
-			commonjs(),
+			commonjs({
+				namedExports: {
+					'svelte-swiper': ['Swiper', 'SwiperSlide']
+				}
+			}),
 			css({ output: 'static/swiper-bundle.css' })
 		],
 		external: Object.keys(pkg.dependencies).concat(require('module').builtinModules),

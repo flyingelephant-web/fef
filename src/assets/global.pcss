@@ -1,25 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 @tailwind base;
-
 @font-face {
 		font-family: 'pb-bold';
-		src: url(/fonts/brandon/Brandon_bld.eot);
-		src: local("☺"), url(fonts/Brandon_bld.woff) format("woff"), url(fonts/Brandon_bld.ttf) format("truetype"), url(fonts/Brandon_bld.svg) format("svg");
+		src: url(/fonts/Brandon_bld.eot);
+		src: local("☺"),
+    url(fonts/Brandon_bld.woff) format("woff"),
+    url(fonts/Brandon_bld.ttf) format("truetype"),
+    url(fonts/Brandon_bld.svg) format("svg");
 		font-weight: normal;
 		font-style: normal;
 }
 
 @font-face {
   font-family: 'pb-regular';
-  src: url(/fonts/brandon/Brandon_reg.eot);
-  src: local("☺"), url(fonts/Brandon_reg.woff) format("woff"), url(fonts/Brandon_reg.ttf) format("truetype"), url(fonts/Brandon_reg.svg) format("svg");
+  src: url(/fonts/Brandon_reg.eot);
+  src: local("☺"),
+  url(fonts/Brandon_reg.woff) format("woff"),
+  url(fonts/Brandon_reg.ttf) format("truetype"),
+  url(fonts/Brandon_reg.svg) format("svg");
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'fontfilm';
+  src: url(/fonts/fontfilm.eot);
+  src: url(/fonts/fontfilm2.eot) format('embedded-opentype'),
+       url(fonts/fontfilm.woff2) format('woff2'),
+       url(fonts/fontfilm.woff) format('woff'),
+       url(fonts/fontfilm.ttf) format('truetype'),
+       url(fonts/fontfilm.svg) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --swiper-theme-color: #869791;
 }
 
 body {
   @apply bg-indigo-100;
 }
 
+
+ [class^="fef-services-"]:before, [class*=" fef-services-"]:before {
+  font-family: "fontfilm";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.home-video .vp-sidedock {
+  display: none;
+}
+
+.fef-services-1:before { content: '\e907'; } /* '' */
+.fef-services-2:before { content: '\e908'; } /* '' */
+.fef-services-3:before { content: '\e924'; } /* '' */
+.fef-services-4:before { content: '\e921'; } /* '' */
+
+.testimonial-quote {
+  position: relative;
+  font-family: Playfair Display;
+  line-height: 1.5em;
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.translate-negative-50 {
+  -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.testimonial-quote::before {
+    content: "“";
+    font-family: Playfair Display;
+    position: absolute;
+    font-size: 150px;
+    top: 16px;
+    left: 48%;
+    z-index: 999;
+    color: rgb(0, 0, 0);
+}
+
+.testimonial .swiper-container-testimony {
+  padding-top: 20px !important;
+  overflow-x:hidden;
+  overflow-y: hidden;
+}
+
+.testimony-pagination {
+  width: 10px !important;
+  height: 10px !important;
+  margin: 5px 7px !important;
+}
+
+.testimony-pagination.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: var(--swiper-pagination-color, var(--swiper-theme-color));
+}
+
+.our-films-viewmore {
+   -webkit-transform: translateX(-50%) translateY(-10%);
+    -moz-transform: translateX(-50%) translateY(-10%);
+    -ms-transform: translateX(-50%) translateY(-10%);
+    -o-transform: translateX(-50%) translateY(-10%);
+    transform: translateX(-50%) translateY(-10%);
+    opacity:0;
+}
+
+.our-films-gallery:hover .our-films-description {
+  opacity: 0;
+}
+
+.our-films-gallery:hover .our-films-viewmore {
+  opacity:1;
+   -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.our-films-gallery:hover img {
+    background: rgba(0,0,0,0.5);
+    opacity: 1;
+}
+
+#carousel-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  #carousel-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .carousel-container button {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: transparent;
+   border: none;
+ }
+ .carousel-container button:focus {
+   outline: auto;
+ }
+  #left {
+    left: 10px;
+  }
+  #right {
+    right: 10px;
+  }
+
+  .bg {
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.86);
+  }
+
+  .window-wrap {
+    position: relative;
+    margin: 2rem;
+    max-height: 100%;
+  }
+
+  .window {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 2rem auto;
+    color: black;
+  }
+
+  .content {
+    position: relative;
+    padding: 1rem;
+    max-height: calc(100vh - 4rem);
+    overflow: auto;
+  }
+
+  .close {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1000;
+    top: 1rem;
+    right: 1rem;
+    margin: 0;
+    padding: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 0;
+    color: black;
+    border-radius: 1.5rem;
+    background: white;
+    box-shadow: 0 0 0 1px black;
+    transition: transform 0.2s cubic-bezier(0.25, 0.1, 0.25, 1),
+                background 0.2s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -webkit-appearance: none;
+  }
+
+  .close:before, .close:after {
+    content: '';
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    width: 1rem;
+    height: 1px;
+    background: black;
+    transform-origin: center;
+    transition: height 0.2s cubic-bezier(0.25, 0.1, 0.25, 1),
+                background 0.2s cubic-bezier(0.25, 0.1, 0.25, 1);
+  }
+
+  .close:before {
+    -webkit-transform: translate(0, -50%) rotate(45deg);
+    -moz-transform: translate(0, -50%) rotate(45deg);
+    transform: translate(0, -50%) rotate(45deg);
+    left: 0.25rem;
+  }
+
+  .close:after {
+    -webkit-transform: translate(0, -50%) rotate(-45deg);
+    -moz-transform: translate(0, -50%) rotate(-45deg);
+    transform: translate(0, -50%) rotate(-45deg);
+    left: 0.25rem;
+  }
+
+  .close:hover {
+    background: black;
+  }
+
+  .close:hover:before, .close:hover:after {
+    height: 2px;
+    background: white;
+  }
+
+  .close:focus {
+    border-color: #3399ff;
+    box-shadow: 0 0 0 2px #3399ff;
+  }
+
+  .close:active {
+    transform: scale(0.9);
+  }
+
+  .close:hover, .close:focus, .close:active {
+    outline: none;
+  }
+
+  .post-image a::before {
+    content: "";
+    background: url(/play.png) no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: 11%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .dropdown:hover .dropdown-menu {
+      display: block;
+  }
 
 
 @tailwind components;

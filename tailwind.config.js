@@ -17,12 +17,42 @@ module.exports = {
   theme: {
     fontFamily: {
       'fef': ['pb-bold'],
-      'body': ['Open Sans']
+      'fontfilm': ['fontfilm'],
+      'pb-regular': ['pb-regular'],
+      'playfair': ['Playfair Display']
     },
     container: {
       center: true,
     },
-    extend: {},
+    extend: {
+      padding: { "fluid-video": "56.25%" },
+      letterSpacing: {
+        'fef' : '0.55em',
+        'fef-sm' : '0.25em',
+      },
+      inset: {
+        '1/2': '50%'
+      },
+      height: {
+        '18': '4.5rem',
+        '22': '5.5rem',
+        '1/2': '50%'
+      },
+      maxWidth: {
+        '6-1/2': '6.5rem',
+        '8': '8rem',
+        '10': '10rem',
+        'screen-4xl': '1920px',
+        'screen-3xl': '1536px'
+      },
+      screens: {
+        'xs': '480px'
+      },
+      gridTemplateColumns: {
+        'awards': 'repeat(auto-fill, minmax(250px, 1fr))',
+        'clients': 'repeat(auto-fill, minmax(250px, 1fr))',
+      }
+    },
   },
   variants: {},
   plugins: [require('@tailwindcss/typography')],
