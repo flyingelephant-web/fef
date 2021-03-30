@@ -24,7 +24,7 @@
 </script>
 
 <svelte:head>
-	<title>{params.category}</title>
+	<title>{helper.capitalizeFirstLetter(params.category)} - Flying Elephant Films</title>
 </svelte:head>
 
 
