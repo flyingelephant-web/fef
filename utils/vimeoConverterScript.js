@@ -7,8 +7,9 @@ const digitalCampaign = require('../src/data/digital-campaign');
 const documentaries = require('../src/data/documentaries');
 const influencerFilms = require('../src/data/influencer-films');
 const tvShows = require('../src/data/tv-shows');
+const changes = require('./data/change-09-05-2021')
 
-const currentData = tvShows;
+const currentData = changes;
 
 function convertToSlug(Text)
 {
@@ -28,7 +29,8 @@ const organized = _.map(filterFields, film => {
     return _.includes([200, 640, 1280, 1920], size.width)
   })
   film.pictures.sizes = _.uniqBy(images, 'width');
+  film.slug = convertToSlug(film.name)
   return _.merge(film, films[0])
 })
 
-fs.writeFileSync(`./data/tvShows.js`, JSON.stringify(organized));
+fs.writeFileSync(`${__dirname}/data/changes.js`, JSON.stringify(organized));

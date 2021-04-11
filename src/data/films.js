@@ -5,11 +5,11 @@ module.exports = [
     blurb: '',
     content: '',
     type: '',
-    slug: '',
     category: [],
     tags: [],
     articleImage: '',
     thumbnailImage: '',
+    index:'',
     author: [],
     media: [
       {
