@@ -88,7 +88,7 @@ const getCarouselImages = () => {
   {#if $showGalleryModal}
   <Modal>
       <Content Component={Carousel} props={
-        { 'images': carouselImages }
+        { 'images': carouselImages, controlColor: '#fff', imageSpacing: 20 }
       }>
       </Content>
     </Modal>
