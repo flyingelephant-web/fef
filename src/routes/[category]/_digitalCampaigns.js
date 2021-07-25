@@ -1,5 +1,157 @@
 const digitalCampaigns = [
   {
+    "description": "Directed for Epitome Productions.",
+    "duration": 68,
+    "name": "Chivas - Director's Cut",
+    "pictures": {
+      "uri": "/videos/575745848/pictures/1190671965",
+      "active": true,
+      "type": "custom",
+      "sizes": [{
+        "width": 200,
+        "height": 150,
+        "link": "https://i.vimeocdn.com/video/1190671965_200x150?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1190671965_200x150&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      }, {
+        "width": 640,
+        "height": 360,
+        "link": "https://i.vimeocdn.com/video/1190671965_640x360?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1190671965_640x360&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      }, {
+        "width": 1280,
+        "height": 720,
+        "link": "https://i.vimeocdn.com/video/1190671965_1280x720?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1190671965_1280x720&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      }, {
+        "width": 1920,
+        "height": 1080,
+        "link": "https://i.vimeocdn.com/video/1190671965_1920x1080?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1190671965_1920x1080&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      }],
+      "resource_key": "8effb6a48681e044603ea4d97f410510c70708dd",
+      "default_picture": false
+    },
+    "type": "",
+    "uri": "/videos/575745848",
+    "user": {
+      "name": "Flying Elephant Films"
+    },
+    "slug": "chivas-directors-cut",
+    "id": "",
+    "title": "",
+    "blurb": "",
+    "content": "",
+    "category": [],
+    "tags": [],
+    "articleImage": "",
+    "thumbnailImage": "",
+    "index": 1,
+    "author": [],
+    "media": [{
+      "id": "",
+      "mediaType": "",
+      "src": "",
+      "caption": ""
+    }],
+    "crew": [{
+      "id": "",
+      "name": "",
+      "photo": "",
+      "bio": "",
+      "role": ""
+    }],
+    "awards": [{
+      "id": "",
+      "title": "",
+      "year": "",
+      "blurb": "",
+      "reference": "",
+      "image": ""
+    }],
+    "partners": [{
+      "id": "",
+      "name": "",
+      "website": "",
+      "image": ""
+    }]
+  },
+  {
+    "description": null,
+    "duration": 57,
+    "name": "BLENDERS PRIDE RESERVE COLLECTION - Dir Cut",
+    "pictures": {
+      "uri": "/videos/571993934/pictures/1182956811",
+      "active": true,
+      "type": "custom",
+      "sizes": [{
+        "width": 200,
+        "height": 150,
+        "link": "https://i.vimeocdn.com/video/1182956811_200x150?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1182956811_200x150&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      }, {
+        "width": 640,
+        "height": 360,
+        "link": "https://i.vimeocdn.com/video/1182956811_640x360?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1182956811_640x360&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      }, {
+        "width": 1280,
+        "height": 720,
+        "link": "https://i.vimeocdn.com/video/1182956811_1280x720?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1182956811_1280x720&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      }, {
+        "width": 1920,
+        "height": 1080,
+        "link": "https://i.vimeocdn.com/video/1182956811_1920x1080?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1182956811_1920x1080&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      }],
+      "resource_key": "06709945ad551f256d0e36ff320472c38ad10dbb",
+      "default_picture": false
+    },
+    "type": "",
+    "uri": "/videos/571993934",
+    "user": {
+      "name": "Flying Elephant Films"
+    },
+    "slug": "blenders-pride-reserve-collection-dir-cut",
+    "id": "",
+    "title": "",
+    "blurb": "",
+    "content": "",
+    "category": [],
+    "tags": [],
+    "articleImage": "",
+    "thumbnailImage": "",
+    "index": 2,
+    "author": [],
+    "media": [{
+      "id": "",
+      "mediaType": "",
+      "src": "",
+      "caption": ""
+    }],
+    "crew": [{
+      "id": "",
+      "name": "",
+      "photo": "",
+      "bio": "",
+      "role": ""
+    }],
+    "awards": [{
+      "id": "",
+      "title": "",
+      "year": "",
+      "blurb": "",
+      "reference": "",
+      "image": ""
+    }],
+    "partners": [{
+      "id": "",
+      "name": "",
+      "website": "",
+      "image": ""
+    }]
+  },
+  {
     "description": `A film done pro-bono executed completely in-house just because we care for the environment and support all initiatives that believe in the cause.`,
     "duration": 99,
     "name": "CHAKR INNOVATION | GODDESS KAALI FIGHTS POLLUTION",
@@ -33,7 +185,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 10,
+    "index": 3,
     "slug": "chakr-digital-film-goddess-kali-fights-pollution",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -110,7 +262,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 11,
+    "index": 4,
     "slug": "commercial-for-oyo-must-go-on-india",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -187,7 +339,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 1,
+    "index": 5,
     "slug": "series-promo-spirit-of-scotland",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -264,7 +416,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 5,
+    "index": 6,
     "slug": "directors-cut-samsung-good-vibes",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -341,7 +493,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 6,
+    "index": 7,
     "slug": "samsung-bixby-directors-cut",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -418,7 +570,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 2,
+    "index": 8,
     "slug": "buddhist-trail-ministry-of-tourism-directors-cut",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -495,7 +647,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 3,
+    "index": 9,
     "slug": "rural-tourism-ministry-of-tourism-directors-cut",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -572,7 +724,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 16,
+    "index": 10,
     "slug": "directors-cut-touk-royal-enfield",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -649,7 +801,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 20,
+    "index": 11,
     "slug": "taras-story-digital-film-gautam-gambhir-foundation",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -726,7 +878,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 21,
+    "index": 12,
     "slug": "taras-story-commercial-gautam-gambhir-foundation",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -803,7 +955,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 14,
+    "index": 13,
     "slug": "dirs-cut-the-jungle-whisperers",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -880,7 +1032,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 15,
+    "index": 14,
     "slug": "directors-cut-pench-and-tadoba-national-park",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -957,7 +1109,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 8,
+    "index": 15,
     "slug": "raw-stop-motion-coffee-flavor",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1034,7 +1186,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 9,
+    "index": 16,
     "slug": "raw-chocolate-stop-motion",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1111,7 +1263,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 12,
+    "index": 17,
     "slug": "raw-turmeric-stop-motion",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1188,7 +1340,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 13,
+    "index": 18,
     "slug": "sensodyne-food-walk-kolkata-chapter",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1265,7 +1417,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 24,
+    "index": 19,
     "slug": "grilled-promo-for-fox-life",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1342,7 +1494,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 22,
+    "index": 20,
     "slug": "wateraid-directors-cut",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1419,7 +1571,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 17,
+    "index": 21,
     "slug": "niche-film",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1496,7 +1648,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 18,
+    "index": 22,
     "slug": "digital-film-for-farzi-cafe",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1573,7 +1725,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 19,
+    "index": 23,
     "slug": "tanddav-film",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1727,7 +1879,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 7,
+    "index": 25,
     "slug": "the-story-of-khadi",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1804,7 +1956,7 @@ const digitalCampaigns = [
   //   "title": "",
   //   "blurb": "",
   //   "content": "",
-//  "index": 25,
+  //"index": 26,
   //   "slug": "revv-digital-films",
   //   "category": ['digitalCampaigns'],
   //   "tags": [],
@@ -1881,7 +2033,7 @@ const digitalCampaigns = [
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 23,
+    "index": 27,
     "slug": "oyo-south-east-asia-film",
     "category": ['digitalCampaigns'],
     "tags": [],
@@ -1926,87 +2078,86 @@ const digitalCampaigns = [
   },
   {
     "description": null,
-    "duration": 45,
-    "name": "100 PIPERS | PRODUCT FILM",
+    "duration": 35,
+    "name": "Directors Cut 100 Pipers",
     "pictures": {
-      "uri": "/videos/472144425/pictures/982250832",
-      "sizes": [
-        {
-          "width": 200,
-          "link": "https://i.vimeocdn.com/video/982250832_200x150.jpg?r=pad"
-        },
-        {
-          "width": 640,
-          "link": "https://i.vimeocdn.com/video/982250832_640x360.jpg?r=pad"
-        },
-        {
-          "width": 1280,
-          "link": "https://i.vimeocdn.com/video/982250832_1280x720.jpg?r=pad"
-        },
-        {
-          "width": 1920,
-          "link": "https://i.vimeocdn.com/video/982250832_1920x1080.jpg?r=pad"
-        }
-      ]
+      "uri": "/videos/564538591/pictures/1167046401",
+      "active": true,
+      "type": "custom",
+      "sizes": [{
+        "width": 200,
+        "height": 150,
+        "link": "https://i.vimeocdn.com/video/1167046401_200x150?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1167046401_200x150&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      }, {
+        "width": 640,
+        "height": 360,
+        "link": "https://i.vimeocdn.com/video/1167046401_640x360?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1167046401_640x360&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      }, {
+        "width": 1280,
+        "height": 720,
+        "link": "https://i.vimeocdn.com/video/1167046401_1280x720?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1167046401_1280x720&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      }, {
+        "width": 1920,
+        "height": 1080,
+        "link": "https://i.vimeocdn.com/video/1167046401_1920x1080?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1167046401_1920x1080&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      }],
+      "resource_key": "c49b813a67fb1390f9c882b6be1b74513029f63e",
+      "default_picture": false
     },
     "type": "",
-    "uri": "/videos/472144425",
+    "uri": "/videos/564538591",
     "user": {
       "name": "Flying Elephant Films"
     },
+    "slug": "directors-cut-100-pipers",
     "id": "",
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 3,
-    "slug": "100-pipers-8yo-brand-film_-client-cut",
-    "category": ['digitalCampaigns'],
+    "category": [],
     "tags": [],
     "articleImage": "",
     "thumbnailImage": "",
+    "index": 28,
     "author": [],
-    "media": [
-      {
-        "id": "",
-        "mediaType": "",
-        "src": "",
-        "caption": ""
-      }
-    ],
-    "crew": [
-      {
-        "id": "",
-        "name": "",
-        "photo": "",
-        "bio": "",
-        "role": ""
-      }
-    ],
-    "awards": [
-      {
-        "id": "",
-        "title": "",
-        "year": "",
-        "blurb": "",
-        "reference": "",
-        "image": ""
-      }
-    ],
-    "partners": [
-      {
-        "id": "",
-        "name": "",
-        "website": "",
-        "image": ""
-      }
-    ]
+    "media": [{
+      "id": "",
+      "mediaType": "",
+      "src": "",
+      "caption": ""
+    }],
+    "crew": [{
+      "id": "",
+      "name": "",
+      "photo": "",
+      "bio": "",
+      "role": ""
+    }],
+    "awards": [{
+      "id": "",
+      "title": "",
+      "year": "",
+      "blurb": "",
+      "reference": "",
+      "image": ""
+    }],
+    "partners": [{
+      "id": "",
+      "name": "",
+      "website": "",
+      "image": ""
+    }]
   }
 ]
 
 
 
 digitalCampaigns.forEach(digitalCampaign => {
-	digitalCampaign.content = digitalCampaign.content.replace(/^\t{3}/gm, '');
+  digitalCampaign.content = digitalCampaign.content.replace(/^\t{3}/gm, '');
 });
 
 export default digitalCampaigns;

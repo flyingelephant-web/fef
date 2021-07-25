@@ -3,45 +3,53 @@ import RightArrow from "./UI/RightArrow.svelte";
 import _ from 'lodash'
 import Helper from '../helpers/util'
 const helper = new Helper();
-  let ourFilms = [
-    {
+  let ourFilms = [{
       "description": null,
-      "duration": 60,
-      "name": "Series Promo - Spirit of Scotland",
+      "duration": 43,
+      "name": "Chivas - Made of Character. Dir Cut",
       "pictures": {
-        "uri": "/videos/404927617/pictures/874937441",
+        "uri": "/videos/578392871/pictures/1196465540",
+        "active": true,
+        "type": "custom",
         "sizes": [{
-            "width": 200,
-            "link": "https://i.vimeocdn.com/video/874937441_200x150.jpg?r=pad"
-          },
-          {
-            "width": 640,
-            "link": "https://i.vimeocdn.com/video/874937441_640x360.jpg?r=pad"
-          },
-          {
-            "width": 1280,
-            "link": "https://i.vimeocdn.com/video/874937441_1280x720.jpg?r=pad"
-          },
-          {
-            "width": 1920,
-            "link": "https://i.vimeocdn.com/video/874937441_1920x1080.jpg?r=pad"
-          }
-        ]
+          "width": 200,
+          "height": 150,
+          "link": "https://i.vimeocdn.com/video/1196465540_200x150?r=pad",
+          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1196465540_200x150&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+        }, {
+          "width": 640,
+          "height": 360,
+          "link": "https://i.vimeocdn.com/video/1196465540_640x360?r=pad",
+          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1196465540_640x360&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+        }, {
+          "width": 1280,
+          "height": 720,
+          "link": "https://i.vimeocdn.com/video/1196465540_1280x720?r=pad",
+          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1196465540_1280x720&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+        }, {
+          "width": 1920,
+          "height": 1080,
+          "link": "https://i.vimeocdn.com/video/1196465540_1920x1080?r=pad",
+          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1196465540_1920x1080&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+        }],
+        "resource_key": "861aa15c7ff94cee23a62becf034c3f74d6399b1",
+        "default_picture": false
       },
       "type": "",
-      "uri": "/videos/404927617",
+      "uri": "/videos/578392871",
       "user": {
         "name": "Flying Elephant Films"
       },
+      "slug": "chivas-made-of-character-dir-cut",
       "id": "",
       "title": "",
       "blurb": "",
       "content": "",
-      "slug": "series-promo-spirit-of-scotland",
-      "category": ['tvShows'],
+      "category": ['commercials'],
       "tags": [],
       "articleImage": "",
       "thumbnailImage": "",
+      "index": 1,
       "author": [],
       "media": [{
         "id": "",
@@ -74,42 +82,51 @@ const helper = new Helper();
     },
     {
       "description": null,
-      "duration": 45,
-      "name": "OYO Road Trippin",
+      "duration": 57,
+      "name": "BLENDERS PRIDE RESERVE COLLECTION - Dir Cut",
       "pictures": {
-        "uri": "/videos/455723292/pictures/958382881",
+        "uri": "/videos/571993934/pictures/1182956811",
+        "active": true,
+        "type": "custom",
         "sizes": [{
-            "width": 200,
-            "link": "https://i.vimeocdn.com/video/958382881_200x150.jpg?r=pad"
-          },
-          {
-            "width": 640,
-            "link": "https://i.vimeocdn.com/video/958382881_640x360.jpg?r=pad"
-          },
-          {
-            "width": 1280,
-            "link": "https://i.vimeocdn.com/video/958382881_1280x720.jpg?r=pad"
-          },
-          {
-            "width": 1920,
-            "link": "https://i.vimeocdn.com/video/958382881_1920x1080.jpg?r=pad"
-          }
-        ]
+          "width": 200,
+          "height": 150,
+          "link": "https://i.vimeocdn.com/video/1182956811_200x150?r=pad",
+          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1182956811_200x150&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+        }, {
+          "width": 640,
+          "height": 360,
+          "link": "https://i.vimeocdn.com/video/1182956811_640x360?r=pad",
+          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1182956811_640x360&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+        }, {
+          "width": 1280,
+          "height": 720,
+          "link": "https://i.vimeocdn.com/video/1182956811_1280x720?r=pad",
+          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1182956811_1280x720&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+        }, {
+          "width": 1920,
+          "height": 1080,
+          "link": "https://i.vimeocdn.com/video/1182956811_1920x1080?r=pad",
+          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1182956811_1920x1080&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+        }],
+        "resource_key": "06709945ad551f256d0e36ff320472c38ad10dbb",
+        "default_picture": false
       },
       "type": "",
-      "uri": "/videos/455723292",
+      "uri": "/videos/571993934",
       "user": {
         "name": "Flying Elephant Films"
       },
+      "slug": "blenders-pride-reserve-collection-dir-cut",
       "id": "",
       "title": "",
       "blurb": "",
       "content": "",
-      "slug": "oyo-road-trippin",
-      "category": ['commercials'],
+      "category": ['digital-campaigns'],
       "tags": [],
       "articleImage": "",
       "thumbnailImage": "",
+      "index": 2,
       "author": [],
       "media": [{
         "id": "",
@@ -142,42 +159,55 @@ const helper = new Helper();
     },
     {
       "description": null,
-      "duration": 45,
-      "name": "100 PIPERS 8YO Brand Film_ Client Cut",
+      "duration": 30,
+      "name": "Lacto Calamine TVC",
       "pictures": {
-        "uri": "/videos/472144425/pictures/982250832",
+        "uri": "/videos/534332753/pictures/1106107720",
+        "active": true,
+        "type": "custom",
         "sizes": [{
             "width": 200,
-            "link": "https://i.vimeocdn.com/video/982250832_200x150.jpg?r=pad"
+            "height": 150,
+            "link": "https://i.vimeocdn.com/video/1106107720_200x150.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1106107720_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
           },
           {
             "width": 640,
-            "link": "https://i.vimeocdn.com/video/982250832_640x360.jpg?r=pad"
+            "height": 360,
+            "link": "https://i.vimeocdn.com/video/1106107720_640x360.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1106107720_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
           },
           {
             "width": 1280,
-            "link": "https://i.vimeocdn.com/video/982250832_1280x720.jpg?r=pad"
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/1106107720_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1106107720_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
           },
           {
             "width": 1920,
-            "link": "https://i.vimeocdn.com/video/982250832_1920x1080.jpg?r=pad"
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/1106107720_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1106107720_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
           }
-        ]
+        ],
+        "resource_key": "db4b787325ad22193327eee496f8e719388bc804",
+        "default_picture": false
       },
       "type": "",
-      "uri": "/videos/472144425",
+      "uri": "/videos/534332753",
       "user": {
         "name": "Flying Elephant Films"
       },
-      "id": "4",
+      "slug": "lacto-calamine-tvc",
+      "id": "",
       "title": "",
       "blurb": "",
       "content": "",
-      "slug": "100-pipers-8yo-brand-film_-client-cut",
-      "category": ['digitalCampaigns'],
+      "category": ['commercials'],
       "tags": [],
       "articleImage": "",
       "thumbnailImage": "",
+      "index": 5,
       "author": [],
       "media": [{
         "id": "",
@@ -209,82 +239,86 @@ const helper = new Helper();
       "featured": false
     },
     {
-    "description": null,
-    "duration": 135,
-    "name": "Commercial for HP Printers",
-    "pictures": {
-      "uri": "/videos/404922291/pictures/874932493",
-      "sizes": [
-        {
-          "width": 200,
-          "link": "https://i.vimeocdn.com/video/874932493_200x150.jpg?r=pad"
-        },
-        {
-          "width": 640,
-          "link": "https://i.vimeocdn.com/video/874932493_640x360.jpg?r=pad"
-        },
-        {
-          "width": 1280,
-          "link": "https://i.vimeocdn.com/video/874932493_1280x720.jpg?r=pad"
-        },
-        {
-          "width": 1920,
-          "link": "https://i.vimeocdn.com/video/874932493_1920x1080.jpg?r=pad"
-        }
-      ]
-    },
-    "type": "",
-    "uri": "/videos/404922291",
-    "user": {
-      "name": "Flying Elephant Films"
-    },
-    "id": "",
-    "title": "",
-    "blurb": "",
-    "content": "",
-    "slug": "commercial-for-hp-printers",
-    "category": ['commercials'],
-    "tags": [],
-    "articleImage": "",
-    "thumbnailImage": "",
-    "author": [],
-    "media": [
-      {
+      "description": null,
+      "duration": 30,
+      "name": "TETMOSOL TVC",
+      "pictures": {
+        "uri": "/videos/534332862/pictures/1106106110",
+        "active": true,
+        "type": "custom",
+        "sizes": [{
+            "width": 200,
+            "height": 150,
+            "link": "https://i.vimeocdn.com/video/1106106110_200x150.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1106106110_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 640,
+            "height": 360,
+            "link": "https://i.vimeocdn.com/video/1106106110_640x360.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1106106110_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/1106106110_1280x720.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1106106110_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link": "https://i.vimeocdn.com/video/1106106110_1920x1080.jpg?r=pad",
+            "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1106106110_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          }
+        ],
+        "resource_key": "e81ff47b9c9ad7d39b38d07f081235f53558060f",
+        "default_picture": false
+      },
+      "type": "",
+      "uri": "/videos/534332862",
+      "user": {
+        "name": "Flying Elephant Films"
+      },
+      "slug": "tetmosol-tvc",
+      "id": "",
+      "title": "",
+      "blurb": "",
+      "content": "",
+      "category": ['commercials'],
+      "tags": [],
+      "articleImage": "",
+      "thumbnailImage": "",
+      "index": 4,
+      "author": [],
+      "media": [{
         "id": "",
         "mediaType": "",
         "src": "",
         "caption": ""
-      }
-    ],
-    "crew": [
-      {
+      }],
+      "crew": [{
         "id": "",
         "name": "",
         "photo": "",
         "bio": "",
         "role": ""
-      }
-    ],
-    "awards": [
-      {
+      }],
+      "awards": [{
         "id": "",
         "title": "",
         "year": "",
         "blurb": "",
         "reference": "",
         "image": ""
-      }
-    ],
-    "partners": [
-      {
+      }],
+      "partners": [{
         "id": "",
         "name": "",
         "website": "",
         "image": ""
-      }
-    ],
-    featured: false
-  }
+      }],
+      "featured": false
+    }
   ]
 
   const getImage = (images, size) => {
@@ -336,7 +370,7 @@ const helper = new Helper();
                 </p>
               </div>
               <div class="text-center">
-                <a href="{_.kebabCase(film.category[0])}"><h1 class="font-playfair text-white font-bold lg:text-xl leading-10">{film.name}</h1></a>
+                <a href="{_.kebabCase(film.category[0])}/{film.slug}"><h1 class="font-playfair text-white font-bold lg:text-xl leading-10">{film.name}</h1></a>
               </div>
             </div>
           </div>

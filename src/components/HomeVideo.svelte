@@ -5,10 +5,10 @@ let videos = [{
   path: 'https://player.vimeo.com/video/480711691?autoplay=0&title=0&byline=0&portrait=0',
   id: 'image1'
 },{
-  path: 'https://player.vimeo.com/video/404927617?autoplay=0&title=0&byline=0&portrait=0',
+  path: 'https://player.vimeo.com/video/575745848?autoplay=0&title=0&byline=0&portrait=0',
   id: 'image2'
 },{
-  path: 'https://player.vimeo.com/video/345425681?autoplay=0&title=0&byline=0&portrait=0',
+  path: 'https://player.vimeo.com/video/571993934?autoplay=0&title=0&byline=0&portrait=0',
   id: 'image3'
 }]
 

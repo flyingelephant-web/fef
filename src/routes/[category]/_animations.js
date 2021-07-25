@@ -1407,77 +1407,79 @@ const animations = [
   },
   {
     "description": null,
-    "duration": 43,
-    "name": "100 PIPERS | PRODUCT FILM",
+    "duration": 35,
+    "name": "Directors Cut 100 Pipers",
     "pictures": {
-      "uri": "/videos/454372823/pictures/951307438",
-      "sizes": [
-        {
-          "width": 200,
-          "link": "https://i.vimeocdn.com/video/951307438_200x150.jpg?r=pad"
-        },
-        {
-          "width": 640,
-          "link": "https://i.vimeocdn.com/video/951307438_640x360.jpg?r=pad"
-        },
-        {
-          "width": 1280,
-          "link": "https://i.vimeocdn.com/video/951307438_1280x720.jpg?r=pad"
-        },
-        {
-          "width": 1920,
-          "link": "https://i.vimeocdn.com/video/951307438_1920x1080.jpg?r=pad"
-        }
-      ]
+      "uri": "/videos/564538591/pictures/1167046401",
+      "active": true,
+      "type": "custom",
+      "sizes": [{
+        "width": 200,
+        "height": 150,
+        "link": "https://i.vimeocdn.com/video/1167046401_200x150?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1167046401_200x150&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      }, {
+        "width": 640,
+        "height": 360,
+        "link": "https://i.vimeocdn.com/video/1167046401_640x360?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1167046401_640x360&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      }, {
+        "width": 1280,
+        "height": 720,
+        "link": "https://i.vimeocdn.com/video/1167046401_1280x720?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1167046401_1280x720&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      }, {
+        "width": 1920,
+        "height": 1080,
+        "link": "https://i.vimeocdn.com/video/1167046401_1920x1080?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1167046401_1920x1080&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      }],
+      "resource_key": "c49b813a67fb1390f9c882b6be1b74513029f63e",
+      "default_picture": false
     },
     "type": "",
-    "uri": "/videos/454372823",
+    "uri": "/videos/564538591",
+    "user": {
+      "name": "Flying Elephant Films"
+    },
+    "slug": "directors-cut-100-pipers",
     "id": "",
     "title": "",
     "blurb": "",
     "content": "",
-    "index": 4,
-    "slug": "100-pipers-product-animation",
-    "category": ['animations'],
+    "category": [],
     "tags": [],
     "articleImage": "",
     "thumbnailImage": "",
+    "index": 4,
     "author": [],
-    "media": [
-      {
-        "id": "",
-        "mediaType": "",
-        "src": "",
-        "caption": ""
-      }
-    ],
-    "crew": [
-      {
-        "id": "",
-        "name": "",
-        "photo": "",
-        "bio": "",
-        "role": ""
-      }
-    ],
-    "awards": [
-      {
-        "id": "",
-        "title": "",
-        "year": "",
-        "blurb": "",
-        "reference": "",
-        "image": ""
-      }
-    ],
-    "partners": [
-      {
-        "id": "",
-        "name": "",
-        "website": "",
-        "image": ""
-      }
-    ]
+    "media": [{
+      "id": "",
+      "mediaType": "",
+      "src": "",
+      "caption": ""
+    }],
+    "crew": [{
+      "id": "",
+      "name": "",
+      "photo": "",
+      "bio": "",
+      "role": ""
+    }],
+    "awards": [{
+      "id": "",
+      "title": "",
+      "year": "",
+      "blurb": "",
+      "reference": "",
+      "image": ""
+    }],
+    "partners": [{
+      "id": "",
+      "name": "",
+      "website": "",
+      "image": ""
+    }]
   },
   {
     "description": null,
