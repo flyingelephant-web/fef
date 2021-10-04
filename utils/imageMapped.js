@@ -1,4 +1,4 @@
-const tvShows = [{
+[{
   "description": "A first for Pernod Richard India's premium malt brands- The Glenlivet, Aberlour, Ballentine's, Chivas Regal and Royal Salute. A travel series shot with actor Kunal Kapoor across Scotland in the peak of winter! Each episode was carefully crafterd to integrate individual malt brand philosophy into content beyond just the distilleries.",
   "duration": 60,
   "name": "SPIRIT OF SCOTLAND",
@@ -503,10 +503,3 @@ const tvShows = [{
     "image": ""
   }]
 }]
-
-
-tvShows.forEach(tvShow => {
-	tvShow.content = tvShow.content.replace(/^\t{3}/gm, '');
-});
-
-export default tvShows;
