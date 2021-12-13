@@ -7,7 +7,7 @@ const digitalCampaign = require('../src/data/digital-campaign');
 const documentaries = require('../src/data/documentaries');
 const influencerFilms = require('../src/data/influencer-films');
 const tvShows = require('../src/data/tv-shows');
-const changes = require('./data/changes-25-07-2021')
+const changes = require('./data/changes-13-12-2021')
 
 const currentData = _.map(changes, 'clip');
 
