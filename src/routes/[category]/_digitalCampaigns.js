@@ -76,7 +76,7 @@ const digitalCampaigns = [{
 }, {
   "description": null,
   "duration": 57,
-  "name": "BLENDERS PRIDE RESERVE COLLECTION - Dir Cut",
+  "name": "Blenders Pride Reserve Collection - Director's Cut",
   "pictures": {
     "uri": "/videos/571993934/pictures/1182956811",
     "active": true,
@@ -1663,7 +1663,7 @@ const digitalCampaigns = [{
 }, {
   "description": null,
   "duration": 35,
-  "name": "Directors Cut 100 Pipers",
+  "name": "Director's Cut 100 Pipers",
   "pictures": {
     "uri": "/videos/564538591/pictures/1167046401",
     "active": true,

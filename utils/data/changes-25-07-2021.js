@@ -497,7 +497,7 @@ module.exports = [
   {
       "clip": {
           "uri": "/videos/571993934",
-          "name": "BLENDERS PRIDE RESERVE COLLECTION - Dir Cut",
+          "name": "BLENDERS PRIDE RESERVE COLLECTION - Director's Cut",
           "description": null,
           "type": "video",
           "duration": 57,
@@ -2477,7 +2477,7 @@ module.exports = [
   {
       "clip": {
           "uri": "/videos/578392871",
-          "name": "Chivas - Made of Character. Dir Cut",
+          "name": "Chivas - Made of Character. Director's Cut",
           "description": null,
           "type": "video",
           "duration": 43,

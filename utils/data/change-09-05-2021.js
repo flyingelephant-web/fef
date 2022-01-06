@@ -1,7 +1,7 @@
 module.exports = [
   {
       "uri": "/videos/480711691",
-      "name": "Priyanka Chopra Jonas BP - Directors Cut",
+      "name": "Priyanka Chopra Jonas BP - Director's Cut",
       "description": null,
       "type": "video",
       "duration": 55,

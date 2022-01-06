@@ -409,7 +409,7 @@ module.exports= [
   },
   {
       "uri": "/videos/344516473",
-      "name": "SAMSUNG BIXBY | DIRECTORS CUT",
+      "name": "SAMSUNG BIXBY | DIRECTOR'S CUT",
       "description": null,
       "type": "video",
       "duration": 236,
@@ -715,7 +715,7 @@ module.exports= [
   },
   {
       "uri": "/videos/250756936",
-      "name": "Directors Cut - TOUK Royal Enfield",
+      "name": "Director's Cut - TOUK Royal Enfield",
       "description": null,
       "type": "video",
       "duration": 152,
@@ -1123,7 +1123,7 @@ module.exports= [
   },
   {
       "uri": "/videos/177997888",
-      "name": "Directors Cut - Pench and Tadoba National Park",
+      "name": "Director's Cut - Pench and Tadoba National Park",
       "description": null,
       "type": "video",
       "duration": 76,

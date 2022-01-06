@@ -80,32 +80,32 @@
   "duration": 27,
   "name": "Blenders Pride Fashion Tour 2021 Jury Video",
   "pictures": {
-    "uri": "/videos/654921593/pictures/1321833394",
+    "uri": "/videos/654921593/pictures/1326312485",
     "active": true,
     "type": "custom",
-    "base_link": "https://i.vimeocdn.com/video/1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d",
+    "base_link": "https://i.vimeocdn.com/video/1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d",
     "sizes": [{
       "width": 200,
       "height": 150,
-      "link": "https://i.vimeocdn.com/video/1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_200x150?r=pad",
-      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_200x150&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      "link": "https://i.vimeocdn.com/video/1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_200x150?r=pad",
+      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_200x150&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
     }, {
       "width": 640,
       "height": 360,
-      "link": "https://i.vimeocdn.com/video/1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_640x360?r=pad",
-      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_640x360&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      "link": "https://i.vimeocdn.com/video/1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_640x360?r=pad",
+      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_640x360&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
     }, {
       "width": 1280,
       "height": 720,
-      "link": "https://i.vimeocdn.com/video/1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_1280x720?r=pad",
-      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_1280x720&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      "link": "https://i.vimeocdn.com/video/1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_1280x720?r=pad",
+      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_1280x720&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
     }, {
       "width": 1920,
       "height": 1080,
-      "link": "https://i.vimeocdn.com/video/1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_1920x1080?r=pad",
-      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_1920x1080&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      "link": "https://i.vimeocdn.com/video/1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_1920x1080?r=pad",
+      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_1920x1080&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
     }],
-    "resource_key": "ad8f65037f8abb04296519d4b4c6ba19e72c4dd8",
+    "resource_key": "f6ead77a167272e7e655aebf0f1e22f50ce7eb20",
     "default_picture": false
   },
   "type": "",
@@ -759,5 +759,4 @@
     "website": "",
     "image": ""
   }]
-}
-]
+}]

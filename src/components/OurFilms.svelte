@@ -4,52 +4,53 @@ import _ from 'lodash'
 import Helper from '../helpers/util'
 const helper = new Helper();
   let ourFilms = [{
-      "description": null,
-      "duration": 43,
-      "name": "Chivas - Made of Character. Dir Cut",
+      "description": "Directed for Epitome Productions.",
+      "duration": 68,
+      "name": "Chivas - Made of Great Character Director’s Cut",
       "pictures": {
-        "uri": "/videos/578392871/pictures/1196465540",
+        "uri": "/videos/575745848/pictures/1190671965",
         "active": true,
         "type": "custom",
+        "base_link": "https://i.vimeocdn.com/video/1190671965-943dc4ea2844425e2d17c7273a123e90e0af9e7aad5fea332bd75ad3fc4a4790-d",
         "sizes": [{
           "width": 200,
           "height": 150,
-          "link": "https://i.vimeocdn.com/video/1196465540-515efe9aed125a30b1772c2e70cb1d35dc4c01bd536c7494a2edcec7dfa16807-d_200x150?r=pad",
-          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1196465540_200x150&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          "link": "https://i.vimeocdn.com/video/1190671965-943dc4ea2844425e2d17c7273a123e90e0af9e7aad5fea332bd75ad3fc4a4790-d_200x150?r=pad",
+          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1190671965-943dc4ea2844425e2d17c7273a123e90e0af9e7aad5fea332bd75ad3fc4a4790-d_200x150&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
         }, {
           "width": 640,
           "height": 360,
-          "link": "https://i.vimeocdn.com/video/1196465540-515efe9aed125a30b1772c2e70cb1d35dc4c01bd536c7494a2edcec7dfa16807-d_640x360?r=pad",
-          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1196465540_640x360&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          "link": "https://i.vimeocdn.com/video/1190671965-943dc4ea2844425e2d17c7273a123e90e0af9e7aad5fea332bd75ad3fc4a4790-d_640x360?r=pad",
+          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1190671965-943dc4ea2844425e2d17c7273a123e90e0af9e7aad5fea332bd75ad3fc4a4790-d_640x360&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
         }, {
           "width": 1280,
           "height": 720,
-          "link": "https://i.vimeocdn.com/video/1196465540-515efe9aed125a30b1772c2e70cb1d35dc4c01bd536c7494a2edcec7dfa16807-d_1280x720?r=pad",
-          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1196465540_1280x720&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          "link": "https://i.vimeocdn.com/video/1190671965-943dc4ea2844425e2d17c7273a123e90e0af9e7aad5fea332bd75ad3fc4a4790-d_1280x720?r=pad",
+          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1190671965-943dc4ea2844425e2d17c7273a123e90e0af9e7aad5fea332bd75ad3fc4a4790-d_1280x720&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
         }, {
           "width": 1920,
           "height": 1080,
-          "link": "https://i.vimeocdn.com/video/1196465540-515efe9aed125a30b1772c2e70cb1d35dc4c01bd536c7494a2edcec7dfa16807-d_1920x1080?r=pad",
-          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1196465540_1920x1080&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          "link": "https://i.vimeocdn.com/video/1190671965-943dc4ea2844425e2d17c7273a123e90e0af9e7aad5fea332bd75ad3fc4a4790-d_1920x1080?r=pad",
+          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1190671965-943dc4ea2844425e2d17c7273a123e90e0af9e7aad5fea332bd75ad3fc4a4790-d_1920x1080&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
         }],
-        "resource_key": "861aa15c7ff94cee23a62becf034c3f74d6399b1",
+        "resource_key": "8effb6a48681e044603ea4d97f410510c70708dd",
         "default_picture": false
       },
       "type": "",
-      "uri": "/videos/578392871",
+      "uri": "/videos/575745848",
       "user": {
         "name": "Flying Elephant Films"
       },
-      "slug": "chivas-made-of-character-dir-cut",
+      "slug": "chivas-directors-cut",
       "id": "",
       "title": "",
       "blurb": "",
       "content": "",
-      "category": ['commercials'],
+      "category": ["commercials"],
       "tags": [],
       "articleImage": "",
       "thumbnailImage": "",
-      "index": 1,
+      "index": "",
       "author": [],
       "media": [{
         "id": "",
@@ -82,43 +83,43 @@ const helper = new Helper();
     },
     {
       "description": null,
-      "duration": 27,
-      "name": "Blenders Pride Fashion Tour 2021 Jury Video",
+      "duration": 57,
+      "name": "Blenders Pride Reserve Collection - Director's Cut",
       "pictures": {
-        "uri": "/videos/654921593/pictures/1321833394",
+        "uri": "/videos/571993934/pictures/1182956811",
         "active": true,
         "type": "custom",
-        "base_link": "https://i.vimeocdn.com/video/1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d",
+        "base_link": "https://i.vimeocdn.com/video/1182956811-fe6e14626ade3f07f273841f3dd99b2139b8acbc2376af07c34a6c5a5588dabd-d",
         "sizes": [{
           "width": 200,
           "height": 150,
-          "link": "https://i.vimeocdn.com/video/1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_200x150?r=pad",
-          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_200x150&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          "link": "https://i.vimeocdn.com/video/1182956811-fe6e14626ade3f07f273841f3dd99b2139b8acbc2376af07c34a6c5a5588dabd-d_200x150?r=pad",
+          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1182956811-fe6e14626ade3f07f273841f3dd99b2139b8acbc2376af07c34a6c5a5588dabd-d_200x150&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
         }, {
           "width": 640,
           "height": 360,
-          "link": "https://i.vimeocdn.com/video/1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_640x360?r=pad",
-          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_640x360&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          "link": "https://i.vimeocdn.com/video/1182956811-fe6e14626ade3f07f273841f3dd99b2139b8acbc2376af07c34a6c5a5588dabd-d_640x360?r=pad",
+          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1182956811-fe6e14626ade3f07f273841f3dd99b2139b8acbc2376af07c34a6c5a5588dabd-d_640x360&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
         }, {
           "width": 1280,
           "height": 720,
-          "link": "https://i.vimeocdn.com/video/1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_1280x720?r=pad",
-          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_1280x720&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          "link": "https://i.vimeocdn.com/video/1182956811-fe6e14626ade3f07f273841f3dd99b2139b8acbc2376af07c34a6c5a5588dabd-d_1280x720?r=pad",
+          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1182956811-fe6e14626ade3f07f273841f3dd99b2139b8acbc2376af07c34a6c5a5588dabd-d_1280x720&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
         }, {
           "width": 1920,
           "height": 1080,
-          "link": "https://i.vimeocdn.com/video/1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_1920x1080?r=pad",
-          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_1920x1080&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          "link": "https://i.vimeocdn.com/video/1182956811-fe6e14626ade3f07f273841f3dd99b2139b8acbc2376af07c34a6c5a5588dabd-d_1920x1080?r=pad",
+          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1182956811-fe6e14626ade3f07f273841f3dd99b2139b8acbc2376af07c34a6c5a5588dabd-d_1920x1080&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
         }],
-        "resource_key": "ad8f65037f8abb04296519d4b4c6ba19e72c4dd8",
+        "resource_key": "06709945ad551f256d0e36ff320472c38ad10dbb",
         "default_picture": false
       },
       "type": "",
-      "uri": "/videos/654921593",
+      "uri": "/videos/571993934",
       "user": {
         "name": "Flying Elephant Films"
       },
-      "slug": "blenders-pride-fashion-tour-2021-jury-video",
+      "slug": "blenders-pride-reserve-collection-dir-cut",
       "id": "",
       "title": "",
       "blurb": "",
@@ -155,7 +156,8 @@ const helper = new Helper();
         "name": "",
         "website": "",
         "image": ""
-      }]
+      }],
+      "featured": false
     },
     {
       "description": null,
@@ -237,7 +239,7 @@ const helper = new Helper();
     {
       "description": null,
       "duration": 30,
-      "name": "TETMOSOL TVC",
+      "name": "Tetmosol TVC",
       "pictures": {
         "uri": "/videos/534332862/pictures/1106106110",
         "active": true,
@@ -340,7 +342,7 @@ const helper = new Helper();
               <div class="text-center our-films-description duration-300 px-48">
                 <p class="font-pb-regular text-sm text-gray-400 mt-5">{film.description || ''}</p>
               </div>
-              <div class="our-films-viewmore absolute bottom-auto right-auto top-1/2 left-1/2 opacity-1 duration-300 {film.description ? 'mt-5' : 'mt-16'}">
+              <div class="our-films-viewmore absolute bottom-auto right-auto top-1/2 left-1/2 opacity-1 duration-300 {film.description ? 'mt-12' : 'mt-16'}">
                 <a class="border p-2 flex justify-center w-40 items-center" href="{_.kebabCase(film.category[0])}">
                   <span class="text-white font-fef uppercase text-xs tracking-widest mr-3">
                     View more

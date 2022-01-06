@@ -12,7 +12,7 @@ module.exports = [
           "content_rating": [
               "unrated"
           ],
-          "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=0&background=0&badge=0&byline=0&bypass_privacy=1&collections=0&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&controls=1&default_to_hd=1&force_embed=0&h=663c7b1ba3&info_on_pause=1&like=1&logo=0&loop=0&muted=0&offset=0&outro=nothing&playbar=1&portrait=0&privacy_banner=0&quality=540p&responsive=1&responsive_width=1&share=1&speed=1&title=0&volume=1&watch_later=1&s=6f635ec7e3381e8cd7124e1f3fec32e1a560eca0_1639514274",
+          "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=0&background=0&badge=0&byline=0&bypass_privacy=1&collections=0&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&controls=1&default_to_hd=1&force_embed=0&h=663c7b1ba3&info_on_pause=1&like=1&logo=0&loop=0&muted=0&offset=0&outro=nothing&playbar=1&portrait=0&privacy_banner=0&quality=540p&responsive=1&responsive_width=1&share=1&speed=1&title=0&volume=1&watch_later=1&s=f2b87aede3294a2a3e902e712a82d0d744507f9a_1641532110",
           "pictures": {
               "uri": "/videos/654920183/pictures/1321830641",
               "active": true,
@@ -152,7 +152,7 @@ module.exports = [
                           "width": 1920,
                           "height": 1080
                       },
-                      "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=1&background=1&bypass_privacy=1&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&default_to_hd=1&h=663c7b1ba3&log_plays=0&outro=nothing&responsive=1&responsive_width=1&s=bcb0ffc7c76540e293060e1453e177532167cc22_1639514274",
+                      "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=1&background=1&bypass_privacy=1&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&default_to_hd=1&h=663c7b1ba3&log_plays=0&outro=nothing&responsive=1&responsive_width=1&s=ac93145824b82a2a3244418b3496ed57a451a59f_1641532110",
                       "player_url": "player.vimeo.com",
                       "thumbset_id": 1321830641,
                       "aspect_ratio": 0.562429696287964,
@@ -181,57 +181,57 @@ module.exports = [
           "content_rating": [
               "unrated"
           ],
-          "config_url": "https://player.vimeo.com/video/654921593/config?autopause=0&autoplay=0&background=0&badge=0&byline=0&bypass_privacy=1&collections=0&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&controls=1&default_to_hd=1&force_embed=0&h=3d0e7a9f0e&info_on_pause=1&like=1&logo=0&loop=0&muted=0&offset=1&outro=nothing&playbar=1&portrait=0&privacy_banner=0&quality=540p&responsive=1&responsive_width=1&share=1&speed=1&title=0&volume=1&watch_later=1&s=6e1d24a9211512b943e1fa9cc9efb8850486ac52_1639514274",
+          "config_url": "https://player.vimeo.com/video/654921593/config?autopause=0&autoplay=0&background=0&badge=0&byline=0&bypass_privacy=1&collections=0&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&controls=1&default_to_hd=1&force_embed=0&h=3d0e7a9f0e&info_on_pause=1&like=1&logo=0&loop=0&muted=0&offset=1&outro=nothing&playbar=1&portrait=0&privacy_banner=0&quality=540p&responsive=1&responsive_width=1&share=1&speed=1&title=0&volume=1&watch_later=1&s=db5a4b977a1b373df5bc527d9c8ea91cb122aeb3_1641532110",
           "pictures": {
-              "uri": "/videos/654921593/pictures/1321833394",
+              "uri": "/videos/654921593/pictures/1326312485",
               "active": true,
               "type": "custom",
-              "base_link": "https://i.vimeocdn.com/video/1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d",
+              "base_link": "https://i.vimeocdn.com/video/1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d",
               "sizes": [
                   {
                       "width": 100,
                       "height": 75,
-                      "link": "https://i.vimeocdn.com/video/1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_100x75?r=pad",
-                      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_100x75&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                      "link": "https://i.vimeocdn.com/video/1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_100x75?r=pad",
+                      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_100x75&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
                   },
                   {
                       "width": 200,
                       "height": 150,
-                      "link": "https://i.vimeocdn.com/video/1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_200x150?r=pad",
-                      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_200x150&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                      "link": "https://i.vimeocdn.com/video/1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_200x150?r=pad",
+                      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_200x150&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
                   },
                   {
                       "width": 295,
                       "height": 166,
-                      "link": "https://i.vimeocdn.com/video/1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_295x166?r=pad",
-                      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                      "link": "https://i.vimeocdn.com/video/1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_295x166?r=pad",
+                      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_295x166&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
                   },
                   {
                       "width": 640,
                       "height": 360,
-                      "link": "https://i.vimeocdn.com/video/1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_640x360?r=pad",
-                      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_640x360&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                      "link": "https://i.vimeocdn.com/video/1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_640x360?r=pad",
+                      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_640x360&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
                   },
                   {
                       "width": 960,
                       "height": 540,
-                      "link": "https://i.vimeocdn.com/video/1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_960x540?r=pad",
-                      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_960x540&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                      "link": "https://i.vimeocdn.com/video/1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_960x540?r=pad",
+                      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_960x540&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
                   },
                   {
                       "width": 1280,
                       "height": 720,
-                      "link": "https://i.vimeocdn.com/video/1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_1280x720?r=pad",
-                      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_1280x720&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                      "link": "https://i.vimeocdn.com/video/1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_1280x720?r=pad",
+                      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_1280x720&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
                   },
                   {
                       "width": 1920,
                       "height": 1080,
-                      "link": "https://i.vimeocdn.com/video/1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_1920x1080?r=pad",
-                      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1321833394-4b207f6838e3ef898058d6188d271e684c165923fd920bb5b0bbf71c32202909-d_1920x1080&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                      "link": "https://i.vimeocdn.com/video/1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_1920x1080?r=pad",
+                      "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_1920x1080&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
                   }
               ],
-              "resource_key": "ad8f65037f8abb04296519d4b4c6ba19e72c4dd8",
+              "resource_key": "f6ead77a167272e7e655aebf0f1e22f50ce7eb20",
               "default_picture": false
           },
           "categories": [],
@@ -321,7 +321,7 @@ module.exports = [
                           "width": 1920,
                           "height": 1080
                       },
-                      "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=1&background=1&bypass_privacy=1&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&default_to_hd=1&h=663c7b1ba3&log_plays=0&outro=nothing&responsive=1&responsive_width=1&s=bcb0ffc7c76540e293060e1453e177532167cc22_1639514274",
+                      "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=1&background=1&bypass_privacy=1&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&default_to_hd=1&h=663c7b1ba3&log_plays=0&outro=nothing&responsive=1&responsive_width=1&s=ac93145824b82a2a3244418b3496ed57a451a59f_1641532110",
                       "player_url": "player.vimeo.com",
                       "thumbset_id": 1321830641,
                       "aspect_ratio": 0.562429696287964,
@@ -350,7 +350,7 @@ module.exports = [
           "content_rating": [
               "unrated"
           ],
-          "config_url": "https://player.vimeo.com/video/480711691/config?autopause=0&autoplay=0&background=0&badge=0&byline=0&bypass_privacy=1&collections=0&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&controls=1&default_to_hd=1&force_embed=0&h=fba7d34a96&info_on_pause=1&like=1&logo=0&loop=0&muted=0&offset=2&outro=nothing&playbar=1&portrait=0&privacy_banner=0&quality=540p&responsive=1&responsive_width=1&share=1&speed=1&title=0&volume=1&watch_later=1&s=47f01bf4ca2eb6c259ac6bbe5232b4a44f834935_1639514274",
+          "config_url": "https://player.vimeo.com/video/480711691/config?autopause=0&autoplay=0&background=0&badge=0&byline=0&bypass_privacy=1&collections=0&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&controls=1&default_to_hd=1&force_embed=0&h=fba7d34a96&info_on_pause=1&like=1&logo=0&loop=0&muted=0&offset=2&outro=nothing&playbar=1&portrait=0&privacy_banner=0&quality=540p&responsive=1&responsive_width=1&share=1&speed=1&title=0&volume=1&watch_later=1&s=4bbd647a46f0ec082e53315f8cbf1443b13103f4_1641532110",
           "pictures": {
               "uri": "/videos/480711691/pictures/997303224",
               "active": true,
@@ -490,7 +490,7 @@ module.exports = [
                           "width": 1920,
                           "height": 1080
                       },
-                      "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=1&background=1&bypass_privacy=1&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&default_to_hd=1&h=663c7b1ba3&log_plays=0&outro=nothing&responsive=1&responsive_width=1&s=bcb0ffc7c76540e293060e1453e177532167cc22_1639514274",
+                      "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=1&background=1&bypass_privacy=1&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&default_to_hd=1&h=663c7b1ba3&log_plays=0&outro=nothing&responsive=1&responsive_width=1&s=ac93145824b82a2a3244418b3496ed57a451a59f_1641532110",
                       "player_url": "player.vimeo.com",
                       "thumbset_id": 1321830641,
                       "aspect_ratio": 0.562429696287964,
@@ -519,7 +519,7 @@ module.exports = [
           "content_rating": [
               "unrated"
           ],
-          "config_url": "https://player.vimeo.com/video/575745848/config?autopause=0&autoplay=0&background=0&badge=0&byline=0&bypass_privacy=1&collections=0&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&controls=1&default_to_hd=1&force_embed=0&h=431cf21a68&info_on_pause=1&like=1&logo=0&loop=0&muted=0&offset=3&outro=nothing&playbar=1&portrait=0&privacy_banner=0&quality=540p&responsive=1&responsive_width=1&share=1&speed=1&title=0&volume=1&watch_later=1&s=d7c6b0ac9d644e73f8f1ff008de4ad9ff110279d_1639514274",
+          "config_url": "https://player.vimeo.com/video/575745848/config?autopause=0&autoplay=0&background=0&badge=0&byline=0&bypass_privacy=1&collections=0&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&controls=1&default_to_hd=1&force_embed=0&h=431cf21a68&info_on_pause=1&like=1&logo=0&loop=0&muted=0&offset=3&outro=nothing&playbar=1&portrait=0&privacy_banner=0&quality=540p&responsive=1&responsive_width=1&share=1&speed=1&title=0&volume=1&watch_later=1&s=e8642346c444afa221a88615153f0e0eda392b3b_1641532110",
           "pictures": {
               "uri": "/videos/575745848/pictures/1190671965",
               "active": true,
@@ -659,7 +659,7 @@ module.exports = [
                           "width": 1920,
                           "height": 1080
                       },
-                      "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=1&background=1&bypass_privacy=1&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&default_to_hd=1&h=663c7b1ba3&log_plays=0&outro=nothing&responsive=1&responsive_width=1&s=bcb0ffc7c76540e293060e1453e177532167cc22_1639514274",
+                      "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=1&background=1&bypass_privacy=1&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&default_to_hd=1&h=663c7b1ba3&log_plays=0&outro=nothing&responsive=1&responsive_width=1&s=ac93145824b82a2a3244418b3496ed57a451a59f_1641532110",
                       "player_url": "player.vimeo.com",
                       "thumbset_id": 1321830641,
                       "aspect_ratio": 0.562429696287964,
@@ -688,7 +688,7 @@ module.exports = [
           "content_rating": [
               "unrated"
           ],
-          "config_url": "https://player.vimeo.com/video/534332862/config?autopause=0&autoplay=0&background=0&badge=0&byline=0&bypass_privacy=1&collections=0&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&controls=1&default_to_hd=1&force_embed=0&h=612cb7574b&info_on_pause=1&like=1&logo=0&loop=0&muted=0&offset=4&outro=nothing&playbar=1&portrait=0&privacy_banner=0&quality=540p&responsive=1&responsive_width=1&share=1&speed=1&title=0&volume=1&watch_later=1&s=8972c50556893642dd2e2871b3625fd6ac12fef5_1639514274",
+          "config_url": "https://player.vimeo.com/video/534332862/config?autopause=0&autoplay=0&background=0&badge=0&byline=0&bypass_privacy=1&collections=0&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&controls=1&default_to_hd=1&force_embed=0&h=612cb7574b&info_on_pause=1&like=1&logo=0&loop=0&muted=0&offset=4&outro=nothing&playbar=1&portrait=0&privacy_banner=0&quality=540p&responsive=1&responsive_width=1&share=1&speed=1&title=0&volume=1&watch_later=1&s=96012ac05cd6843f7b56ba7d17deac866e2f8ada_1641532110",
           "pictures": {
               "uri": "/videos/534332862/pictures/1106106110",
               "active": true,
@@ -828,7 +828,7 @@ module.exports = [
                           "width": 1920,
                           "height": 1080
                       },
-                      "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=1&background=1&bypass_privacy=1&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&default_to_hd=1&h=663c7b1ba3&log_plays=0&outro=nothing&responsive=1&responsive_width=1&s=bcb0ffc7c76540e293060e1453e177532167cc22_1639514274",
+                      "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=1&background=1&bypass_privacy=1&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&default_to_hd=1&h=663c7b1ba3&log_plays=0&outro=nothing&responsive=1&responsive_width=1&s=ac93145824b82a2a3244418b3496ed57a451a59f_1641532110",
                       "player_url": "player.vimeo.com",
                       "thumbset_id": 1321830641,
                       "aspect_ratio": 0.562429696287964,
@@ -857,7 +857,7 @@ module.exports = [
           "content_rating": [
               "unrated"
           ],
-          "config_url": "https://player.vimeo.com/video/578388768/config?autopause=0&autoplay=0&background=0&badge=0&byline=0&bypass_privacy=1&collections=0&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&controls=1&default_to_hd=1&force_embed=0&h=3856052a50&info_on_pause=1&like=1&logo=0&loop=0&muted=0&offset=5&outro=nothing&playbar=1&portrait=0&privacy_banner=0&quality=540p&responsive=1&responsive_width=1&share=1&speed=1&title=0&volume=1&watch_later=1&s=1793c80c93641021c38c1a69525243396104fc51_1639514274",
+          "config_url": "https://player.vimeo.com/video/578388768/config?autopause=0&autoplay=0&background=0&badge=0&byline=0&bypass_privacy=1&collections=0&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&controls=1&default_to_hd=1&force_embed=0&h=3856052a50&info_on_pause=1&like=1&logo=0&loop=0&muted=0&offset=5&outro=nothing&playbar=1&portrait=0&privacy_banner=0&quality=540p&responsive=1&responsive_width=1&share=1&speed=1&title=0&volume=1&watch_later=1&s=a23115246bb725d75b12a664ccbd6176a086e3d7_1641532110",
           "pictures": {
               "uri": "/videos/578388768/pictures/1196456971",
               "active": true,
@@ -997,7 +997,7 @@ module.exports = [
                           "width": 1920,
                           "height": 1080
                       },
-                      "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=1&background=1&bypass_privacy=1&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&default_to_hd=1&h=663c7b1ba3&log_plays=0&outro=nothing&responsive=1&responsive_width=1&s=bcb0ffc7c76540e293060e1453e177532167cc22_1639514274",
+                      "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=1&background=1&bypass_privacy=1&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&default_to_hd=1&h=663c7b1ba3&log_plays=0&outro=nothing&responsive=1&responsive_width=1&s=ac93145824b82a2a3244418b3496ed57a451a59f_1641532110",
                       "player_url": "player.vimeo.com",
                       "thumbset_id": 1321830641,
                       "aspect_ratio": 0.562429696287964,
@@ -1016,7 +1016,7 @@ module.exports = [
   {
       "clip": {
           "uri": "/videos/571993934",
-          "name": "BLENDERS PRIDE RESERVE COLLECTION - Director's Cut",
+          "name": "BLENDERS PRIDE RESERVE COLLECTION - Dir Cut",
           "description": null,
           "type": "video",
           "duration": 57,
@@ -1026,7 +1026,7 @@ module.exports = [
           "content_rating": [
               "unrated"
           ],
-          "config_url": "https://player.vimeo.com/video/571993934/config?autopause=0&autoplay=0&background=0&badge=0&byline=0&bypass_privacy=1&collections=0&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&controls=1&default_to_hd=1&force_embed=0&h=15191c816d&info_on_pause=1&like=1&logo=0&loop=0&muted=0&offset=6&outro=nothing&playbar=1&portrait=0&privacy_banner=0&quality=540p&responsive=1&responsive_width=1&share=1&speed=1&title=0&volume=1&watch_later=1&s=8f3ed44c9899d85b93ed2e08bc6edca45d77d472_1639514274",
+          "config_url": "https://player.vimeo.com/video/571993934/config?autopause=0&autoplay=0&background=0&badge=0&byline=0&bypass_privacy=1&collections=0&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&controls=1&default_to_hd=1&force_embed=0&h=15191c816d&info_on_pause=1&like=1&logo=0&loop=0&muted=0&offset=6&outro=nothing&playbar=1&portrait=0&privacy_banner=0&quality=540p&responsive=1&responsive_width=1&share=1&speed=1&title=0&volume=1&watch_later=1&s=9d426e8e9b8be506a6b0e156675d9b7fe44ccd65_1641532110",
           "pictures": {
               "uri": "/videos/571993934/pictures/1182956811",
               "active": true,
@@ -1166,7 +1166,7 @@ module.exports = [
                           "width": 1920,
                           "height": 1080
                       },
-                      "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=1&background=1&bypass_privacy=1&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&default_to_hd=1&h=663c7b1ba3&log_plays=0&outro=nothing&responsive=1&responsive_width=1&s=bcb0ffc7c76540e293060e1453e177532167cc22_1639514274",
+                      "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=1&background=1&bypass_privacy=1&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&default_to_hd=1&h=663c7b1ba3&log_plays=0&outro=nothing&responsive=1&responsive_width=1&s=ac93145824b82a2a3244418b3496ed57a451a59f_1641532110",
                       "player_url": "player.vimeo.com",
                       "thumbset_id": 1321830641,
                       "aspect_ratio": 0.562429696287964,
@@ -1195,7 +1195,7 @@ module.exports = [
           "content_rating": [
               "unrated"
           ],
-          "config_url": "https://player.vimeo.com/video/534332753/config?autopause=0&autoplay=0&background=0&badge=0&byline=0&bypass_privacy=1&collections=0&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&controls=1&default_to_hd=1&force_embed=0&h=d9e76a8f07&info_on_pause=1&like=1&logo=0&loop=0&muted=0&offset=7&outro=nothing&playbar=1&portrait=0&privacy_banner=0&quality=540p&responsive=1&responsive_width=1&share=1&speed=1&title=0&volume=1&watch_later=1&s=fc5821c088123b43cef860c514d36461e5fead4a_1639514274",
+          "config_url": "https://player.vimeo.com/video/534332753/config?autopause=0&autoplay=0&background=0&badge=0&byline=0&bypass_privacy=1&collections=0&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&controls=1&default_to_hd=1&force_embed=0&h=d9e76a8f07&info_on_pause=1&like=1&logo=0&loop=0&muted=0&offset=7&outro=nothing&playbar=1&portrait=0&privacy_banner=0&quality=540p&responsive=1&responsive_width=1&share=1&speed=1&title=0&volume=1&watch_later=1&s=64d3d6398ded2b021fc0490bcc831ced1e9f23bc_1641532110",
           "pictures": {
               "uri": "/videos/534332753/pictures/1106107720",
               "active": true,
@@ -1335,7 +1335,7 @@ module.exports = [
                           "width": 1920,
                           "height": 1080
                       },
-                      "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=1&background=1&bypass_privacy=1&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&default_to_hd=1&h=663c7b1ba3&log_plays=0&outro=nothing&responsive=1&responsive_width=1&s=bcb0ffc7c76540e293060e1453e177532167cc22_1639514274",
+                      "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=1&background=1&bypass_privacy=1&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&default_to_hd=1&h=663c7b1ba3&log_plays=0&outro=nothing&responsive=1&responsive_width=1&s=ac93145824b82a2a3244418b3496ed57a451a59f_1641532110",
                       "player_url": "player.vimeo.com",
                       "thumbset_id": 1321830641,
                       "aspect_ratio": 0.562429696287964,
@@ -1364,7 +1364,7 @@ module.exports = [
           "content_rating": [
               "unrated"
           ],
-          "config_url": "https://player.vimeo.com/video/534332696/config?autopause=0&autoplay=0&background=0&badge=0&byline=0&bypass_privacy=1&collections=0&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&controls=1&default_to_hd=1&force_embed=0&h=ac2044523f&info_on_pause=1&like=1&logo=0&loop=0&muted=0&offset=8&outro=nothing&playbar=1&portrait=0&privacy_banner=0&quality=540p&responsive=1&responsive_width=1&share=1&speed=1&title=0&volume=1&watch_later=1&s=c0059419dabc4adfeeb1d95b025d14d2a95edab0_1639514274",
+          "config_url": "https://player.vimeo.com/video/534332696/config?autopause=0&autoplay=0&background=0&badge=0&byline=0&bypass_privacy=1&collections=0&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&controls=1&default_to_hd=1&force_embed=0&h=ac2044523f&info_on_pause=1&like=1&logo=0&loop=0&muted=0&offset=8&outro=nothing&playbar=1&portrait=0&privacy_banner=0&quality=540p&responsive=1&responsive_width=1&share=1&speed=1&title=0&volume=1&watch_later=1&s=149faa7917cfc6093b9da20c54eff47a849d4a81_1641532110",
           "pictures": {
               "uri": "/videos/534332696/pictures/1106108840",
               "active": true,
@@ -1504,7 +1504,7 @@ module.exports = [
                           "width": 1920,
                           "height": 1080
                       },
-                      "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=1&background=1&bypass_privacy=1&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&default_to_hd=1&h=663c7b1ba3&log_plays=0&outro=nothing&responsive=1&responsive_width=1&s=bcb0ffc7c76540e293060e1453e177532167cc22_1639514274",
+                      "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=1&background=1&bypass_privacy=1&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&default_to_hd=1&h=663c7b1ba3&log_plays=0&outro=nothing&responsive=1&responsive_width=1&s=ac93145824b82a2a3244418b3496ed57a451a59f_1641532110",
                       "player_url": "player.vimeo.com",
                       "thumbset_id": 1321830641,
                       "aspect_ratio": 0.562429696287964,
@@ -1533,7 +1533,7 @@ module.exports = [
           "content_rating": [
               "unrated"
           ],
-          "config_url": "https://player.vimeo.com/video/564538591/config?autopause=0&autoplay=0&background=0&badge=0&byline=0&bypass_privacy=1&collections=0&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&controls=1&default_to_hd=1&force_embed=0&h=33666b4c4c&info_on_pause=1&like=1&logo=0&loop=0&muted=0&offset=9&outro=nothing&playbar=1&portrait=0&privacy_banner=0&quality=540p&responsive=1&responsive_width=1&share=1&speed=1&title=0&volume=1&watch_later=1&s=babc6bff138214c9a119e8864faa72969e99490d_1639514274",
+          "config_url": "https://player.vimeo.com/video/564538591/config?autopause=0&autoplay=0&background=0&badge=0&byline=0&bypass_privacy=1&collections=0&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&controls=1&default_to_hd=1&force_embed=0&h=33666b4c4c&info_on_pause=1&like=1&logo=0&loop=0&muted=0&offset=9&outro=nothing&playbar=1&portrait=0&privacy_banner=0&quality=540p&responsive=1&responsive_width=1&share=1&speed=1&title=0&volume=1&watch_later=1&s=ba2002ce6db0b12c0a0645ba6036684d54cd5b5e_1641532110",
           "pictures": {
               "uri": "/videos/564538591/pictures/1167046401",
               "active": true,
@@ -1673,7 +1673,7 @@ module.exports = [
                           "width": 1920,
                           "height": 1080
                       },
-                      "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=1&background=1&bypass_privacy=1&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&default_to_hd=1&h=663c7b1ba3&log_plays=0&outro=nothing&responsive=1&responsive_width=1&s=bcb0ffc7c76540e293060e1453e177532167cc22_1639514274",
+                      "config_url": "https://player.vimeo.com/video/654920183/config?autopause=0&autoplay=1&background=1&bypass_privacy=1&context=Vimeo%5CController%5CApi%5CResources%5CUser%5CProfile%5CProfileSectionVideosController.&default_to_hd=1&h=663c7b1ba3&log_plays=0&outro=nothing&responsive=1&responsive_width=1&s=ac93145824b82a2a3244418b3496ed57a451a59f_1641532110",
                       "player_url": "player.vimeo.com",
                       "thumbset_id": 1321830641,
                       "aspect_ratio": 0.562429696287964,

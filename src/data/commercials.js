@@ -1323,7 +1323,7 @@ module.exports = [
   },
   {
       "uri": "/videos/250756658",
-      "name": "Directors Cut - Change Makers - Nagesh Kukunoor",
+      "name": "Director's Cut - Change Makers - Nagesh Kukunoor",
       "description": null,
       "type": "video",
       "duration": 116,
