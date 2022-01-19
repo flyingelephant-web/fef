@@ -108,7 +108,7 @@ import LogoSvg from './UI/LogoSVG.svelte';
 					<LogoSvg className="lg:hidden my-4 w-40"  color="#000"></LogoSvg>
           <img class="h-8 w-auto lg:h-22 xl:h-24 hidden lg:block" src="fef-elephant.png" alt="Workflow">
 				</a>
-				<nav class="w-full justify-start hidden lg:flex md:space-x-6 lg:space-x-8 xl:space-x-10 items-center lg:w-auto overflow-scroll lg:justify-center">
+				<nav class="w-full justify-start hidden lg:flex md:space-x-6 lg:space-x-8 xl:space-x-10 items-center lg:w-auto lg:justify-center">
 					{#each menuItems as menu }
 						<a sapper:prefetch href="{menu.slug}" class="{menu.label.toLowerCase() === 'home' && 'hidden lg:block'} text-xs leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 font-fef">
 							{menu.label.toUpperCase()}

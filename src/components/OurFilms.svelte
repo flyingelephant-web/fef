@@ -83,48 +83,48 @@ const helper = new Helper();
     },
     {
       "description": null,
-      "duration": 57,
-      "name": "Blenders Pride Reserve Collection - Director's Cut",
+      "duration": 27,
+      "name": "Blenders Pride Fashion Tour 2021 Jury Video",
       "pictures": {
-        "uri": "/videos/571993934/pictures/1182956811",
+        "uri": "/videos/654921593/pictures/1326312485",
         "active": true,
         "type": "custom",
-        "base_link": "https://i.vimeocdn.com/video/1182956811-fe6e14626ade3f07f273841f3dd99b2139b8acbc2376af07c34a6c5a5588dabd-d",
+        "base_link": "https://i.vimeocdn.com/video/1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d",
         "sizes": [{
           "width": 200,
           "height": 150,
-          "link": "https://i.vimeocdn.com/video/1182956811-fe6e14626ade3f07f273841f3dd99b2139b8acbc2376af07c34a6c5a5588dabd-d_200x150?r=pad",
-          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1182956811-fe6e14626ade3f07f273841f3dd99b2139b8acbc2376af07c34a6c5a5588dabd-d_200x150&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          "link": "https://i.vimeocdn.com/video/1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_200x150?r=pad",
+          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_200x150&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
         }, {
           "width": 640,
           "height": 360,
-          "link": "https://i.vimeocdn.com/video/1182956811-fe6e14626ade3f07f273841f3dd99b2139b8acbc2376af07c34a6c5a5588dabd-d_640x360?r=pad",
-          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1182956811-fe6e14626ade3f07f273841f3dd99b2139b8acbc2376af07c34a6c5a5588dabd-d_640x360&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          "link": "https://i.vimeocdn.com/video/1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_640x360?r=pad",
+          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_640x360&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
         }, {
           "width": 1280,
           "height": 720,
-          "link": "https://i.vimeocdn.com/video/1182956811-fe6e14626ade3f07f273841f3dd99b2139b8acbc2376af07c34a6c5a5588dabd-d_1280x720?r=pad",
-          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1182956811-fe6e14626ade3f07f273841f3dd99b2139b8acbc2376af07c34a6c5a5588dabd-d_1280x720&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          "link": "https://i.vimeocdn.com/video/1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_1280x720?r=pad",
+          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_1280x720&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
         }, {
           "width": 1920,
           "height": 1080,
-          "link": "https://i.vimeocdn.com/video/1182956811-fe6e14626ade3f07f273841f3dd99b2139b8acbc2376af07c34a6c5a5588dabd-d_1920x1080?r=pad",
-          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1182956811-fe6e14626ade3f07f273841f3dd99b2139b8acbc2376af07c34a6c5a5588dabd-d_1920x1080&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          "link": "https://i.vimeocdn.com/video/1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_1920x1080?r=pad",
+          "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1326312485-8f8850c4c4b7976eab71b1ad1560bb34ebc85fe1833d108fc8e96835f2790ec1-d_1920x1080&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
         }],
-        "resource_key": "06709945ad551f256d0e36ff320472c38ad10dbb",
+        "resource_key": "f6ead77a167272e7e655aebf0f1e22f50ce7eb20",
         "default_picture": false
       },
       "type": "",
-      "uri": "/videos/571993934",
+      "uri": "/videos/654921593",
       "user": {
         "name": "Flying Elephant Films"
       },
-      "slug": "blenders-pride-reserve-collection-dir-cut",
+      "slug": "blenders-pride-fashion-tour-2021-jury-video",
       "id": "",
       "title": "",
       "blurb": "",
       "content": "",
-      "category": ['commercials'],
+      "category": [],
       "tags": [],
       "articleImage": "",
       "thumbnailImage": "",
