@@ -49,10 +49,11 @@
     </div>
     <div class="px-20">
       <p class="font-fef tracking-fef text-gray-500">GET IN TOUCH</p>
-      <p class="font-fef py-4"><span class="text-gray-500">Add:</span>  DD-12, 2nd Floor, Kalkaji<br>
-      New Delhi - 110019
+      <p class="font-fef py-4"><span class="text-gray-500">Address:</span>  A-66, 2nd floor Okhla phase 2 road, Okhla Industrial Estate,
+        <br>
+      New  Delhi -110020
       </p>
-      <p class="font-fef"><span class="text-gray-500">Call:</span> ‎+91 82876 21372</p>
+      <p class="font-fef"><span class="text-gray-500">Call:</span> ‎+91 82874 31424</p>
       <p class="font-fef"><span class="text-gray-500">Email</span> info@flyingelephantfilms.com</p>
       <div class="flex py-4">
         {#each socialConnect as social}
