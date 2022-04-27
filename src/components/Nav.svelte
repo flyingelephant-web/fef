@@ -110,7 +110,7 @@ import LogoSvg from './UI/LogoSVG.svelte';
 				</a>
 				<nav class="w-full justify-start hidden lg:flex md:space-x-6 lg:space-x-8 xl:space-x-10 items-center lg:w-auto lg:justify-center">
 					{#each menuItems as menu }
-						<a sapper:prefetch href="{menu.slug}" class="{menu.label.toLowerCase() === 'home' && 'hidden lg:block'} text-xs leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 font-fef">
+						<a sapper:prefetch href="{menu.slug}" class="{menu.label.toLowerCase() === 'home' && 'hidden lg:block'} text-xs leading-6 font-medium text-gray-500 hover:text-fef-red focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 font-fef">
 							{menu.label.toUpperCase()}
 						</a>
 					{/each}

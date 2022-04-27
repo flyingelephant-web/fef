@@ -25,6 +25,9 @@ module.exports = {
       center: true,
     },
     extend: {
+      colors: {
+        'fef-red': '#9d5d60'
+      },
       padding: { "fluid-video": "56.25%" },
       letterSpacing: {
         'fef' : '0.55em',
