@@ -51,9 +51,11 @@
       <h4 class="font-fef tracking-fef text-gray-500 text-center mb-6">STORY</h4>
 
       <div class="flex justify-center items-center lg:flex-row flex-col">
-        <div class="lg:mr-5 flex-1">
-          <img src="{helper.getImageBySize(post.pictures, 640, 1280)}}" alt="">
-        </div>
+        {#if !post.description}
+          <div class="lg:mr-5 flex-1">
+            <img class="m-auto" src="{helper.getImageBySize(post.pictures, 640, 1280)}}" alt="">
+          </div>
+        {/if}
         {#if post.description}
           <div class="lg:ml-5 lg:mt-0 mt-4 lg:px-0 px-4 flex-1">
             <p class="font-fef lg:text-xl text-base lg:w-11/12 uppercase">{@html post.description || ''}</p>
