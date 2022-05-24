@@ -4,32 +4,32 @@ const digitalCampaigns = [
     "duration": 65,
     "name": "Microsoft Surface Director’s Cut",
     "pictures": {
-      "uri": "/videos/702157831/pictures/1418679201",
+      "uri": "/videos/702157831/pictures/1426069437",
       "active": true,
       "type": "custom",
-      "base_link": "https://i.vimeocdn.com/video/1418679201-a996062df4bfad38fb36563c9ce52a1d3f88dc2d9be311a2e75253570a4ed1b0-d",
+      "base_link": "https://i.vimeocdn.com/video/1426069437-43a49699e0d2c0f95a44d50390c938d3b31b52f394c63a8bf5f54c90ac54725a-d",
       "sizes": [{
         "width": 200,
         "height": 150,
-        "link": "https://i.vimeocdn.com/video/1418679201-a996062df4bfad38fb36563c9ce52a1d3f88dc2d9be311a2e75253570a4ed1b0-d_200x150?r=pad",
-        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1418679201-a996062df4bfad38fb36563c9ce52a1d3f88dc2d9be311a2e75253570a4ed1b0-d_200x150&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+        "link": "https://i.vimeocdn.com/video/1426069437-43a49699e0d2c0f95a44d50390c938d3b31b52f394c63a8bf5f54c90ac54725a-d_200x150?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1426069437-43a49699e0d2c0f95a44d50390c938d3b31b52f394c63a8bf5f54c90ac54725a-d_200x150&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
       }, {
         "width": 640,
         "height": 360,
-        "link": "https://i.vimeocdn.com/video/1418679201-a996062df4bfad38fb36563c9ce52a1d3f88dc2d9be311a2e75253570a4ed1b0-d_640x360?r=pad",
-        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1418679201-a996062df4bfad38fb36563c9ce52a1d3f88dc2d9be311a2e75253570a4ed1b0-d_640x360&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+        "link": "https://i.vimeocdn.com/video/1426069437-43a49699e0d2c0f95a44d50390c938d3b31b52f394c63a8bf5f54c90ac54725a-d_640x360?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1426069437-43a49699e0d2c0f95a44d50390c938d3b31b52f394c63a8bf5f54c90ac54725a-d_640x360&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
       }, {
         "width": 1280,
         "height": 720,
-        "link": "https://i.vimeocdn.com/video/1418679201-a996062df4bfad38fb36563c9ce52a1d3f88dc2d9be311a2e75253570a4ed1b0-d_1280x720?r=pad",
-        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1418679201-a996062df4bfad38fb36563c9ce52a1d3f88dc2d9be311a2e75253570a4ed1b0-d_1280x720&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+        "link": "https://i.vimeocdn.com/video/1426069437-43a49699e0d2c0f95a44d50390c938d3b31b52f394c63a8bf5f54c90ac54725a-d_1280x720?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1426069437-43a49699e0d2c0f95a44d50390c938d3b31b52f394c63a8bf5f54c90ac54725a-d_1280x720&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
       }, {
         "width": 1920,
         "height": 1080,
-        "link": "https://i.vimeocdn.com/video/1418679201-a996062df4bfad38fb36563c9ce52a1d3f88dc2d9be311a2e75253570a4ed1b0-d_1920x1080?r=pad",
-        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1418679201-a996062df4bfad38fb36563c9ce52a1d3f88dc2d9be311a2e75253570a4ed1b0-d_1920x1080&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+        "link": "https://i.vimeocdn.com/video/1426069437-43a49699e0d2c0f95a44d50390c938d3b31b52f394c63a8bf5f54c90ac54725a-d_1920x1080?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F1426069437-43a49699e0d2c0f95a44d50390c938d3b31b52f394c63a8bf5f54c90ac54725a-d_1920x1080&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
       }],
-      "resource_key": "1955d819c9792a74d6ed55b655f06fcd8481be98",
+      "resource_key": "02576a2257bdd686bbfd4cc931af480420ce32de",
       "default_picture": false
     },
     "type": "",
