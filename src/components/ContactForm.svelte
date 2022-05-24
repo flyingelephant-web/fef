@@ -45,13 +45,14 @@
 <section class="mt-20">
   <div class="flex">
     <div class="">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.890704377013!2d77.25617031515424!3d28.54300469487791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3dc7226c37f%3A0x1792b49d7e835f1d!2sFlyingElephantFilms!5e0!3m2!1sen!2sin!4v1607764041190!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.890704377013!2d77.25617031515424!3d28.54300469487791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3dc7226c37f%3A0x1792b49d7e835f1d!2sFlyingElephantFilms!5e0!3m2!1sen!2sin!4v1607764041190!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3381.980941490337!2d77.26972538839661!3d28.530906061308272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3dc7226c37f%3A0x1792b49d7e835f1d!2sFlyingElephantFilms!5e0!3m2!1sen!2sin!4v1653380479137!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <div class="px-20">
       <p class="font-fef tracking-fef text-gray-500">GET IN TOUCH</p>
-      <p class="font-fef py-4"><span class="text-gray-500">Address:</span>  A-66, 2nd floor Okhla phase 2 road, Okhla Industrial Estate,
+      <p class="font-fef py-4"><span class="text-gray-500">Address:</span>  A-66, 2nd floor DDA shed Okhla phase 2 road, Okhla Industrial Estate,
         <br>
-      New  Delhi -110020
+      New  Delhi - 110020
       </p>
       <p class="font-fef"><span class="text-gray-500">Call:</span> ‎+91 82874 31424</p>
       <p class="font-fef"><span class="text-gray-500">Email</span> info@flyingelephantfilms.com</p>
