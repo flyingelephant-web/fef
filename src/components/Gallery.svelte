@@ -30,6 +30,22 @@ import { dropRight, cloneDeep, isEmpty  } from 'lodash';
     {path: 'our-films/film_17.png', id: 'image17', gridClass: null, display: true},
     {path: 'our-films/film_18.png', id: 'image18', gridClass: 'row-span-1 lg:row-span-2', display: true},
     {path: 'our-films/film_20.png', id: 'image20', gridClass: 'row-span-1 lg:row-span-2', display: true},
+    {path: 'our-films/in-moulds.png', id: 'image21', gridClass: 'row-span-1 lg:row-span-2', display: true},
+    {path: 'our-films/bajaj-pulsar-two.png', id: 'image22', gridClass: 'row-span-1 lg:row-span-2', display: true},
+    {path: 'our-films/bajaj-pulsar.png', id: 'image23', gridClass: 'row-span-1 lg:row-span-2', display: true},
+    {path: 'our-films/biryani-by-kilo.png', id: 'image24', gridClass: null, display: true},
+    {path: 'our-films/chivas-flying-elephants-three.png', id: 'image25', gridClass: 'row-span-1 lg:row-span-2', display: true},
+    {path: 'our-films/chivas-flying-elephants-two.png', id: 'image26', gridClass: 'row-span-1 lg:row-span-2', display: true},
+    {path: 'our-films/chivas-flying-elephants.png', id: 'image27', gridClass: null, display: true},
+    {path: 'our-films/cricket-india.png', id: 'image28', gridClass: null, display: true},
+    {path: 'our-films/flying-elephants-ajay-devgan.png', id: 'image29', gridClass: null, display: true},
+    {path: 'our-films/image-flying-elephants.png', id: 'image30', gridClass: 'col-span-1 lg:col-span-2 row-span-1 lg:row-span-2', display: true},
+    {path: 'our-films/lacto-calamine-flying-elephants.png', id: 'image31', gridClass: 'row-span-1 lg:row-span-2', display: true},
+    {path: 'our-films/lacto-calamine.png', id: 'image32', gridClass: null, display: true},
+    {path: 'our-films/microsoft-surface-flying-elephants.png', id: 'image33', gridClass: null,  display: true},
+    {path: 'our-films/polycrol-saurav-flying-elephants.png', id: 'image34', gridClass: 'row-span-1 lg:row-span-2', display: true},
+    {path: 'our-films/royal-stag-t20.png', id: 'image35', gridClass: 'row-span-1 lg:row-span-2', display: true},
+    {path: 'our-films/glen-fiditch-flying-elephants.png', id: 'image36', gridClass: 'row-span-1 lg:row-span-2', display: true},
   ]
 
 const swapPositions = (array, a ,b) => {
@@ -45,7 +61,7 @@ let carouselImages = [];
 
 const showCarousel = (imageId) => {
   const toBeSwapped = cloneDeep(images);
-  swapPositions(toBeSwapped, 9, imageId);
+  swapPositions(toBeSwapped, (galleryImages.length / 2 + 1), imageId);
   carouselImages = cloneDeep(toBeSwapped)
   showGalleryModal.set(true);
 }

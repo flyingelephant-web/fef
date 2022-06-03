@@ -126,6 +126,13 @@
 			svg: ``,
 			name: 'Wavemaker',
 			link: ''
+		},
+		{
+			id: 20,
+			logo: 'the-glitch.png',
+			svg: ``,
+			name: 'The Glitch',
+			link: ''
 		}
 	]
 </script>
