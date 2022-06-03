@@ -133,6 +133,13 @@
 			svg: ``,
 			name: 'The Glitch',
 			link: ''
+		},
+		{
+			id: 21,
+			logo: 'Bajaj-Logo.png',
+			svg: ``,
+			name: 'Bajaj',
+			link: ''
 		}
 	]
 </script>
