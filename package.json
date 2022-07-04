@@ -2,6 +2,9 @@
   "name": "TODO",
   "description": "TODO",
   "version": "0.0.1",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "dev": "run-p watch:*",
     "watch:css": "postcss src/assets/global.pcss -o static/global.css -w",
