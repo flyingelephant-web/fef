@@ -18,6 +18,8 @@ function convertToSlug(Text)
         ;
 }
 
+// dummy
+
 const filterFields = _.map(currentData, v => _.pick(v, ['description', 'duration', 'name','pictures', 'type', 'uri', 'user.name']))
 
 
