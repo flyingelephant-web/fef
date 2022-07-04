@@ -1,6 +1,6 @@
 const digitalCampaigns = [
   {
-    "description": "One of the most informative and educated campaign for us.\n\nNow we know that the right instruments can take out the right noises �\n\nClient: Love Depot\nAgency: The Glitch\nProduction House: Flying Elephant Films\nDirector: Aneesh Malankar\nDP: Jay Charola\nExecutive Producers: Sanjana Agarwal & Riddhindra R Chaudhuri \nCreative Supervisor: Smriti Sharma Bhaskar\nDA: Tamara Jose\nChief AD: Ragini Gunjan\n2nd AD: Ayan Poddar\n3rd AD: Shantanu Paliwal\nIntern: Chaitanya Jain\nProduction Designer: Parul Bose\nCasting Director: Kapil Khanna\nLine Production: Tafreeh Studios\nEditor: Abhishek Das\nOnline: Arun & Parag\nVO: Tanya Nambiar\nMusic - Aaj Mausam Bada Beimaan Hai | The Bartender Mix (2014) | Mauli Dave, Mikey McCleary, Saregama Karaoke and Music",
+    "description": "One of the most informative and educated campaign for us.\n\nNow we know that the right instruments can take out the right noises \n\nClient: Love Depot\nAgency: The Glitch\nProduction House: Flying Elephant Films\nDirector: Aneesh Malankar\nDP: Jay Charola\nExecutive Producers: Sanjana Agarwal & Riddhindra R Chaudhuri \nCreative Supervisor: Smriti Sharma Bhaskar\nDA: Tamara Jose\nChief AD: Ragini Gunjan\n2nd AD: Ayan Poddar\n3rd AD: Shantanu Paliwal\nIntern: Chaitanya Jain\nProduction Designer: Parul Bose\nCasting Director: Kapil Khanna\nLine Production: Tafreeh Studios\nEditor: Abhishek Das\nOnline: Arun & Parag\nVO: Tanya Nambiar\nMusic - Aaj Mausam Bada Beimaan Hai | The Bartender Mix (2014) | Mauli Dave, Mikey McCleary, Saregama Karaoke and Music",
     "duration": 69,
     "name": "Love Depot DVC 2022 - Director's Cut",
     "pictures": {
@@ -2047,8 +2047,17 @@ const digitalCampaigns = [
 
 
 
-digitalCampaigns.forEach(digitalCampaign => {
+const mappedObject = digitalCampaigns.map(digitalCampaign => {
+  if(digitalCampaign.index === 1) {
+    console.log(digitalCampaign)
+  }
   digitalCampaign.content = digitalCampaign.content.replace(/^\t{3}/gm, '');
-  575745848});
+  digitalCampaign.description = digitalCampaign.description ? digitalCampaign.description.replace(/\n/gm, '</br>') : '';
+  if(digitalCampaign.index === 1) {
+    console.log(digitalCampaign)
+  }
+  return digitalCampaign;
+});
 
-export default digitalCampaigns;
+
+export default mappedObject;
