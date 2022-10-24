@@ -54,7 +54,7 @@
     <div class="flex">
       
     </div>
-    <div class="flex ml-auto">
+    <div class="flex ml-auto font-fef">
       © {new Date().getFullYear()}, Flying Elephant Films
       <!-- Maintained by <a href="https://github.com/venkateshwarans" target="_blank">Venkat</a>  -->
     </div>
