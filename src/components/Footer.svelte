@@ -51,6 +51,12 @@
         </a>
       {/each}
     </div>
-    <div class="flex"></div>
+    <div class="flex">
+      
+    </div>
+    <div class="flex ml-auto">
+      © {new Date().getFullYear()}, Flying Elephant Films
+      <!-- Maintained by <a href="https://github.com/venkateshwarans" target="_blank">Venkat</a>  -->
+    </div>
   </div>
 </footer>
