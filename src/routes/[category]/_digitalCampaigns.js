@@ -2206,9 +2206,6 @@ const mappedObject = digitalCampaigns.map(digitalCampaign => {
   }
   digitalCampaign.content = digitalCampaign.content.replace(/^\t{3}/gm, '');
   digitalCampaign.description = digitalCampaign.description ? digitalCampaign.description.replace(/\n/gm, '</br>') : '';
-  if(digitalCampaign.index === 1) {
-    console.log(digitalCampaign)
-  }
   return digitalCampaign;
 });
 
